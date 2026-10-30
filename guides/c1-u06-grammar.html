@@ -1,0 +1,957 @@
+<!doctype html>
+<!-- © 2026 Grégoire Maillard. All rights reserved. Not open source: see /LICENSE.txt -->
+<html lang="en">
+  <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HT8J8ZFYTB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HT8J8ZFYTB');
+</script>
+    <meta charset="utf-8">
+    <title>Turkish word order, focus and inversion · C1 grammar</title>
+    <meta name="description" content="Turkish word order is free, but not random. In a neutral sentence the verb comes last; the word right before it is the focus, the new or important part; what follows the verb is already known.…">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="64x64" href="/assets/img/daily-turkish-favicon.png">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/daily-turkish-favicon.svg">
+    <link rel="apple-touch-icon" href="/assets/img/daily-turkish-apple-touch-icon.png">
+    <link rel="canonical" href="https://dailyturkish.app/guides/c1-u06-grammar.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Daily Turkish">
+    <meta property="og:title" content="Turkish word order, focus and inversion · C1 grammar">
+    <meta property="og:description" content="Turkish word order is free, but not random. In a neutral sentence the verb comes last; the word right before it is the focus, the new or important part; what follows the verb is already known.…">
+    <meta property="og:url" content="https://dailyturkish.app/guides/c1-u06-grammar.html">
+
+    <link rel="preload" href="/assets/fonts/inter-fleet.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <style>
+      /* Header: the site's sticky glass bar (mtlmobility.html), with this section's three tabs.
+         Below 600 px the name collapses to the mark so the tabs stay in the bar (PROJECT.md 3). */
+      @font-face { font-family: "Inter Fleet"; src: url("/assets/fonts/inter-fleet.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+      .at-hdr {
+        --at-ink: #151A23; --at-ink-2: #5B6272; --at-hair: rgb(15 23 42 / .07); --at-wash: rgb(15 23 42 / .04);
+        --at-blur: blur(20px) saturate(180%); --at-m: 40px;
+        position: sticky; top: 0; z-index: 1000;
+        background: rgb(255 255 255 / .6); -webkit-backdrop-filter: var(--at-blur); backdrop-filter: var(--at-blur);
+        box-shadow: 0 1px 0 var(--at-hair), inset 0 -1px 0 rgb(255 255 255 / .6);
+        font-family: "Inter Fleet", InterVariable, Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        font-size: 14px; line-height: 20px; font-weight: 400; color: var(--at-ink); -webkit-font-smoothing: antialiased;
+      }
+      @media (max-width: 1279px) { .at-hdr { --at-m: 24px; } }
+      @media (max-width: 599px)  { .at-hdr { --at-m: 16px; } }
+      .at-hdr *, .at-hdr *::before, .at-hdr *::after { box-sizing: border-box; }
+      .at-hdr a { color: inherit; text-decoration: none; }
+      .at-hdr .at-wrap { width: 100%; max-width: calc(1320px + 2 * var(--at-m)); margin-inline: auto; padding-inline: var(--at-m); height: 64px; display: flex; align-items: center; gap: 24px; }
+      .at-hdr .at-home { display: flex; align-items: center; gap: 10px; font-weight: 600; margin-left: -4px; padding: 4px; border-radius: 10px; white-space: nowrap; }
+      .at-hdr .at-home:hover { background: var(--at-wash); }
+      .at-hdr .at-logo { width: 28px; height: 28px; flex: none; display: block; }
+      .at-hdr .at-name { font-size: 18px; line-height: 1; letter-spacing: -0.02em; }
+      .at-hdr .at-d { color: #e34b4f; font-weight: 600; }
+      .at-hdr .at-t { color: #242424; font-weight: 750; margin-left: 0.22em; }
+      .at-hdr .at-tabs { display: flex; flex: 1; align-self: stretch; gap: 8px; }
+      .at-hdr .at-push { margin-left: auto; }   /* About, My Profile and Settings sit on the right */
+      .at-hdr .at-tab { position: relative; display: flex; align-items: center; padding: 0 8px; color: var(--at-ink-2); font-weight: 500; }
+      .at-hdr .at-tab:hover, .at-hdr .at-tab[aria-current="page"] { color: var(--at-ink); }
+      .at-hdr .at-tab[aria-current="page"]::after { content: ""; position: absolute; left: 8px; right: 8px; bottom: 0; height: 2px; background: var(--at-ink); border-radius: 2px 2px 0 0; }
+      .at-hdr a:focus-visible { outline: 2px solid var(--at-ink); outline-offset: -2px; border-radius: 6px; }
+      @media (max-width: 599px) {
+        .at-hdr .at-wrap { height: 56px; gap: 8px; }
+        .at-hdr .at-home { min-width: 44px; min-height: 44px; justify-content: center; margin-left: -10px; }
+        .at-hdr .at-name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+        .at-hdr .at-tabs { margin-left: auto; gap: 0; }
+        .at-hdr .at-tab { min-width: 44px; justify-content: center; padding: 0 10px; }
+        .at-hdr .at-tab[aria-current="page"]::after { left: 10px; right: 10px; }
+      }
+      .at-hdr .at-gear { display: none; }
+      @media (max-width: 767px) {   /* About, My Profile and Settings become icons */
+        .at-hdr .at-wrap { gap: 16px; }
+        .at-hdr .at-gear { display: block; }
+        .at-hdr .at-set { min-width: 44px; justify-content: center; }
+        .at-hdr .at-set-l { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+      }
+      @media (max-width: 599px) { .at-hdr .at-wrap { gap: 8px; } }
+      @media (max-width: 479px) {   /* six tabs: tighter so they still fit at 360 px */
+        .at-hdr { --at-m: 12px; }
+        .at-hdr .at-wrap { gap: 2px; }
+        .at-hdr .at-tab { padding: 0 6px; min-width: 36px; font-size: 13px; }
+        .at-hdr .at-set { min-width: 38px; }
+        .at-hdr .at-tab[aria-current="page"]::after { left: 6px; right: 6px; }
+      }
+      @media (max-width: 399px) {
+        .at-hdr { --at-m: 10px; }
+        .at-hdr .at-tab { padding: 0 5px; }
+        .at-hdr .at-set { min-width: 34px; }
+        .at-hdr .at-tab[aria-current="page"]::after { left: 5px; right: 5px; }
+      }
+    </style>
+    <style>
+      /* Reader: the reading layout of stylesheets/styles.css (left rail, reading column; harmony classes
+         .back .front .suf .stem), fitted under the sticky header. PROJECT.md 3 and 5.1. */
+      :root {
+        --warm: #8a5a10; --warm-line: #cf953a; --warm-wash: #fdf7ee;
+        --green: #2e6b4f; --green-line: #3f8f69; --green-wash: rgb(46 125 90 / 6%);
+        --sepia: #6e5232; --sepia-line: #a98656; --sepia-wash: #f8f5ef;
+        --hdr: 64px; --r: 8px;
+      }
+      @media (max-width: 599px) { :root { --hdr: 56px; } }
+      html { scroll-padding-top: calc(var(--hdr) + 24px); -webkit-text-size-adjust: 100%; }
+      [hidden] { display: none !important; }
+      .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+      i[lang="tr"] { color: var(--ink); }
+      code { padding: 0.05em 0.3em; color: #333; font-family: var(--mono); font-size: 0.86em; background: #f2f2f0; border-radius: 4px; }
+      .trk-soon { color: var(--muted); }
+      .trk-soon small { font-size: 0.85em; }
+      .trk-nw { white-space: nowrap; }
+
+      /* layout: the rail sits below the sticky header */
+      .wrapper { padding-top: 3rem; }
+      .wrapper > header { top: calc(var(--hdr) + 2rem); max-height: calc(100dvh - var(--hdr) - 4rem); }
+      .wrapper > section { min-height: 50vh; }
+
+      /* rail */
+      .rail-kicker, .doc-kicker {
+        margin: 0 0 0.45rem; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--lv-dark);
+      }
+      /* UI-5: a unit's guide and interlude wear the level's colour on their labels; links and harmony colours don't change */
+      .rail-title { margin: 0; color: var(--ink); font-size: 1.05rem; font-weight: 600; line-height: 1.3; }
+      .rail-title a { color: var(--ink); }
+      .rail-title a:hover { color: var(--blue-dark); }
+      .rail-tr { margin: 0.1rem 0 1.1rem; color: var(--lv-dark); font-style: italic; }
+      .rail-blurb { margin: 0 0 1.1rem; font-size: 0.86rem; }
+      .rail-docs { margin-bottom: 0.25rem; }
+      .rail-docs a[aria-current="page"] { color: var(--lv-on); background: var(--lv); border-color: var(--lv); box-shadow: none; }
+      .rail-docs a[aria-current="page"]:hover { color: #fff; background: var(--lv-dark); }
+      .rail-docs a.soon { color: var(--muted); background: var(--panel); border-color: var(--line); box-shadow: none; }
+      .toc-btn {
+        display: none; align-self: flex-start; align-items: center; gap: 0.5rem; min-height: 44px; margin-top: 0.9rem; padding: 0 0.95rem;
+        color: var(--ink); font: inherit; font-size: 0.88rem; font-weight: 560; cursor: pointer;
+        background: #fff; border: 1px solid var(--line); border-radius: 999px;
+      }
+      .toc-btn svg { transition: transform 150ms ease; }
+      .toc-btn[aria-expanded="true"] svg { transform: rotate(180deg); }
+      .toc-n { color: var(--muted); font-weight: 400; }
+      .chapter-nav a.soon { color: var(--faint); }
+      .chapter-nav a .ch-n { display: inline-block; min-width: 1.4rem; }
+      .legend {
+        margin-top: 0.9rem; padding-top: 0.8rem; color: var(--muted); font-size: 0.76rem; line-height: 1.6; border-top: 1px solid var(--line);
+      }
+      .legend b { display: block; color: var(--ink); font-weight: 560; }
+      .rail-foot { margin-top: 0.9rem; font-size: 0.84rem; }
+      .rail-foot a { display: inline-flex; align-items: center; min-height: 32px; }
+      .wrapper > footer a { white-space: nowrap; }
+
+      /* reading column */
+      .notices:empty { display: none; }
+      .notice { margin: 0 0 1rem; padding: 0.65rem 0.9rem; color: #5e4210; font-size: 0.86rem; background: #fdf7ee; border: 1px solid #ecd6b3; border-radius: var(--r); }
+      .notice.err { color: #6e1d15; background: #fdf3f2; border-color: #efc4be; }
+      .notice button, .notice a { padding: 0; color: inherit; font: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; background: none; border: 0; }
+      .loading { color: var(--muted); }
+      .doc-kicker { color: var(--muted); }
+      .doc-kicker .dot { margin: 0 0.35em; color: var(--faint); }
+      .doc-title { margin: 0 0 0.35rem; color: var(--ink); font-size: 2.1rem; font-weight: 620; line-height: 1.12; letter-spacing: -0.035em; }
+      .doc-sub { margin: 0 0 1.1rem; color: var(--muted); font-size: 0.9rem; }
+      .doc-tr { margin: 0 0 1.1rem; color: var(--lv-dark); font-size: 1.1rem; font-style: italic; }
+      .lede { margin-top: 1rem; color: #444; font-size: 1.02rem; line-height: 1.65; }
+      #main h2 {
+        margin: 2.8rem 0 1rem; padding-top: 1.7rem; font-size: 1.42rem; border-top: 1px solid var(--line);
+      }
+      #main h2 .h-n { margin-right: 0.45rem; color: var(--faint); font-size: 0.8em; font-weight: 500; font-variant-numeric: tabular-nums; }
+      #main h3 { margin: 1.6rem 0 0.6rem; font-size: 1.08rem; }
+      .hl { animation: hl 2.2s ease-out; }
+      @keyframes hl { from { background: var(--blue-wash); box-shadow: 0 0 0 0.4rem var(--blue-wash); } to { background: transparent; box-shadow: 0 0 0 0.4rem transparent; } }
+      .blist li::marker { color: var(--faint); }
+
+      /* morpheme colouring (TRK.seg with harmony): stem + suffix, suffix vowels front or back */
+      .trk-seg .suf { margin-left: 0.06em; text-decoration: underline; text-decoration-color: rgb(39 174 96 / 45%); text-decoration-thickness: 1.5px; text-underline-offset: 0.24em; text-decoration-skip-ink: auto; }
+      .trk-seg .stem { font-weight: 450; }
+
+      /* speaker buttons (TRK.tts.button), hidden without a Turkish voice */
+      .trk-say { display: inline-grid; place-items: center; flex: none; width: 34px; height: 34px; padding: 0; color: var(--blue); vertical-align: middle; cursor: pointer; background: #fff; border: 1px solid var(--line); border-radius: 50%; }
+      .trk-say:hover { background: var(--blue-tint); border-color: var(--blue); }
+      @media (pointer: coarse) { .trk-say { width: 44px; height: 44px; } }
+
+      /* tables and rules */
+      .tbl { margin: 1.4rem 0; overflow-x: auto; }
+      .tbl table { margin: 0; }
+      .tbl caption, .para-head { padding: 0 0 0.5rem; color: var(--muted); font-size: 0.82rem; text-align: left; caption-side: top; }
+      .t td.seg { color: var(--ink); font-size: 0.92rem; }
+      .t td.tr { color: var(--blue-dark); }
+      .t th code, .t td code { white-space: nowrap; }
+      .rule pre { margin: 0; font: inherit; white-space: pre; }
+
+      /* examples */
+      .ex-block { padding: 0.75rem 1.1rem 0.35rem; }
+      .ex-list { margin: 0; padding: 0; list-style: none; }
+      .ex-list li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 0.75rem; align-items: center; margin: 0; padding: 0.55rem 0; border-top: 1px solid var(--line); }
+      .ex-list li:first-child { border-top: 0; padding-top: 0.15rem; }
+      .ex-tr { display: block; color: var(--ink); font-size: 1.08em; line-height: 1.5; }
+      .ex-gloss { display: block; color: var(--muted); font-family: var(--mono); font-size: 0.78em; letter-spacing: 0.02em; }
+      .ex-en { display: block; color: var(--muted); line-height: 1.5; }
+      .ex-note { color: var(--body); }
+      .ex-note::before { content: "·"; margin: 0 0.45em; color: var(--faint); }
+
+      /* paradigm */
+      .para { margin: 1.4rem 0; }
+      .para-head { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0 0 0.35rem; }
+      .para-head .ttl { color: var(--ink); font-size: 0.9rem; font-weight: 560; }
+      .para table { margin: 0; border-top: 1px solid var(--line); }
+      .para th[scope="row"] { width: 4.6rem; color: var(--muted); font-weight: 450; font-style: italic; }
+      .para td.seg { width: 36%; font-size: 1rem; white-space: nowrap; }
+
+      /* dialogue */
+      .dialogue { margin: 1.4rem 0; padding: 0.75rem 1.1rem 0.35rem; background: var(--panel); border: 1px solid var(--line); }
+      .dl-line { display: grid; grid-template-columns: 5rem minmax(0, 1fr) auto; gap: 0.1rem 0.8rem; align-items: center; padding: 0.55rem 0; border-top: 1px solid var(--line); }
+      .dialogue .example-label + .dl-line { border-top: 0; padding-top: 0.15rem; }
+      .dl-who { align-self: start; padding-top: 0.12rem; color: var(--blue-dark); font-size: 0.84rem; font-weight: 600; overflow-wrap: anywhere; }
+      .dl-tr, .dl-en { margin: 0; }
+      .dl-tr { color: var(--ink); font-size: 1.03em; }
+      .dl-en { color: var(--muted); font-size: 0.92em; }
+
+      /* callouts: styles.css .callout, one colour per kind */
+      .callout p { margin: 0; }
+      .callout .callout-title { margin: 0 0 0.15rem; color: inherit; font-weight: 600; }
+      .callout.k-pitfall { color: #4f3a12; background: var(--warm-wash); border-left-color: var(--warm-line); }
+      .callout.k-pitfall .callout-label { color: var(--warm); }
+      .callout.k-compare { color: var(--body); background: var(--panel); border-left-color: #9a988f; }
+      .callout.k-compare .callout-label { color: var(--muted); }
+      .callout.k-culture { color: #24453a; background: var(--green-wash); border-left-color: var(--green-line); }
+      .callout.k-culture .callout-label { color: var(--green); }
+      .callout.k-history { color: #4a3b28; background: var(--sepia-wash); border-left-color: var(--sepia-line); }
+      .callout.k-history .callout-label { color: var(--sepia); }
+
+      /* parallel text, passage, quote, image, see */
+      .lbl-row { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; min-height: 34px; margin-bottom: 0.35rem; }
+      .lbl { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+      .parallel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); margin: 1.4rem 0; border: 1px solid var(--line); }
+      .parallel > div { min-width: 0; padding: 0.75rem 1.1rem 0.9rem; }
+      .par-tr { background: var(--blue-tint); }
+      .par-tr p { margin: 0 0 0.6rem; color: var(--ink); line-height: 1.7; }
+      .par-en p { margin: 0 0 0.6rem; color: var(--muted); line-height: 1.7; }
+      .parallel p:last-child { margin-bottom: 0; }
+      .par-en { border-left: 1px solid var(--line); }
+      .passage { margin: 1.4rem 0; padding: 0.75rem 1.2rem 1rem; background: #fff; border: 1px solid var(--line); border-left: 2px solid var(--blue); }
+      .passage p[lang="tr"] { margin: 0 0 0.8rem; color: var(--ink); font-size: 1.04rem; line-height: 1.8; }
+      .glossary { display: grid; grid-template-columns: fit-content(45%) minmax(0, 1fr); gap: 0.25rem 1rem; margin: 0.9rem 0 0; padding-top: 0.8rem; font-size: 0.86rem; border-top: 1px solid var(--line); }
+      .glossary dt { color: var(--ink); font-style: italic; }
+      .glossary dd { margin: 0; color: var(--muted); }
+      .quote { margin: 1.6rem 0; padding: 0.2rem 0 0.2rem 1.2rem; border-left: 3px solid var(--blue); }
+      .quote blockquote { margin: 0; }
+      .quote .q-tr { margin: 0 0 0.55rem; color: var(--ink); font-size: 1.06rem; font-style: italic; line-height: 1.7; white-space: pre-line; }
+      .quote .q-en { margin: 0 0 0.45rem; white-space: pre-line; }
+      .quote figcaption { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); font-size: 0.8rem; }
+      .fig { margin: 1.6rem 0; }
+      .fig img { display: block; width: 100%; margin: 0; border: 1px solid var(--line); }
+      .fig figcaption { margin-top: 0.45rem; color: var(--muted); font-size: 0.8rem; }
+      .fig .credit { color: var(--faint); }
+      .see { margin: 1.4rem 0; padding: 0.7rem 0; font-size: 0.9em; border-top: 1px dashed var(--line); border-bottom: 1px dashed var(--line); }
+      .see .lbl { margin-right: 0.4rem; }
+      .see-list { margin: 0.35rem 0 0; padding-left: 1.1rem; }
+      .see-list li { margin: 0.15rem 0; }
+
+      /* end of a guide: summary, culture extras, what next */
+      .summary { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+      .summary li { position: relative; margin: 0; padding: 0.6rem 0 0.6rem 2.1rem; border-top: 1px solid var(--line); }
+      .summary li:first-child { border-top: 0; padding-top: 0.2rem; }
+      .summary li::before {
+        counter-increment: s; content: counter(s); position: absolute; left: 0; top: 0.68rem; display: grid; place-items: center;
+        width: 1.35rem; height: 1.35rem; color: var(--blue-dark); font-size: 0.7rem; font-weight: 700; background: var(--blue-wash); border-radius: 50%;
+      }
+      .summary li:first-child::before { top: 0.28rem; }
+      .vocab { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1.5rem; margin: 0; padding: 0; list-style: none; }
+      .vocab li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 0.6rem; align-items: center; margin: 0; padding: 0.45rem 0; border-top: 1px solid var(--line); }
+      .vocab .v-tr { display: block; color: var(--ink); font-style: italic; }
+      .vocab .v-en { display: block; color: var(--muted); font-size: 0.86rem; }
+      .quiz-intro { color: var(--muted); font-size: 0.86rem; }
+      .quiz-btn { min-height: 44px; }
+      .quiz-feedback:focus { outline: none; }
+      .sources { padding-left: 1.25rem; font-size: 0.86rem; }
+      .sources li { margin-bottom: 0.55rem; }
+      .sources .src-note { display: block; color: var(--muted); font-size: 0.92em; }
+      .soon-box { margin: 1.4rem 0; padding: 0.9rem 1.1rem; color: var(--body); background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); }
+      .soon-box p { margin: 0; }
+      .soon-box p + p { margin-top: 0.5rem; }
+      .soon-list li { color: var(--body); }
+      .next-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; margin: 2.8rem 0 0; padding-top: 1.7rem; border-top: 1px solid var(--line); }
+      .next-card { display: block; min-height: 44px; padding: 0.8rem 1rem; color: var(--ink); line-height: 1.4; border: 1px solid var(--line); border-radius: var(--r); transition: border-color 150ms ease, background 150ms ease; }
+      .next-card small { display: block; margin-bottom: 0.2rem; color: var(--muted); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+      a.next-card:hover { color: var(--ink); background: var(--blue-tint); border-color: var(--blue); }
+      .next-card.soon { color: var(--muted); background: var(--panel); }
+      .read-state { margin: 1rem 0 0; color: var(--muted); font-size: 0.84rem; }
+      .read-state:empty { display: none; }
+      .tick { display: inline-flex; vertical-align: -2px; color: var(--blue); }
+
+      /* index of guides and grammar points */
+      .find { margin: 1.6rem 0 0.4rem; }
+      .find label { display: block; margin-bottom: 0.35rem; color: var(--ink); font-size: 0.84rem; font-weight: 560; }
+      .find input { width: 100%; height: 44px; padding: 0 0.9rem; color: var(--ink); font: inherit; font-size: 1rem; background: #fff; border: 1px solid #d6d5d0; border-radius: var(--r); }
+      .find input:focus-visible { border-color: var(--blue-dark); outline: 2px solid var(--blue-dark); outline-offset: 0; }
+      .find-n { min-height: 1.3em; margin: 0.4rem 0 0; color: var(--muted); font-size: 0.8rem; }
+      .ix-meta { margin: -0.55rem 0 0.9rem; color: var(--muted); font-size: 0.84rem; }
+      .ix-units { margin: 0; padding: 0; list-style: none; }
+      .ix-unit { margin: 0; padding: 0.95rem 0 1rem; border-top: 1px solid var(--line); }
+      .ix-units > .ix-unit:first-child { border-top: 0; padding-top: 0.2rem; }
+      .ix-head { display: grid; grid-template-columns: 3.6rem minmax(0, 1fr) auto; gap: 0 0.5rem; align-items: baseline; }
+      .ix-num { color: var(--muted); font-size: 0.74rem; font-variant-numeric: tabular-nums; }
+      #main .ix-title { margin: 0; font-size: 1.04rem; font-weight: 610; line-height: 1.35; }
+      .ix-tr { color: var(--blue-dark); font-size: 0.9rem; font-style: italic; font-weight: 400; }
+      .ix-body { margin-left: 4.1rem; }
+      .ix-points { margin: 0.4rem 0 0; padding-left: 1.05rem; font-size: 0.9rem; }
+      .ix-points li { margin: 0.12rem 0; }
+      .ix-points li::marker { color: var(--faint); }
+      .ix-docs { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; margin: 0.45rem 0 0; font-size: 0.86rem; }
+      .ix-docs a, .ix-docs span { display: inline-flex; align-items: center; gap: 0.3rem; }
+      .ix-unit.planned .ix-title, .ix-unit.planned .ix-points { color: var(--muted); }
+      .tag-soon { display: inline-flex; align-items: center; height: 20px; padding: 0 7px; color: var(--muted); font-size: 0.7rem; font-weight: 600; white-space: nowrap; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; }
+      mark { padding: 0 0.05em; color: inherit; background: rgb(40 122 158 / 16%); border-radius: 2px; }
+
+      /* tablet and phone (styles.css stacks the rail above the column below 60rem) */
+      @media (max-width: 60rem) {
+        .wrapper { row-gap: 1.6rem; }
+        .wrapper > header { padding-bottom: 1.1rem; border-bottom: 1px solid var(--line); }
+        .toc-btn { display: inline-flex; }
+        .wrapper > header .chapter-nav { max-height: none; margin-top: 0.6rem; -webkit-mask-image: none; mask-image: none; }
+        .wrapper > header .chapter-nav.collapsed { display: none; }
+        .rail-title.dup, .rail-title.dup + .rail-tr { display: none; }
+        .rail-kicker { margin-bottom: 0.7rem; }
+        .rail-tr { margin-bottom: 0.9rem; }
+      }
+      @media (max-width: 35rem) {
+        .wrapper { padding-top: 1.25rem; }
+        .doc-title { font-size: 1.7rem; }
+        .lede { font-size: 0.96rem; }
+        .rule { padding: 0.75rem 0.85rem; font-size: 0.76rem; }
+        #main h2 { margin-top: 2.2rem; padding-top: 1.4rem; font-size: 1.25rem; }
+        .ex-block, .dialogue { padding-left: 0.85rem; padding-right: 0.85rem; }
+        .dl-line { grid-template-columns: minmax(0, 1fr) auto; }
+        .dl-who { grid-column: 1 / -1; padding-top: 0; }
+        .parallel { grid-template-columns: minmax(0, 1fr); }
+        .par-en { border-left: 0; border-top: 1px solid var(--line); }
+        .vocab { grid-template-columns: minmax(0, 1fr); }
+        .next-grid { grid-template-columns: minmax(0, 1fr); }
+        .ix-head { grid-template-columns: minmax(0, 1fr) auto; }
+        .ix-num { grid-column: 1 / -1; }
+        .ix-body { margin-left: 0; }
+        .para th[scope="row"] { width: 3.6rem; }
+        .para td.seg { white-space: normal; }
+      }
+      @media (pointer: coarse), (max-width: 35rem) {
+        .chapter-nav a { display: flex; align-items: center; min-height: 44px; line-height: 1.35; }
+        .profile-links a { min-height: 44px; }
+        .ix-points a, .see-list a { display: inline-flex; align-items: center; min-height: 44px; }
+        .sources a { display: block; padding: 0.75rem 0; }
+        .sources .src-note { margin-top: -0.55rem; }
+        .ix-docs a { min-height: 44px; }
+        .rail-foot a { min-height: 44px; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .hl { animation: none; }
+        .toc-btn svg { transition: none; }
+      }
+    </style>
+    <style>
+      /* Level colours and the İznik pattern (decided in UI-5, PROJECT.md 3).
+         The same block sits in turkish.html, turkishlesson.html, turkishguide.html and turkishcards.html. */
+      :root {
+        /* --lv*: the colour of the level in scope (data-lvl); outside a level, the site blue. Buttons keep the site blue. */
+        --lv: #287a9e; --lv-dark: #155b7c; --lv-wash: rgb(40 122 158 / 11%); --lv-tint: rgb(40 122 158 / 5%); --lv-line: rgb(40 122 158 / 35%); --lv-on: #fff;
+        --gold: #a87812; --gold-dark: #7d5a0d; --gold-wash: rgb(168 120 18 / 13%);
+        --gold-shine: linear-gradient(135deg, #f7dc80 0%, #e0b23c 38%, #b8861a 70%, #8a6210 100%);
+        --iznik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke-width='1.3'%3E%3Cg stroke='%232452a0'%3E%3Crect x='21' y='21' width='22' height='22'/%3E%3Crect x='21' y='21' width='22' height='22' transform='rotate%2845 32 32%29'/%3E%3Ccircle cx='0' cy='0' r='11'/%3E%3Ccircle cx='64' cy='0' r='11'/%3E%3Ccircle cx='0' cy='64' r='11'/%3E%3Ccircle cx='64' cy='64' r='11'/%3E%3C/g%3E%3Cg stroke='%2311847f'%3E%3Ccircle cx='32' cy='32' r='5'/%3E%3Cpath d='M32 -5l5 5-5 5-5-5zM32 59l5 5-5 5-5-5zM-5 32l5-5 5 5-5 5zM59 32l5-5 5 5-5 5z'/%3E%3Cpath d='M0 5.5a5.5 5.5 0 0 0 5.5-5.5M58.5 0a5.5 5.5 0 0 0 5.5 5.5M64 58.5a5.5 5.5 0 0 0-5.5 5.5M5.5 64a5.5 5.5 0 0 0-5.5-5.5'/%3E%3C/g%3E%3Cg stroke='%23c2462c'%3E%3Cpath d='M32 17.5v-4M32 46.5v4M17.5 32h-4M46.5 32h4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+      /* İznik tiles: turquoise, cobalt, green, tomato red, manganese purple and mustard. --lv-on is the text on a solid --lv.
+         "Mastered" is a brighter, shinier gold (--gold-shine) so it doesn't read as C2's flat mustard. */
+      [data-lvl="a1"] { --lv: #11847f; --lv-dark: #0a5f5b; --lv-wash: rgb(17 132 127 / 12%); --lv-tint: rgb(17 132 127 / 5%); --lv-line: rgb(17 132 127 / 35%); }
+      [data-lvl="a2"] { --lv: #2452a0; --lv-dark: #1b3f7d; --lv-wash: rgb(36 82 160 / 11%); --lv-tint: rgb(36 82 160 / 5%); --lv-line: rgb(36 82 160 / 35%); }
+      [data-lvl="b1"] { --lv: #2b7d50; --lv-dark: #1d5c3a; --lv-wash: rgb(43 125 80 / 12%); --lv-tint: rgb(43 125 80 / 5%); --lv-line: rgb(43 125 80 / 35%); }
+      [data-lvl="b2"] { --lv: #c2462c; --lv-dark: #9a3420; --lv-wash: rgb(194 70 44 / 11%); --lv-tint: rgb(194 70 44 / 5%); --lv-line: rgb(194 70 44 / 35%); }
+      [data-lvl="c1"] { --lv: #6c3f9e; --lv-dark: #51307a; --lv-wash: rgb(108 63 158 / 11%); --lv-tint: rgb(108 63 158 / 5%); --lv-line: rgb(108 63 158 / 35%); }
+      [data-lvl="c2"] { --lv: #b8861a; --lv-dark: #7d5b10; --lv-wash: rgb(184 134 26 / 14%); --lv-tint: rgb(184 134 26 / 6%); --lv-line: rgb(184 134 26 / 40%); --lv-on: #2b2006; }
+      .lv-tag { display: inline-flex; align-items: center; height: 20px; padding: 0 7px; border-radius: 999px; background: var(--lv-wash); color: var(--lv-dark); font-size: 11.5px; font-weight: 650; letter-spacing: .02em; white-space: nowrap; }
+      /* a tile of the wall: laid (unit done) in its level's colour, glazed gold once the unit is mastered */
+      .tw-t { position: relative; display: block; aspect-ratio: 1; border-radius: 3px; background: #f3f2ee; box-shadow: inset 0 0 0 1px #e4e3df; }
+      .tw-t.open { background: var(--lv-tint); box-shadow: inset 0 0 0 1px var(--lv-wash); }
+      .tw-t.laid { background: var(--lv); box-shadow: none; }
+      .tw-t.gold { background: var(--gold-shine); box-shadow: inset 0 0 0 1px rgb(255 240 190 / .55); }
+      .tw-t.laid[data-lvl="c2"]::before { border-color: rgb(43 32 6 / .55); }
+      .tw-t.laid[data-lvl="c2"]::after { border-color: rgb(43 32 6 / .35); }
+      .tw-t.laid::before, .tw-t.gold::before { content: ""; position: absolute; inset: 26%; border: 1.5px solid rgb(255 255 255 / .85); border-radius: 1px; transform: rotate(45deg); }
+      .tw-t.laid::after, .tw-t.gold::after { content: ""; position: absolute; inset: 26%; border: 1.5px solid rgb(255 255 255 / .55); border-radius: 1px; }
+    </style>
+    <script defer src="/assets/js/turkish.js"></script>
+    <script defer src="/assets/js/turkish-account.js"></script>
+    <style>
+      /* Footer: one line asking for a Turkish coffee (buymeacoffee.com/dailyturkish) */
+      .dt-foot { margin: 48px auto 0; padding: 0 16px 28px; text-align: center;
+                 font: 12.5px/1.5 "Inter Fleet", InterVariable, Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+      .dt-foot p { margin: 0; }
+      .dt-foot a { color: #9a9a96; text-decoration: none; }
+      .dt-foot a:hover { color: #c43b3f; }
+      body.studying .dt-foot { display: none; }
+    </style>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Daily Turkish","item":"https://dailyturkish.app/"},{"@type":"ListItem","position":2,"name":"Grammar guides","item":"https://dailyturkish.app/turkishguide.html"},{"@type":"ListItem","position":3,"name":"C1 · Unit 6: Word order and focus","item":"https://dailyturkish.app/guides/c1-u06-grammar.html"}]}</script>
+    <meta property="og:image" content="https://dailyturkish.app/assets/img/og/c1-u06-grammar.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Daily Turkish · C1 grammar: Word order and focus">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body data-guide="c1-u06-grammar">
+    <div class="at-hdr" role="banner">
+      <div class="at-wrap">
+        <a class="at-home" href="/" aria-label="Daily Turkish, back to the course"><svg class="at-logo" viewBox="14 14 152 152" width="28" height="28" aria-hidden="true"><circle cx="90" cy="90" r="76" fill="#e34b4f"/><circle cx="76" cy="55" r="17" fill="#fff"/><circle cx="83" cy="49" r="16" fill="#e34b4f"/><path d="m105 42 3.3 6.6 7.3 1.1-5.3 5.1 1.2 7.2-6.5-3.4-6.5 3.4 1.2-7.2-5.3-5.1 7.3-1.1z" fill="#fff"/><path d="M31 83c17-7 37-5 57 7v46c-20-12-40-14-57-7z" fill="#fff"/><path d="M89 90c20-12 40-14 57-7v46c-17-7-37-5-57 7z" fill="#fff"/><path d="M89 90v46" fill="none" stroke="#f4b7ba" stroke-linecap="round" stroke-width="3"/><path d="M40 94c12-3 25-1 37 4M40 106c12-3 25-1 37 4M102 98c12-5 25-7 37-4M102 110c12-5 25-7 37-4" fill="none" stroke="#f4b7ba" stroke-linecap="round" stroke-width="2.5"/></svg><span class="at-name"><span class="at-d">Daily</span><span class="at-t">Turkish</span></span></a>
+        <nav class="at-tabs" aria-label="Turkish course">
+          <a class="at-tab" href="/">Course</a>
+          <a class="at-tab" href="/turkishguide.html" aria-current="page">Grammar</a>
+          <a class="at-tab" href="/turkishcards.html">Flashcards</a>
+          <a class="at-tab at-set at-push" href="/#about" id="tab-about"><svg class="at-gear" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><circle cx="10" cy="10" r="7.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 9v5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="10" cy="6.4" r="1" fill="currentColor"/></svg><span class="at-set-l">About</span></a>
+          <a class="at-tab at-set" href="/#profile" id="tab-profile"><svg class="at-gear" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><circle cx="10" cy="7" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3.8 16.5c.9-3 3.3-4.6 6.2-4.6s5.3 1.6 6.2 4.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span class="at-set-l">My Profile</span></a>
+          <a class="at-tab at-set" href="/#settings" id="tab-settings"><svg class="at-gear" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M10 12.6a2.6 2.6 0 1 0 0-5.2 2.6 2.6 0 0 0 0 5.2Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8.4 2.5h3.2l.4 2.1 1.4.8 2-.7 1.6 2.8-1.6 1.4v1.6l1.6 1.4-1.6 2.8-2-.7-1.4.8-.4 2.1H8.4l-.4-2.1-1.4-.8-2 .7-1.6-2.8 1.6-1.4V9.2L3 7.8l1.6-2.8 2 .7 1.4-.8.4-2.1Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg><span class="at-set-l">Settings</span></a>
+        </nav>
+      </div>
+    </div>
+
+    <main class="wrapper">
+      <header id="rail"><div class="rail-kicker">C1 · Unit 6</div><div class="rail-title dup"><a href="/#c1-u06">Word order and focus</a></div><div class="rail-tr" lang="tr">Gördüm onu!</div><nav class="profile-links rail-docs" aria-label="This unit"><a href="/guides/c1-u06-grammar.html" aria-current="page">Grammar guide</a><a href="/guides/c1-u06-culture.html">Interlude</a></nav><button type="button" class="toc-btn" aria-expanded="false" aria-controls="toc">On this page <span class="toc-n">6</span><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button><nav class="chapter-nav collapsed" id="toc" aria-label="On this page"><a href="#gp-focus-position"><span class="ch-n">01</span>The focus slot before the verb</a><a href="#gp-postverbal"><span class="ch-n">02</span>After the verb: inverted sentences</a><a href="#gp-topic-marking"><span class="ch-n">03</span>Topics: ise, -(y)sA and gelince</a><a href="#gp-m-reduplication"><span class="ch-n">04</span>Kitap mitap, ıvır zıvır: echo words</a><a href="#gp-emphasis"><span class="ch-n">05</span>Ta, hem de, de mi, işte: adding emphasis</a><a href="#summary">Summary</a></nav><div class="legend"><b>Colours in the examples</b><span class="trk-seg" lang="en"><span class="stem">stem</span> + <span class="suf">suffix</span></span>; a suffix vowel is <span class="front">front</span> (<i lang="tr">e, i, ö, ü</i>) or <span class="back">back</span> (<i lang="tr">a, ı, o, u</i>).</div><div class="rail-foot"><a href="/turkishguide.html">All guides and grammar points</a></div></header>
+
+      <section id="doc">
+        <div class="notices" id="notices" role="status" aria-live="polite"></div>
+        <div id="main"><p class="doc-kicker">Grammar guide<span class="dot">·</span>C1 · Unit 6<span id="read-min"><span class="dot">·</span>About 12 min</span></p><h1 class="doc-title" id="top">Word order and focus</h1><p class="doc-tr" lang="tr">Gördüm onu!</p><p class="lede">Turkish word order is free, but not random. In a neutral sentence the verb comes last; the word right before it is the focus, the new or important part; what follows the verb is already known. Speakers move words in and out of these slots to do what English does with stress or with <strong>it was … who</strong>. This unit also covers topics, echo words such as <i lang="tr">kitap mitap</i>, and the small words that add emphasis.</p><h2 id="gp-focus-position"><span class="h-n" aria-hidden="true">01</span>The focus slot before the verb</h2><p>A neutral Turkish sentence ends with its verb: subject, then time and place, then object, then verb (<a href="/guides/a1-u08-grammar.html#gp-object-word-order">A1 unit 8</a>). The position right before the verb is special: it holds the <strong>focus</strong>, the part of the sentence that is new or contrasted, and it carries the main stress. Change what you put there, and you change the question the sentence answers.</p><div class="tbl"><table class="t"><thead><tr><th scope="col">Sentence</th><th scope="col">It answers</th><th scope="col">Meaning</th></tr></thead><tbody><tr><td class="seg"><span lang="tr" class="trk-seg">Ali dün bir kitap <span class="stem">al</span><span class="suf">d<span class="back">ı</span></span>.</span></td><td class="tr" lang="tr">Ali dün ne aldı?</td><td class="en">Yesterday Ali bought a book.</td></tr><tr><td class="seg"><span lang="tr" class="trk-seg">Ali <span class="stem">kitab</span><span class="suf"><span class="back">ı</span></span> dün <span class="stem">al</span><span class="suf">d<span class="back">ı</span></span>.</span></td><td class="tr" lang="tr">Ali kitabı ne zaman aldı?</td><td class="en">Ali bought the book yesterday.</td></tr><tr><td class="seg"><span lang="tr" class="trk-seg"><span class="stem">Kitab</span><span class="suf"><span class="back">ı</span></span> dün Ali <span class="stem">al</span><span class="suf">d<span class="back">ı</span></span>.</span></td><td class="tr" lang="tr">Kitabı dün kim aldı?</td><td class="en">It was Ali who bought the book yesterday.</td></tr><tr><td class="seg"><span lang="tr" class="trk-seg">Ali <span class="stem">kitab</span><span class="suf"><span class="back">ı</span></span> dün <span class="stem">kitapçı</span><span class="suf">d<span class="back">a</span>n</span> <span class="stem">al</span><span class="suf">d<span class="back">ı</span></span>.</span></td><td class="tr" lang="tr">Ali kitabı dün nereden aldı?</td><td class="en">Ali bought the book at the bookshop yesterday.</td></tr></tbody></table></div><p><strong>Questions and answers.</strong> A question word sits in the focus slot (<i lang="tr">Kitabı kim aldı?</i>), and the answer puts its new word in the same place (<i lang="tr">Kitabı Ali aldı</i>). In speech you will often hear only that word: <i lang="tr">Ali.</i> The particle <code>mI</code> marks the same slot in a yes-no question (<a href="/guides/a1-u04-grammar.html#gp-question-mi">A1 unit 4</a>): <i lang="tr">Kitabı Ali mi aldı?</i>, was it Ali who bought the book?</p><p><strong>The bare object goes with its verb.</strong> An indefinite object with no case ending is glued to its verb, and the two count as one unit, so the focus slot moves one step to the left: <i lang="tr">Dün akşam kim kitap okudu? — Ali kitap okudu.</i> Without a contrast, the pair itself is the news: <i lang="tr">Ali dün akşam kitap okudu</i> (Ali spent last evening reading).</p><p><strong>Contrast and değil.</strong> To deny one element and give another, put it in the focus slot of a negative verb, or in front of <i lang="tr">değil</i>: <i lang="tr">Kitabı Ali almadı, Ayşe aldı</i> (it wasn't Ali who bought the book, it was Ayşe), <i lang="tr">Ben değil, Ayşe aldı</i> (not me, Ayşe bought it).</p><p><strong>Clefts.</strong> For heavier emphasis, Turkish turns the rest of the sentence into a participle (<a href="/guides/b1-u05-grammar.html#gp-headless-an">B1 unit 5</a>) and puts the focus in the predicate: <i lang="tr">Kitabı alan Ali'ydi</i> (the one who bought the book was Ali), <i lang="tr">Beni en çok şaşırtan, fiyatı oldu</i> (what surprised me most was the price), <i lang="tr">Asıl önemli olan, türkünün yaşaması</i> (what really matters is that the folk song lives on).</p><div class="dialogue"><div class="example-label">Dialogue</div><div class="dl-line"><span class="dl-who" lang="tr">Selin</span><div><p class="dl-tr" lang="tr">Bu pastayı kim yaptı?</p><p class="dl-en">Who made this cake?</p></div><button type="button" class="trk-say" aria-label="Listen: Bu pastayı kim yaptı?" hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></div><div class="dl-line"><span class="dl-who" lang="tr">Can</span><div><p class="dl-tr" lang="tr">Pastayı annem yaptı.</p><p class="dl-en">My mother made the cake.</p></div><button type="button" class="trk-say" aria-label="Listen: Pastayı annem yaptı." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></div><div class="dl-line"><span class="dl-who" lang="tr">Selin</span><div><p class="dl-tr" lang="tr">Annen mi? Ben de seni sanmıştım!</p><p class="dl-en">Your mother? And there I was thinking it was you!</p></div><button type="button" class="trk-say" aria-label="Listen: Annen mi? Ben de seni sanmıştım!" hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></div><div class="dl-line"><span class="dl-who" lang="tr">Can</span><div><p class="dl-tr" lang="tr">Ben değil, annem. Ben sadece yedim.</p><p class="dl-en">Not me, my mother. I just ate it.</p></div><button type="button" class="trk-say" aria-label="Listen: Ben değil, annem. Ben sadece yedim." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></div></div><div class="example ex-block"><div class="example-label">Examples</div><ul class="ex-list"><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">Kitab</span><span class="suf"><span class="back">ı</span></span> dün Ali <span class="stem">al</span><span class="suf">d<span class="back">ı</span></span>.</span></span><span class="ex-en">It was Ali who bought the book yesterday.</span></div><button type="button" class="trk-say" aria-label="Listen: Kitabı dün Ali aldı." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">Kitab</span><span class="suf"><span class="back">ı</span></span> Ali mi <span class="stem">al</span><span class="suf">d<span class="back">ı</span></span>?</span></span><span class="ex-en">Was it Ali who bought the book?</span></div><button type="button" class="trk-say" aria-label="Listen: Kitabı Ali mi aldı?" hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">Toplantı</span><span class="suf">y</span><span class="suf"><span class="back">a</span></span> ben değil, Selin <span class="stem">gid</span><span class="suf"><span class="front">e</span>c<span class="front">e</span>k</span>.</span></span><span class="ex-en">It's Selin who'll go to the meeting, not me.</span></div><button type="button" class="trk-say" aria-label="Listen: Toplantıya ben değil, Selin gidecek." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Bu <span class="stem">şehr</span><span class="suf"><span class="front">e</span></span> ilk kez geçen yıl <span class="stem">gel</span><span class="suf">d<span class="front">i</span></span><span class="suf">m</span>.</span></span><span class="ex-en">I first came to this city last year.<span class="ex-note">The focus is <i lang="tr">geçen yıl</i>: the sentence answers <strong>when</strong>.</span></span></div><button type="button" class="trk-say" aria-label="Listen: Bu şehre ilk kez geçen yıl geldim." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">Ben</span><span class="suf"><span class="front">i</span></span> en çok <span class="stem">şaşırt</span><span class="suf"><span class="back">a</span>n</span>, <span class="stem">fiyat</span><span class="suf"><span class="back">ı</span></span> <span class="stem">ol</span><span class="suf">d<span class="back">u</span></span>.</span></span><span class="ex-en">What surprised me most was the price.</span></div><button type="button" class="trk-say" aria-label="Listen: Beni en çok şaşırtan, fiyatı oldu." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li></ul></div><aside class="callout k-tip"><div class="callout-label">Tip</div><p>To find the focus of a sentence you read, look at the word just before the verb, then ask which question the sentence answers.</p></aside><aside class="callout k-compare"><div class="callout-label">Compare</div><p>English moves the stress (<strong>ALI</strong> bought it) or uses a cleft (<strong>it was Ali who…</strong>), as French uses <strong>c'est … qui</strong>. Turkish usually just moves the word.</p></aside><h2 id="gp-postverbal"><span class="h-n" aria-hidden="true">02</span>After the verb: inverted sentences</h2><p>In speech, words often come <strong>after</strong> the verb: <i lang="tr">Geldi mi Ayşe?</i> (has Ayşe come?), <i lang="tr">Gördüm onu!</i> (I saw him!), <i lang="tr">Çok güzeldi film</i> (the film was really good). Grammar books call this an inverted sentence (<i lang="tr">devrik cümle</i>). It is not an error: the words after the verb are background, already known or added as an afterthought, while the verb and what comes before it carry the news.</p><p><strong>What can go there.</strong> Subjects, definite objects, adverbs and whole phrases can follow the verb: <i lang="tr">Aradın mı babanı?</i>, <i lang="tr">Gidiyorum ben</i>, <i lang="tr">Gelirim yarın</i>. What cannot: the focus, so never a question word (<i lang="tr">Kimi gördün?</i>, not <i lang="tr">Gördün kimi?</i>), and a bare object, which stays glued to its verb (<i lang="tr">Kitap okudum</i>, not <i lang="tr">Okudum kitap</i>; but <i lang="tr">Okudum kitabı</i> is fine).</p><div class="tbl"><table class="t"><thead><tr><th scope="col">Neutral</th><th scope="col">Inverted</th><th scope="col">What the inversion does</th></tr></thead><tbody><tr><td class="tr" lang="tr">Ayşe geldi mi?</td><td class="tr" lang="tr">Geldi mi Ayşe?</td><td class="en">asks about the arrival; Ayşe is already the topic</td></tr><tr><td class="tr" lang="tr">Onu gördüm!</td><td class="tr" lang="tr">Gördüm onu!</td><td class="en">puts the news first, with feeling</td></tr><tr><td class="tr" lang="tr">Film çok güzeldi.</td><td class="tr" lang="tr">Çok güzeldi film.</td><td class="en">a reaction; everyone knows which film</td></tr><tr><td class="tr" lang="tr">Ben gidiyorum.</td><td class="tr" lang="tr">Gidiyorum ben.</td><td class="en">casual: I'm off</td></tr><tr><td class="tr" lang="tr">Yarın gelirim.</td><td class="tr" lang="tr">Gelirim yarın.</td><td class="en">the time added as an afterthought</td></tr></tbody></table></div><p><strong>Where you meet it.</strong> Inversion is everywhere in conversation; in songs and folk poetry, where it serves rhythm and rhyme; and in literary prose, for effect. In formal writing, such as reports, articles and letters, keep the verb at the end.</p><div class="example ex-block"><div class="example-label">Examples</div><ul class="ex-list"><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">Gör</span><span class="suf">d<span class="front">ü</span></span><span class="suf">n</span> mü yeni <span class="stem">komşu</span><span class="suf">y</span><span class="suf"><span class="back">u</span></span>?</span></span><span class="ex-en">Have you seen the new neighbour?</span></div><button type="button" class="trk-say" aria-label="Listen: Gördün mü yeni komşuyu?" hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">Bit</span><span class="suf">t<span class="front">i</span></span> mi <span class="stem">ödev</span><span class="suf"><span class="front">i</span>n</span>?</span></span><span class="ex-en">Is your homework finished?</span></div><button type="button" class="trk-say" aria-label="Listen: Bitti mi ödevin?" hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Çok <span class="stem">yorul</span><span class="suf">d<span class="back">u</span></span><span class="suf">m</span> bugün.</span></span><span class="ex-en">I'm so tired today.</span></div><button type="button" class="trk-say" aria-label="Listen: Çok yoruldum bugün." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Ben <span class="stem">söyle</span><span class="suf">m<span class="front">i</span>ş</span><span class="suf">t<span class="front">i</span></span><span class="suf">m</span> sana!</span></span><span class="ex-en">I told you so!</span></div><button type="button" class="trk-say" aria-label="Listen: Ben söylemiştim sana!" hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">Nere</span><span class="suf">y</span><span class="suf"><span class="front">e</span></span> <span class="stem">gid</span><span class="suf"><span class="front">i</span>y<span class="back">o</span>r</span><span class="suf">s<span class="back">u</span>n</span> bu <span class="stem">saat</span><span class="suf">t<span class="front">e</span></span>?</span></span><span class="ex-en">Where are you going at this hour?<span class="ex-note">The question word stays before the verb; <i lang="tr">bu saatte</i> is background.</span></span></div><button type="button" class="trk-say" aria-label="Listen: Nereye gidiyorsun bu saatte?" hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li></ul></div><aside class="callout k-pitfall"><div class="callout-label">Watch out</div><p>Keep the verb last in formal writing, and never put a question word after the verb: <i lang="tr">Kimi gördün?</i>, not <i lang="tr">Gördün kimi?</i> In everyday speech a bare object stays before its verb too: <i lang="tr">Kitap okudum</i>, not <i lang="tr">Okudum kitap</i>.</p></aside><aside class="callout k-culture"><div class="callout-label">Culture</div><p>Folk verse bends even these rules for the rhyme. In an old Istanbul mani of this unit's interlude, <i lang="tr">Nerden içsin kuzu su</i>, both the subject and the bare object follow the verb; everyday Turkish would say <i lang="tr">Kuzu nereden su içsin?</i></p></aside><h2 id="gp-topic-marking"><span class="h-n" aria-hidden="true">03</span>Topics: ise, -(y)sA and gelince</h2><p>The start of a sentence usually holds the <strong>topic</strong>, what the sentence is about: it is already known, and the comment follows. A definite noun at the start is usually the topic: in <i lang="tr">Bu filmi çok sevdim</i>, the film is what we are talking about, and <i lang="tr">çok sevdim</i> is what we say about it. Turkish also has markers for a topic, especially one that contrasts with another or opens a new subject.</p><div class="tbl"><table class="t"><thead><tr><th scope="col">Marker</th><th scope="col">Use</th><th scope="col">Example</th></tr></thead><tbody><tr><td class="tr" lang="tr">ise, -(y)sA</td><td class="en">a topic set against another</td><td><i lang="tr">Ben çay içtim, Ayşe ise kahve.</i> / <i lang="tr">Ayşe'yse kahve içti.</i></td></tr><tr><td class="tr" lang="tr">-(y)A gelince</td><td class="en">turning to a new topic: as for</td><td><i lang="tr">Bana gelince, ben bu işe karışmam.</i></td></tr><tr><td class="tr" lang="tr">-DAn yana</td><td class="en">as far as … goes</td><td><i lang="tr">Paradan yana sorunumuz yok.</i></td></tr><tr><td class="tr" lang="tr">konusunda</td><td class="en">on the matter of</td><td><i lang="tr">Fiyat konusunda anlaşamadık.</i></td></tr></tbody></table></div><p><strong>İse and -(y)sA.</strong> You met <i lang="tr">ise</i> as <strong>whereas</strong> in <a href="/guides/b2-u03-grammar.html#gp-contrast-connectors">B2 unit 3</a>. The same particle marks a contrasted topic: it comes right after the topic, before the comment. Attached as <code class="trk-nw">-(y)sA</code> it sounds more everyday: <i lang="tr">Ali İzmir'e gitti, ben ise Ankara'ya</i> or <i lang="tr">bense Ankara'ya</i>. After a case ending: <i lang="tr">Bana ise kimse sormadı</i> or <i lang="tr">Banaysa kimse sormadı</i> (as for me, nobody asked).</p><p><strong>-(y)A gelince.</strong> <i lang="tr">Gelince</i> (when it comes, <a href="/guides/b1-u07-grammar.html#gp-ince">B1 unit 7</a>) after a dative turns the conversation: <i lang="tr">Bana gelince…</i> (as for me), <i lang="tr">Paraya gelince, o başka bir konu</i> (as for the money, that's another matter). It often announces a contrast with what was just said.</p><p><strong>-DAn yana</strong> frames a topic as an area: <i lang="tr">Paradan yana sorunumuz yok, zamandan yana var</i> (money's not a problem for us; time is). <strong>Topic and focus together.</strong> A typical sentence runs from topic to focus: in <i lang="tr">Kardeşimse dün akşam bize geldi</i>, <i lang="tr">kardeşimse</i> is the contrasted topic and <i lang="tr">bize</i>, right before the verb, the new information.</p><div class="example ex-block"><div class="example-label">Examples</div><ul class="ex-list"><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Ben <span class="stem">çay</span><span class="suf"><span class="back">ı</span></span> <span class="stem">şeker</span><span class="suf">s<span class="front">i</span>z</span> <span class="stem">iç</span><span class="suf"><span class="front">e</span>r</span><span class="suf"><span class="front">i</span>m</span>, <span class="stem">eş</span><span class="suf"><span class="front">i</span>m</span> ise üç <span class="stem">şeker</span><span class="suf">l<span class="front">i</span></span>.</span></span><span class="ex-en">I take my tea without sugar, whereas my wife takes it with three.</span></div><button type="button" class="trk-say" aria-label="Listen: Ben çayı şekersiz içerim, eşim ise üç şekerli." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Herkes erken <span class="stem">git</span><span class="suf">t<span class="front">i</span></span>; <span class="stem">Mehmet'</span><span class="suf">s<span class="front">e</span></span> <span class="stem">sabah</span><span class="suf"><span class="back">a</span></span> kadar <span class="stem">kal</span><span class="suf">d<span class="back">ı</span></span>.</span></span><span class="ex-en">Everyone left early; Mehmet, though, stayed until morning.</span></div><button type="button" class="trk-say" aria-label="Listen: Herkes erken gitti; Mehmet'se sabaha kadar kaldı." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Bana <span class="stem">gel</span><span class="suf"><span class="front">i</span>nc<span class="front">e</span></span>, ben bu <span class="stem">iş</span><span class="suf"><span class="front">e</span></span> <span class="stem">karış</span><span class="suf">m<span class="back">a</span></span><span class="suf">m</span>.</span></span><span class="ex-en">As for me, I'm staying out of this.</span></div><button type="button" class="trk-say" aria-label="Listen: Bana gelince, ben bu işe karışmam." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">Para</span><span class="suf">d<span class="back">a</span>n</span> yana <span class="stem">sorun</span><span class="suf"><span class="back">u</span>m<span class="back">u</span>z</span> yok, <span class="stem">zaman</span><span class="suf">d<span class="back">a</span>n</span> yana var.</span></span><span class="ex-en">Money's not a problem for us; time is.</span></div><button type="button" class="trk-say" aria-label="Listen: Paradan yana sorunumuz yok, zamandan yana var." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">Yemek</span><span class="suf">l<span class="front">e</span>r</span><span class="suf"><span class="front">e</span></span> <span class="stem">gel</span><span class="suf"><span class="front">i</span>nc<span class="front">e</span></span>, <span class="stem">hep</span><span class="suf">s<span class="front">i</span></span> buz <span class="stem">gibi</span><span class="suf">y</span><span class="suf">d<span class="front">i</span></span>.</span></span><span class="ex-en">As for the food, all of it was stone-cold.</span></div><button type="button" class="trk-say" aria-label="Listen: Yemeklere gelince, hepsi buz gibiydi." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li></ul></div><aside class="callout k-pitfall"><div class="callout-label">Watch out</div><p><i lang="tr">İse</i> and <code class="trk-nw">-(y)sA</code> follow the topic word; they never open the clause: <i lang="tr">Ayşe ise kahve içti</i>, not <i lang="tr">ise Ayşe kahve içti</i>. And don't mistake the topic <code class="trk-nw">-(y)sA</code> for a condition: here <i lang="tr">Mehmet'se</i> means <strong>as for Mehmet</strong>, not <strong>if it's Mehmet</strong>; the context decides.</p></aside><h2 id="gp-m-reduplication"><span class="h-n" aria-hidden="true">04</span>Kitap mitap, ıvır zıvır: echo words</h2><p>Turkish loves pairs of words. One kind anyone can make: repeat a word with its first consonant replaced by <i lang="tr">m</i>, or with <i lang="tr">m</i> added before a first vowel, and you get <strong>… and the like, … and all that</strong>, often with a shrug: <i lang="tr">kitap mitap</i> (books and that sort of thing), <i lang="tr">çay may</i> (tea or whatever), <i lang="tr">okul mokul</i> (school and all that). TDK writes the pair as two words, the second one without a meaning of its own.</p><div class="rule"><div class="rule-label">m-doubling</div><pre>kitap   →  kitap mitap
+çay     →  çay may
+ders    →  ders mers
+okul    →  okul mokul
+ekmek   →  ekmek mekmek</pre></div><p><strong>What it means.</strong> The pair stands for the thing and everything like it, and the tone is casual, often dismissive: <i lang="tr">Kitap mitap istemiyorum, biraz dinlenmek istiyorum</i> (I don't want books or anything, I want a rest). <i lang="tr">Okul mokul derken yıl bitti</i> (what with school and all that, the year was over). A word that already begins with <i lang="tr">m</i> can't be doubled this way; use <i lang="tr">falan</i> instead (<a href="/guides/b2-u09-grammar.html#gp-fillers">B2 unit 9</a>): <i lang="tr">masa falan</i>, <i lang="tr">müzik falan</i>.</p><p><strong>Fixed pairs</strong> (<i lang="tr">ikilemeler</i>). Besides the m-pairs anyone can make, Turkish has hundreds of fixed pairs: echoes whose second word means nothing on its own (<i lang="tr">ıvır zıvır</i>, <i lang="tr">eğri büğrü</i>, <i lang="tr">abur cubur</i>), near-synonyms (<i lang="tr">eş dost</i>, <i lang="tr">konu komşu</i>, <i lang="tr">çoluk çocuk</i>), opposites (<i lang="tr">az çok</i>, <i lang="tr">er geç</i>, <i lang="tr">aşağı yukarı</i>) and sound words (<i lang="tr">şırıl şırıl</i>, <i lang="tr">mışıl mışıl</i>). TDK writes most of them as two words; a few are one (<i lang="tr">darmadağın</i>, <i lang="tr">çerçöp</i>, <i lang="tr">öteberi</i>).</p><div class="tbl"><table class="t"><thead><tr><th scope="col">Pair</th><th scope="col">Meaning</th><th scope="col">Example</th></tr></thead><tbody><tr><td class="tr" lang="tr">ıvır zıvır</td><td class="en">odds and ends; trivial</td><td class="tr" lang="tr">Çantamda bir sürü ıvır zıvır var.</td></tr><tr><td class="tr" lang="tr">abur cubur</td><td class="en">junk food, snacks</td><td class="tr" lang="tr">Yemekten önce abur cubur yeme.</td></tr><tr><td class="tr" lang="tr">eğri büğrü</td><td class="en">crooked, uneven</td><td class="tr" lang="tr">Eğri büğrü sokaklarda kaybolduk.</td></tr><tr><td class="tr" lang="tr">eş dost</td><td class="en">friends and acquaintances</td><td class="tr" lang="tr">Düğüne bütün eş dost geldi.</td></tr><tr><td class="tr" lang="tr">konu komşu</td><td class="en">the neighbours, the whole neighbourhood</td><td class="tr" lang="tr">Bu haberi bütün konu komşu duydu.</td></tr><tr><td class="tr" lang="tr">çoluk çocuk</td><td class="en">the whole family, children and all</td><td class="tr" lang="tr">Bayramda çoluk çocuk köye gittik.</td></tr><tr><td class="tr" lang="tr">er geç</td><td class="en">sooner or later</td><td class="tr" lang="tr">Er geç gerçeği öğrenecek.</td></tr><tr><td class="tr" lang="tr">aşağı yukarı</td><td class="en">roughly, more or less</td><td class="tr" lang="tr">Aşağı yukarı iki saat bekledik.</td></tr><tr><td class="tr" lang="tr">mışıl mışıl</td><td class="en">soundly (of sleep)</td><td class="tr" lang="tr">Bebek mışıl mışıl uyuyor.</td></tr></tbody></table></div><div class="example ex-block"><div class="example-label">Examples</div><ul class="ex-list"><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Kitap mitap <span class="stem">iste</span><span class="suf">m<span class="front">i</span></span><span class="suf">y<span class="back">o</span>r</span><span class="suf"><span class="back">u</span>m</span>, biraz <span class="stem">dinlen</span><span class="suf">m<span class="front">e</span>k</span> <span class="stem">ist</span><span class="suf"><span class="front">i</span>y<span class="back">o</span>r</span><span class="suf"><span class="back">u</span>m</span>.</span></span><span class="ex-en">I don't want books or anything, I want a bit of a rest.</span></div><button type="button" class="trk-say" aria-label="Listen: Kitap mitap istemiyorum, biraz dinlenmek istiyorum." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Çay may <span class="stem">iç</span><span class="suf">t<span class="front">i</span></span><span class="suf">k</span>, biraz sohbet <span class="stem">et</span><span class="suf">t<span class="front">i</span></span><span class="suf">k</span>.</span></span><span class="ex-en">We had tea and so on and chatted for a while.</span></div><button type="button" class="trk-say" aria-label="Listen: Çay may içtik, biraz sohbet ettik." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Okul mokul <span class="stem">de</span><span class="suf">r</span><span class="suf">k<span class="front">e</span>n</span> yıl <span class="stem">bit</span><span class="suf">t<span class="front">i</span></span>.</span></span><span class="ex-en">What with school and all that, the year was over.</span></div><button type="button" class="trk-say" aria-label="Listen: Okul mokul derken yıl bitti." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Ders mers bırak şimdi, biraz dinlen!</span></span><span class="ex-en">Forget lessons and all that for now, have a rest!</span></div><button type="button" class="trk-say" aria-label="Listen: Ders mers bırak şimdi, biraz dinlen!" hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Er geç <span class="stem">gerçeğ</span><span class="suf"><span class="front">i</span></span> <span class="stem">öğren</span><span class="suf"><span class="front">e</span>c<span class="front">e</span>k</span>.</span></span><span class="ex-en">Sooner or later she'll find out the truth.</span></div><button type="button" class="trk-say" aria-label="Listen: Er geç gerçeği öğrenecek." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li></ul></div><aside class="callout k-pitfall"><div class="callout-label">Watch out</div><p>M-doubling is casual and can sound dismissive. Leave it out of formal writing, and be careful with things the listener cares about: <i lang="tr">Düğün müğün umurumda değil</i> tells the bride you don't care about her wedding.</p></aside><aside class="callout k-compare"><div class="callout-label">Compare</div><p>English has a few echo pairs (helter-skelter, higgledy-piggledy) and the Yiddish-flavoured <strong>fancy-shmancy</strong>, which works just like m-doubling.</p></aside><h2 id="gp-emphasis"><span class="h-n" aria-hidden="true">05</span>Ta, hem de, de mi, işte: adding emphasis</h2><p>Speech adds weight with small words as much as with stress. You know <i lang="tr">dA</i>, <i lang="tr">hem de</i> and <i lang="tr">işte</i> from <a href="/guides/b2-u08-grammar.html#gp-da-particle">B2 unit 8</a>; here they work as emphasis, with one newcomer, <i lang="tr">ta</i>.</p><div class="tbl"><table class="t"><thead><tr><th scope="col">Word</th><th scope="col">What it stresses</th><th scope="col">Example</th></tr></thead><tbody><tr><td class="tr" lang="tr">ta</td><td class="en">how far, or how long ago: all the way, as far back as</td><td><i lang="tr">Ta İstanbul'dan geldi.</i> (He came all the way from Istanbul.)</td></tr><tr><td class="tr" lang="tr">ta kendisi</td><td class="en">the very one</td><td><i lang="tr">Bu, aradığım kitabın ta kendisi!</i> (This is the very book I was looking for!)</td></tr><tr><td class="tr" lang="tr">hem de</td><td class="en">and what's more; and at that</td><td><i lang="tr">Kazandık, hem de beş sıfır!</i> (We won, and five-nil at that!)</td></tr><tr><td class="tr" lang="tr">dA mI</td><td class="en">surprise or reproach: too, even, again</td><td><i lang="tr">Bugün de mi geç kaldın?</i> (You're late again today?)</td></tr><tr><td class="tr" lang="tr">işte</td><td class="en">exactly that, the very one</td><td><i lang="tr">İşte bu yüzden gelmedim.</i> (That's exactly why I didn't come.)</td></tr></tbody></table></div><p><strong>Ta</strong> (pronounced with a long a) stretches a distance or a time, and goes with <code class="trk-nw">-DAn</code>, <i lang="tr">-(y)A kadar</i> or <i lang="tr">beri</i>: <i lang="tr">ta Ankara'dan</i> (all the way from Ankara), <i lang="tr">ta sabaha kadar</i> (right through till morning), <i lang="tr">ta çocukluğumdan beri</i> (ever since I was a child). <i lang="tr">Ta kendisi</i> is <strong>the very one</strong>; <i lang="tr">ta ki</i> brings in a final limit, <strong>until at last</strong>: <i lang="tr">Bekledi de bekledi, ta ki kapı açılana kadar</i> (she waited and waited, until at last the door opened). It is written apart and has nothing to do with the locative: <i lang="tr">ta İstanbul'dan</i>, but <i lang="tr">İstanbul'da</i>.</p><p><strong>Hem de</strong> adds a stronger point after a statement: <i lang="tr">Geldi, hem de erkenden</i> (she came, and early at that). On its own, <i lang="tr">Hem de nasıl!</i> is <strong>and how!</strong></p><p><strong>dA mI</strong> asks, in surprise or reproach, whether something applies <strong>too</strong>, <strong>even</strong> or <strong>again</strong>: <i lang="tr">Sen de mi?</i> (you too?), <i lang="tr">Bunu da mı bilmiyorsun?</i> (you don't even know this?), <i lang="tr">Bugün de mi geç kaldın?</i> (late again today?). The particle stands after the word it highlights, and <code>mI</code> follows <i lang="tr">dA</i> in harmony with it: <i lang="tr">da mı</i>, <i lang="tr">de mi</i>.</p><p><strong>İşte</strong> points at something as the very thing: <i lang="tr">İşte bu!</i> (that's it!), <i lang="tr">İşte o zaman anladım</i> (it was then that I understood). Before <i lang="tr">bu yüzden</i>, <i lang="tr">böyle</i> or <i lang="tr">o zaman</i> it works like an English cleft.</p><div class="example ex-block"><div class="example-label">Examples</div><ul class="ex-list"><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Ta <span class="stem">Kars'</span><span class="suf">t<span class="back">a</span>n</span> <span class="stem">düğün</span><span class="suf"><span class="front">e</span></span> <span class="stem">gel</span><span class="suf">d<span class="front">i</span></span><span class="suf">l<span class="front">e</span>r</span>.</span></span><span class="ex-en">They came all the way from Kars for the wedding.</span></div><button type="button" class="trk-say" aria-label="Listen: Ta Kars'tan düğüne geldiler." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg"><span class="stem">O</span><span class="suf">n</span><span class="suf"><span class="back">u</span></span> ta <span class="stem">çocukluğ</span><span class="suf"><span class="back">u</span>m</span><span class="suf">d<span class="back">a</span>n</span> beri <span class="stem">tanı</span><span class="suf">r</span><span class="suf"><span class="back">ı</span>m</span>.</span></span><span class="ex-en">I've known him since I was a small child.</span></div><button type="button" class="trk-say" aria-label="Listen: Onu ta çocukluğumdan beri tanırım." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Bütün <span class="stem">sınav</span><span class="suf">l<span class="back">a</span>r</span><span class="suf"><span class="back">ı</span></span> <span class="stem">geç</span><span class="suf">t<span class="front">i</span></span>, hem de <span class="stem">hep</span><span class="suf">s<span class="front">i</span></span><span class="suf">n</span><span class="suf"><span class="front">i</span></span> yüksek <span class="stem">not</span><span class="suf">l<span class="back">a</span></span>.</span></span><span class="ex-en">She passed all her exams, and every one with high marks at that.</span></div><button type="button" class="trk-say" aria-label="Listen: Bütün sınavları geçti, hem de hepsini yüksek notla." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Bu sene de mi <span class="stem">tatil</span><span class="suf"><span class="front">e</span></span> <span class="stem">çık</span><span class="suf">m<span class="back">ı</span></span><span class="suf">y<span class="back">o</span>r</span><span class="suf">s<span class="back">u</span>n<span class="back">u</span>z</span>?</span></span><span class="ex-en">Aren't you going on holiday this year either?</span></div><button type="button" class="trk-say" aria-label="Listen: Bu sene de mi tatile çıkmıyorsunuz?" hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">İşte o zaman her <span class="stem">şey</span><span class="suf"><span class="front">i</span></span> <span class="stem">anla</span><span class="suf">d<span class="back">ı</span></span><span class="suf">m</span>.</span></span><span class="ex-en">It was then that I understood everything.</span></div><button type="button" class="trk-say" aria-label="Listen: İşte o zaman her şeyi anladım." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li><li><div><span class="ex-tr"><span lang="tr" class="trk-seg">Bu şarkı, <span class="stem">çocuk</span><span class="suf">k<span class="front">e</span>n</span> <span class="stem">dinle</span><span class="suf">d<span class="front">i</span>ğ</span><span class="suf"><span class="front">i</span>m</span> <span class="stem">türkü</span><span class="suf">n</span><span class="suf"><span class="front">ü</span>n</span> ta <span class="stem">kendi</span><span class="suf">s<span class="front">i</span></span>.</span></span><span class="ex-en">This song is the very folk song I listened to as a child.</span></div><button type="button" class="trk-say" aria-label="Listen: Bu şarkı, çocukken dinlediğim türkünün ta kendisi." hidden=""><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8v4h3l4 3V5L6 8H3z" fill="currentColor"></path><path d="M13 7.5c1.2 1.2 1.2 3.8 0 5M15.5 5.5c2.3 2.3 2.3 6.7 0 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></button></li></ul></div><aside class="callout k-tip"><div class="callout-label">Tip</div><p>In writing, stress can't be seen: word order and these particles show where the weight of a sentence falls.</p></aside><h2 id="summary">Summary</h2><ol class="summary"><li>The verb comes last; the word right before it is the focus, the new or contrasted part: <i lang="tr">Kitabı Ali aldı</i> answers <strong>who</strong>.</li><li>Question words and the words that answer them sit in the focus slot; <code>mI</code> marks it in a yes-no question: <i lang="tr">Kitabı Ali mi aldı?</i></li><li>Words after the verb are background or afterthought: <i lang="tr">Geldi mi Ayşe?</i> Never put a question word there, and keep a bare object before its verb.</li><li>Inverted sentences (<i lang="tr">devrik cümle</i>) belong to speech, songs and poetry; formal writing keeps the verb last.</li><li>Topics come first; <i lang="tr">ise</i>, <code class="trk-nw">-(y)sA</code> and <i lang="tr">-(y)A gelince</i> mark a contrasted or new topic: <i lang="tr">Bana gelince…</i>, <i lang="tr">Mehmet'se…</i></li><li>M-doubling (<i lang="tr">kitap mitap</i>) means <strong>… and the like</strong>, casually; fixed pairs such as <i lang="tr">ıvır zıvır</i>, <i lang="tr">eş dost</i> and <i lang="tr">er geç</i> are learned whole.</li><li><i lang="tr">Ta</i>, <i lang="tr">hem de</i>, <i lang="tr">dA mI</i> and <i lang="tr">işte</i> add emphasis: <i lang="tr">ta İstanbul'dan</i>, <i lang="tr">hem de nasıl</i>, <i lang="tr">Sen de mi?</i>, <i lang="tr">İşte bu!</i></li></ol><div id="doc-end"></div><nav class="next-grid" aria-label="What next"><a class="next-card" href="/guides/c1-u06-culture.html"><small>Interlude</small>Mani</a><a class="next-card" href="/#c1-u06"><small>Practise</small>C1 · Unit 6: 3 lessons</a><a class="next-card" href="/guides/c1-u05-grammar.html"><small>Previous guide · C1 · Unit 5</small>Idioms and proverbs</a><a class="next-card" href="/guides/c1-u07-grammar.html"><small>Next guide · C1 · Unit 7</small>Discourse and argument</a></nav><p class="read-state" id="read-state"></p></div>
+      </section>
+
+    </main>
+    <footer class="dt-foot"><p style="margin-bottom:6px"><a href="/words/">1,000 common words</a> · <a href="/verbs/">100 verbs conjugated</a> · <a href="/grammar-cheat-sheet.html">Grammar cheat sheet</a></p><p><a href="https://buymeacoffee.com/dailyturkish" target="_blank" rel="noopener">☕ Buy me a Turkish coffee</a></p></footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      "use strict";
+      var $ = function (id) { return document.getElementById(id); };
+      var T = window.TRK;
+      if (!T) { $("notices").innerHTML = '<p class="notice err">The course script didn\'t load. Reload the page to try again.</p>'; $("main").innerHTML = ""; return; }
+      var store = T.store, esc = T.esc, P = T.C.PAGES;
+      store.course(); store.settings();   // read now, so a storage problem shows at once
+      // A static guide page (/guides/<id>.html) names its guide on <body data-guide>; otherwise ?id=.
+      var reqId = (document.body.getAttribute("data-guide") || new URLSearchParams(location.search).get("id") || "").trim().toLowerCase();
+      // On dailyturkish.app this file holds the pre-rendered index: hide it while a ?id= guide loads.
+      if (reqId && !document.body.getAttribute("data-guide") && !$("main").querySelector(".loading")) { $("main").innerHTML = '<p class="loading">Loading…</p>'; $("rail").innerHTML = ""; }
+      var st = { index: null, flat: null, error: null, says: [], questions: [], unit: null, kind: null };
+      var reduced = function () { return !!(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches); };
+      try { if ("scrollRestoration" in history) history.scrollRestoration = "manual"; } catch (e) { /* keep the default */ }
+
+      var ICON = {
+        tick: '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+        chev: '<svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+      };
+      var KIND = { tip: "Tip", pitfall: "Watch out", compare: "Compare", culture: "Culture", history: "History" };
+      var unitLabel = function (u) { return u.cefr + " · Unit " + u.num; };
+      var docHref = function (u, kind) { return T.guideHref(u.id + "-" + kind); };
+      var docPath = function (u, kind) { return T.guidePath(u.id + "-" + kind); };   // canonical address
+      var pad2 = function (n) { return (n < 10 ? "0" : "") + n; };
+      var dateLabel = function (iso) { try { return new Date(iso).toLocaleDateString("en-CA", { day: "numeric", month: "long", year: "numeric" }); } catch (e) { return String(iso).slice(0, 10); } };
+      var R = function (s) { return T.rich(s, { index: st.index }); };
+      var TR = function (s) { return T.trRich(s, { index: st.index }); };
+      var SEG = function (s) { return T.seg(s, { harmony: true }); };
+
+      // Speaker buttons: a placeholder in the HTML, replaced by TRK.tts.button once the HTML is in the page.
+      function say(text, label) {
+        st.says.push({ text: text, label: label || "Listen: " + T.plain(text) });
+        return '<span class="say-slot" data-say="' + (st.says.length - 1) + '"></span>';
+      }
+      function mountSays(root) {
+        root.querySelectorAll(".say-slot").forEach(function (el) {
+          var s = st.says[+el.getAttribute("data-say")];
+          if (s) el.replaceWith(T.tts.button(s.text, { label: s.label }));
+        });
+      }
+
+      // ── notices ──
+      function renderNotices() {
+        var out = [];
+        if (st.error) {
+          var fileHint = location.protocol === "file:" ? " Open the page through a web server (for example <code>python3 -m http.server</code> in the repo) rather than as a file." : "";
+          out.push('<p class="notice err">This page couldn\'t be loaded (' + esc(st.error) + ")." + fileHint + ' <button type="button" data-act="retry">Try again</button></p>');
+        }
+        if (store.problem === "unavailable") out.push('<p class="notice">This browser isn\'t letting the page save anything (private browsing, or storage blocked), so what you read won\'t be remembered.</p>');
+        if (store.problem === "quota") out.push('<p class="notice">What you read couldn\'t be saved: the browser\'s storage for this site is full.</p>');
+        if (store.corrupt && store.corrupt.course) out.push('<p class="notice">Part of your saved progress couldn\'t be read, so this page won\'t mark anything as read. Open the <a href="' + P.hub + '">course page</a> to download what was found.</p>');
+        $("notices").innerHTML = out.join("");
+      }
+      $("notices").addEventListener("click", function (e) {
+        var b = e.target.closest("button[data-act]");
+        if (b && b.getAttribute("data-act") === "retry") { st.error = null; renderNotices(); $("main").innerHTML = '<p class="loading">Loading…</p>'; boot(); }
+      });
+
+      // ── links and labels ──
+      function linkTo(labelHtml, ref) {
+        var t = T.href(ref, st.index);
+        if (!t) return labelHtml;
+        if (!t.ready) return '<span class="trk-soon">' + labelHtml + " <small>(coming soon)</small></span>";
+        if (t.external) return '<a class="external" href="' + esc(t.href) + '" target="_blank" rel="noopener">' + labelHtml + "</a>";
+        return '<a href="' + esc(t.href) + '">' + labelHtml + "</a>";
+      }
+      function refLabel(ref) {
+        var f = st.flat, RE = T.RE, u;
+        if (RE.gp.test(ref)) return st.index.points[ref] ? st.index.points[ref].label : ref;
+        if (RE.unit.test(ref)) return f.unit[ref] ? unitLabel(f.unit[ref]) + ": " + f.unit[ref].title : ref;
+        if (RE.lesson.test(ref)) {
+          if (f.lesson[ref]) return "Lesson: " + f.lesson[ref].title;
+          u = f.unit[ref.slice(0, 6)];
+          return u ? unitLabel(u) + ", lesson " + (+ref.slice(8)) : ref;
+        }
+        if (RE.grammar.test(ref)) { u = f.unit[ref.slice(0, 6)]; return u ? "Grammar guide: " + u.title : ref; }
+        if (RE.culture.test(ref)) { u = f.unit[ref.slice(0, 6)]; return u ? "Interlude: " + u.interlude : ref; }
+        if (ref === "cards") return "Flashcards";
+        if (RE.url.test(ref)) { try { return new URL(ref).hostname.replace(/^www\./, ""); } catch (e) { return ref; } }
+        return ref;
+      }
+
+      // ── content blocks (PROJECT.md 5.1) ──
+      function block(b) {
+        switch (b.type) {
+          case "p": return "<p>" + R(b.text) + "</p>";
+          case "list": return (b.ordered ? '<ol class="blist">' : '<ul class="blist">') + b.items.map(function (x) { return "<li>" + R(x) + "</li>"; }).join("") + (b.ordered ? "</ol>" : "</ul>");
+          case "rule": return '<div class="rule">' + (b.label ? '<div class="rule-label">' + esc(b.label) + "</div>" : "") + "<pre>" + b.lines.map(esc).join("\n") + "</pre></div>";
+          case "table": return table(b);
+          case "examples": return examples(b);
+          case "paradigm": return paradigm(b);
+          case "dialogue": return dialogue(b);
+          case "callout": return callout(b);
+          case "parallel": return parallel(b);
+          case "passage": return passage(b);
+          case "quote": return quote(b);
+          case "image": return image(b);
+          case "see": return see(b);
+        }
+        return "";   // the validator rejects unknown block types
+      }
+      function table(b) {
+        var h = '<div class="tbl"><table class="t">' + (b.caption ? "<caption>" + R(b.caption) + "</caption>" : "");
+        h += "<thead><tr>" + b.head.map(function (x) { return '<th scope="col">' + R(x) + "</th>"; }).join("") + "</tr></thead><tbody>";
+        h += b.rows.map(function (row) {
+          return "<tr>" + row.map(function (cell, i) {
+            var c = b.cols[i];
+            if (!cell) return "<td></td>";
+            if (c === "tr") return '<td class="tr" lang="tr">' + esc(cell) + "</td>";
+            if (c === "seg") return '<td class="seg">' + SEG(cell) + "</td>";
+            if (c === "en") return '<td class="en">' + esc(cell) + "</td>";
+            return "<td>" + R(cell) + "</td>";
+          }).join("") + "</tr>";
+        }).join("");
+        return h + "</tbody></table></div>";
+      }
+      function examples(b) {
+        return '<div class="example ex-block"><div class="example-label">' + (b.items.length > 1 ? "Examples" : "Example") + '</div><ul class="ex-list">' +
+          b.items.map(function (x) {
+            return '<li><div><span class="ex-tr">' + (x.seg ? SEG(x.seg) : '<span lang="tr">' + esc(x.tr) + "</span>") + "</span>" +
+              (x.gloss ? '<span class="ex-gloss">' + esc(x.gloss) + "</span>" : "") +
+              '<span class="ex-en">' + esc(x.en) + (x.note ? '<span class="ex-note">' + R(x.note) + "</span>" : "") + "</span></div>" +
+              say(x.tr) + "</li>";
+          }).join("") + "</ul></div>";
+      }
+      function paradigm(b) {
+        var speech = b.rows.map(function (r) { return r.p + " " + r.tr; }).join(". ") + ".";
+        var withEn = b.rows.some(function (r) { return r.en; });
+        return '<figure class="para"><figcaption class="para-head"><span class="ttl">' + (b.title ? R(b.title) : "Forms") + "</span>" + say(speech, "Listen to every form") + "</figcaption>" +
+          '<table class="t"><tbody>' + b.rows.map(function (r) {
+            return '<tr><th scope="row" lang="tr">' + esc(r.p) + '</th><td class="seg">' + T.seg(r.tr, { harmony: true, lastStem: true }) + "</td>" + (withEn ? '<td class="en">' + esc(r.en || "") + "</td>" : "") + "</tr>";
+          }).join("") + "</tbody></table></figure>";
+      }
+      function dialogue(b) {
+        return '<div class="dialogue"><div class="example-label">Dialogue</div>' + b.lines.map(function (l) {
+          return '<div class="dl-line"><span class="dl-who" lang="tr">' + esc(l.who) + '</span><div><p class="dl-tr" lang="tr">' + esc(l.tr) + '</p><p class="dl-en">' + esc(l.en) + "</p></div>" + say(l.tr) + "</div>";
+        }).join("") + "</div>";
+      }
+      function callout(b) {
+        return '<aside class="callout k-' + esc(b.kind) + '"><div class="callout-label">' + esc(KIND[b.kind] || "Note") + "</div>" +
+          (b.title ? '<p class="callout-title">' + esc(b.title) + "</p>" : "") + "<p>" + R(b.text) + "</p></aside>";
+      }
+      function parallel(b) {
+        return '<div class="parallel"><div class="par-tr"><div class="lbl-row"><span class="lbl">Turkish</span>' + say(b.tr, "Listen to the Turkish") + "</div>" + TR(b.tr) + "</div>" +
+          '<div class="par-en"><div class="lbl-row"><span class="lbl">English</span></div>' + String(b.en).split(/\n\n+/).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") + "</div></div>";
+      }
+      function glossary(list) {
+        return '<dl class="glossary">' + list.map(function (g) { return '<dt lang="tr">' + esc(g.tr) + "</dt><dd>" + esc(g.en) + "</dd>"; }).join("") + "</dl>";
+      }
+      function passage(b) {
+        return '<div class="passage"><div class="lbl-row"><span class="lbl">Read</span>' + say(b.tr, "Listen to the text") + "</div>" + TR(b.tr) + (b.glossary && b.glossary.length ? glossary(b.glossary) : "") + "</div>";
+      }
+      function quote(b) {
+        return '<figure class="quote"><blockquote lang="tr"><p class="q-tr">' + esc(b.tr) + "</p></blockquote>" +
+          '<p class="q-en">' + esc(b.en) + "</p><figcaption><span>" + esc(b.source) + "</span>" + say(b.tr, "Listen to the quotation") + "</figcaption></figure>";
+      }
+      function image(b) {
+        if (!/^\/assets\/img\/[^\s"'<>?#]+$/.test(b.src)) return "";
+        var cap = (b.caption ? R(b.caption) : "") + (b.credit ? (b.caption ? " " : "") + '<span class="credit">' + esc(b.credit) + "</span>" : "");
+        return '<figure class="fig"><img src="' + esc(b.src) + '" alt="' + esc(b.alt) + '" loading="lazy" decoding="async">' + (cap ? "<figcaption>" + cap + "</figcaption>" : "") + "</figure>";
+      }
+      function see(b) {
+        return '<div class="see"><span class="lbl">See also</span>' + (b.text ? R(b.text) : "") +
+          '<ul class="see-list">' + b.refs.map(function (r) { return "<li>" + linkTo(esc(refLabel(r)), r) + "</li>"; }).join("") + "</ul></div>";
+      }
+
+      // ── rail pieces ──
+      function tocHtml(items, label) {
+        if (!items.length) return "";
+        return '<button type="button" class="toc-btn" aria-expanded="false" aria-controls="toc">' + esc(label) + ' <span class="toc-n">' + items.length + "</span>" + ICON.chev + "</button>" +
+          '<nav class="chapter-nav collapsed" id="toc" aria-label="' + esc(label) + '">' + items.map(function (t) {
+            return '<a href="#' + esc(t.id) + '"' + (t.soon ? ' class="soon"' : "") + ">" + (t.n ? '<span class="ch-n">' + t.n + "</span>" : "") + esc(t.label) + "</a>";
+          }).join("") + "</nav>";
+      }
+      var LEGEND = '<div class="legend"><b>Colours in the examples</b><span class="trk-seg" lang="en"><span class="stem">stem</span> + <span class="suf">suffix</span></span>; ' +
+        'a suffix vowel is <span class="front">front</span> (<i lang="tr">e, i, ö, ü</i>) or <span class="back">back</span> (<i lang="tr">a, ı, o, u</i>).</div>';
+      // UI-5: the rail and the reading column take the unit's level colour (null: the site blue, for the index).
+      function setLevel(u) {
+        ["rail", "main"].forEach(function (id) { if (u) $(id).setAttribute("data-lvl", u.level); else $(id).removeAttribute("data-lvl"); });
+      }
+      function railUnit(u, kind, toc, dupTitle) {
+        var ready = u.status === "ready";
+        var docLink = function (k, label) {
+          var cur = k === kind ? ' aria-current="page"' : "";
+          return '<a href="' + docHref(u, k) + '"' + cur + (ready ? "" : ' class="soon"') + ">" + label + "</a>";
+        };
+        return '<div class="rail-kicker">' + esc(unitLabel(u)) + "</div>" +
+          '<div class="rail-title' + (dupTitle ? " dup" : "") + '"><a href="' + P.hub + "#" + u.id + '">' + esc(u.title) + "</a></div>" +
+          '<div class="rail-tr" lang="tr">' + esc(u.titleTr) + "</div>" +
+          '<nav class="profile-links rail-docs" aria-label="This unit">' + docLink("grammar", "Grammar guide") + docLink("culture", "Interlude") + "</nav>" +
+          tocHtml(toc, "On this page") + (kind === "grammar" && ready ? LEGEND : "") +
+          '<div class="rail-foot"><a href="' + P.guide + '">All guides and grammar points</a></div>';
+      }
+
+      // ── a guide or an interlude ──
+      function readText(when) { return when ? '<span class="tick">' + ICON.tick + "</span> You read this on " + esc(dateLabel(when)) + "." : ""; }
+      function nextCard(label, title, href, ready) {
+        if (!ready) return '<div class="next-card soon"><small>' + esc(label) + " · coming soon</small>" + esc(title) + "</div>";
+        return '<a class="next-card" href="' + esc(href) + '"><small>' + esc(label) + "</small>" + esc(title) + "</a>";
+      }
+      function nextNav(u, kind) {
+        var f = st.flat, i = f.units.indexOf(u), prev = f.units[i - 1], next = f.units[i + 1], g = kind === "grammar";
+        var name = function (x) { return g ? x.title : x.interlude; };
+        var cards = [
+          g ? nextCard("Interlude", u.interlude, docHref(u, "culture"), true) : nextCard("Grammar guide", u.title, docHref(u, "grammar"), true),
+          nextCard("Practise", unitLabel(u) + ": " + u.lessons.length + " lessons", P.hub + "#" + u.id, true)
+        ];
+        if (prev) cards.push(nextCard("Previous " + (g ? "guide" : "interlude") + " · " + unitLabel(prev), name(prev), docHref(prev, kind), prev.status === "ready"));
+        if (next) cards.push(nextCard("Next " + (g ? "guide" : "interlude") + " · " + unitLabel(next), name(next), docHref(next, kind), next.status === "ready"));
+        return '<nav class="next-grid" aria-label="What next">' + cards.join("") + "</nav>";
+      }
+      function questionHtml(q, i, n) {
+        var order = q.options.map(function (x, k) { return k; });
+        for (var j = order.length - 1; j > 0; j--) { var r = Math.floor(Math.random() * (j + 1)), t = order[j]; order[j] = order[r]; order[r] = t; }
+        return '<div class="quiz" data-q="' + i + '"><div class="quiz-label">Question ' + (i + 1) + " of " + n + '</div><div class="quiz-q">' + R(q.q) + "</div>" +
+          '<div class="quiz-opts" role="group" aria-label="Answers to question ' + (i + 1) + '">' + order.map(function (k) {
+            return '<button type="button" class="quiz-btn" data-k="' + k + '"' + (q.optionsLang === "tr" ? ' lang="tr"' : "") + ">" + esc(q.options[k]) + "</button>";
+          }).join("") + '</div><div class="quiz-feedback" tabindex="-1"></div><button type="button" class="quiz-reset">Try again</button></div>';
+      }
+      function renderDoc(u, kind, doc) {
+        var g = kind === "grammar", course = store.course(), rec = course.units[u.id] || {}, key = g ? "guide" : "culture";
+        var toc = [], h = "";
+        st.says = []; st.questions = [];
+        if (g) {
+          h += '<p class="doc-kicker">Grammar guide<span class="dot">·</span>' + esc(unitLabel(u)) + '<span id="read-min"></span></p>';
+          h += '<h1 class="doc-title" id="top">' + esc(doc.title) + "</h1>";
+          h += '<p class="doc-tr" lang="tr">' + esc(u.titleTr) + "</p>";
+          h += '<p class="lede">' + R(doc.intro) + "</p>";
+          doc.sections.forEach(function (s, i) {
+            toc.push({ id: s.point, label: s.title, n: pad2(i + 1) });
+            h += '<h2 id="' + esc(s.point) + '"><span class="h-n" aria-hidden="true">' + pad2(i + 1) + "</span>" + esc(s.title) + "</h2>" + s.blocks.map(block).join("");
+          });
+          toc.push({ id: "summary", label: "Summary" });
+          h += '<h2 id="summary">Summary</h2><ol class="summary">' + doc.summary.map(function (x) { return "<li>" + R(x) + "</li>"; }).join("") + "</ol>";
+        } else {
+          h += '<p class="doc-kicker">' + esc(doc.kicker) + '<span class="dot">·</span>' + doc.minutes + " min read</p>";
+          h += '<h1 class="doc-title" id="top">' + esc(doc.title) + "</h1>";
+          h += '<p class="doc-sub">The interlude of ' + esc(unitLabel(u)) + ', <a href="' + docHref(u, "grammar") + '">' + esc(u.title) + "</a></p>";
+          toc.push({ id: "top", label: doc.title });
+          h += doc.blocks.map(block).join("");
+          toc.push({ id: "words", label: "Words to know" });
+          h += '<h2 id="words">Words to know</h2><ul class="vocab">' + doc.vocab.map(function (w) {
+            return '<li><div><span class="v-tr" lang="tr">' + esc(w.tr) + '</span><span class="v-en">' + esc(w.en) + "</span></div>" + say(w.tr) + "</li>";
+          }).join("") + "</ul>";
+          if (doc.questions && doc.questions.length) {
+            st.questions = doc.questions;
+            toc.push({ id: "questions", label: "Check your reading" });
+            h += '<h2 id="questions">Check your reading</h2><p class="quiz-intro">' + (doc.questions.length === 1 ? "A question" : doc.questions.length + " questions") + " to check what you read. Just for you: they earn no XP.</p>" +
+              doc.questions.map(function (q, i) { return questionHtml(q, i, doc.questions.length); }).join("");
+          }
+          toc.push({ id: "sources", label: "Sources" });
+          h += '<h2 id="sources">Sources</h2><ol class="sources">' + doc.sources.map(function (s) {
+            var title = s.url && T.RE.url.test(s.url) ? '<a class="external" href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>" : esc(s.title);
+            var meta = [s.publisher, s.note].filter(Boolean).map(esc).join(" · ");
+            return "<li>" + title + (meta ? '<span class="src-note">' + meta + "</span>" : "") + "</li>";
+          }).join("") + "</ol>";
+        }
+        h += '<div id="doc-end"></div>' + nextNav(u, kind) + '<p class="read-state" id="read-state">' + readText(rec[key]) + "</p>";
+        setLevel(u);
+        $("rail").innerHTML = railUnit(u, kind, toc, g);
+        $("main").innerHTML = h;
+        mountSays($("main"));
+        if (g) {
+          var words = ($("main").textContent || "").split(/\s+/).filter(Boolean).length;
+          $("read-min").innerHTML = '<span class="dot">·</span>About ' + Math.max(1, Math.round(words / 200)) + " min";
+        }
+        var desc = T.plain(g ? doc.intro : (doc.blocks.filter(function (b) { return b.type === "p"; })[0] || { text: doc.title }).text);
+        // page title for search engines: a guide's seoTitle (the term people search) + its level; an interlude's own title
+        setMeta(g ? (doc.seoTitle ? doc.seoTitle + " · " + u.cefr + " grammar" : doc.title + " · Turkish grammar, " + unitLabel(u)) : doc.title + " · Turkish culture", desc, docPath(u, kind));
+        afterRender();
+        watchRead(u, key);
+      }
+
+      // ── a unit that isn't written yet ──
+      function renderSoon(u, kind) {
+        var g = kind === "grammar", ix = st.index, ready = st.flat.units.filter(function (x) { return x.status === "ready"; });
+        var latest = ready[ready.length - 1];
+        var h = '<p class="doc-kicker">' + (g ? "Grammar guide" : "Interlude") + '<span class="dot">·</span>' + esc(unitLabel(u)) + "</p>" +
+          '<h1 class="doc-title" id="top">' + esc(g ? u.title : u.interlude) + "</h1>" +
+          (g ? '<p class="doc-tr" lang="tr">' + esc(u.titleTr) + "</p>" : '<p class="doc-sub">The interlude of ' + esc(unitLabel(u)) + ", " + esc(u.title) + "</p>") +
+          '<div class="soon-box"><p><strong>Coming soon.</strong> This unit hasn\'t been written yet, so its ' + (g ? "grammar guide" : "interlude") + " isn't here. It will appear with the unit's lessons.</p>" +
+          (g ? "" : "<p>Until then, the interludes written so far are listed in the <a href=\"" + P.guide + '">index</a>.</p>') + "</div>";
+        if (g) {
+          h += '<h2 id="points">What it will cover</h2><ul class="soon-list">' + u.points.map(function (gp) {
+            return '<li id="' + esc(gp) + '">' + esc(ix.points[gp] ? ix.points[gp].label : gp) + "</li>";
+          }).join("") + "</ul>";
+        }
+        var cards = [nextCard("The course", unitLabel(u) + " on the path", P.hub + "#" + u.id, true)];
+        if (latest) cards.push(nextCard("Latest " + (g ? "guide" : "interlude") + " · " + unitLabel(latest), g ? latest.title : latest.interlude, docHref(latest, kind), true));
+        h += '<nav class="next-grid" aria-label="What next">' + cards.join("") + "</nav>";
+        setLevel(u);
+        $("rail").innerHTML = railUnit(u, kind, [], false);
+        $("main").innerHTML = h;
+        setMeta((g ? u.title : u.interlude) + " · coming soon", "This part of the Turkish course from A1 to C2 is still being written.", docPath(u, kind));
+        afterRender();
+      }
+
+      function renderNotFound() {
+        setLevel(null);
+        $("rail").innerHTML = '<div class="rail-kicker">Turkish · A1 → C2</div><div class="rail-foot"><a href="' + P.guide + '">All guides and grammar points</a></div>';
+        $("main").innerHTML = '<p class="doc-kicker">Not found</p><h1 class="doc-title" id="top">No such guide</h1>' +
+          "<p>There's no grammar guide or interlude called “" + esc(reqId) + "”. Guides are named after their unit, like <code>a1-u02-grammar</code> and <code>a1-u02-culture</code>.</p>" +
+          '<nav class="next-grid" aria-label="What next">' + nextCard("Index", "All guides and grammar points", P.guide, true) + nextCard("The course", "Back to the path", P.hub, true) + "</nav>";
+        setMeta("Guide not found · Learn Turkish", "", P.guide);
+      }
+
+      // ── the index: every guide and grammar point (index.json) ──
+      function fold(s) { return T.fold(T.trLower(String(s))).replace(/â/g, "a").replace(/î/g, "i").replace(/û/g, "u").replace(/\s+/g, " ").trim(); }
+      function renderIndex() {
+        var ix = st.index, f = st.flat, course = store.course();
+        var readyUnits = f.units.filter(function (u) { return u.status === "ready"; });
+        var read = 0;
+        readyUnits.forEach(function (u) { var r = course.units[u.id] || {}; if (r.guide) read++; if (r.culture) read++; });
+        var nPoints = Object.keys(ix.points).length, nReadyPoints = Object.keys(ix.points).filter(function (k) { return ix.points[k].ready; }).length;
+        var levels = ix.levels.map(function (lv) {
+          var units = lv.units.map(function (x) { return f.unit[x.id]; });
+          return { lv: lv, units: units, ready: units.filter(function (u) { return u.status === "ready"; }).length };
+        });
+        var toc = levels.map(function (L) { return { id: L.lv.id, label: L.lv.cefr + " · " + L.lv.title, soon: !L.ready }; });
+        setLevel(null);
+        $("rail").innerHTML = '<div class="rail-kicker">Turkish · A1 → C2</div>' +
+          '<div class="rail-title">Grammar and culture</div>' +
+          '<div class="rail-blurb">Each unit has a grammar guide, with a section for every grammar point, and a short culture interlude.</div>' +
+          tocHtml(toc, "Levels") +
+          '<div class="rail-foot"><a href="' + P.hub + '">Back to the course</a></div>';
+        var h = '<p class="doc-kicker">Grammar index</p><h1 class="doc-title" id="top">Grammar guides and interludes</h1>' +
+          '<p class="lede">Every grammar point of the course, unit by unit, from the alphabet to the language of the press. ' +
+          readyUnits.length + " of " + f.units.length + " units are written so far; the rest are listed as they're planned.</p>" +
+          (readyUnits.length ? '<p class="read-state">' + (read ? '<span class="tick">' + ICON.tick + "</span> You've read " + read + " of the " + readyUnits.length * 2 + " guides and interludes written so far." : "You haven't opened a guide yet: start with <a href=\"" + docHref(readyUnits[0], "grammar") + '">' + esc(readyUnits[0].title) + "</a>.") + "</p>" : "") +
+          '<div class="find" role="search"><label for="find">Find a grammar point</label>' +
+          '<input id="find" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="plural, -DA, değil, past tense…" aria-describedby="find-n">' +
+          '<p class="find-n" id="find-n" aria-live="polite">' + nReadyPoints + " of " + nPoints + " grammar points written</p></div>";
+        h += levels.map(function (L) {
+          var lv = L.lv;
+          return '<div class="ix-level" data-level="' + lv.id + '"><h2 id="' + lv.id + '">' + esc(lv.cefr + " · " + lv.title) + "</h2>" +
+            '<p class="ix-meta">' + (L.ready ? L.ready + " of " + L.units.length + " units written" : L.units.length + " units · coming soon") + "</p>" +
+            '<ol class="ix-units">' + L.units.map(function (u) { return indexUnit(u, course); }).join("") + "</ol></div>";
+        }).join("");
+        h += '<p class="read-state" id="no-match" hidden>No grammar point matches. Try a shorter word, or a suffix such as <code>-lar</code>.</p>';
+        $("main").innerHTML = h;
+        setMeta("Turkish grammar guides and interludes · Learn Turkish", "The grammar guide and culture interlude of every unit of a free Turkish course from A1 to C2, with an index of every grammar point.", P.guide);
+        afterRender();
+        var input = $("find"), timer = null;
+        input.addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(filter, 80); });
+        input.addEventListener("keydown", function (e) { if (e.key === "Escape" && input.value) { input.value = ""; filter(); } });
+        function filter() {
+          var q = fold(input.value), shown = 0;
+          $("main").querySelectorAll(".ix-unit").forEach(function (li) {
+            var unitHit = q && li.getAttribute("data-k").indexOf(q) >= 0, any = false;
+            li.querySelectorAll(".ix-points > li").forEach(function (p) {
+              var hit = !q || unitHit || p.getAttribute("data-k").indexOf(q) >= 0;
+              p.hidden = !hit; if (hit) { any = true; shown++; }
+              var lab = p.querySelector(".lab");
+              lab.innerHTML = q && !unitHit ? highlight(lab.getAttribute("data-t"), q) : esc(lab.getAttribute("data-t"));
+            });
+            li.hidden = !any;
+          });
+          $("main").querySelectorAll(".ix-level").forEach(function (d) { d.hidden = !d.querySelector(".ix-unit:not([hidden])"); });
+          $("find-n").textContent = q ? (shown === 1 ? "1 grammar point matches" : shown + " grammar points match") : nReadyPoints + " of " + nPoints + " grammar points written";
+          $("no-match").hidden = !(q && !shown);
+        }
+      }
+      // Marks the first match of q (folded) inside text, character for character (folding keeps lengths).
+      function highlight(text, q) {
+        var t = fold(text), k = t.indexOf(q);
+        if (k < 0 || t.length !== text.replace(/\s+/g, " ").trim().length) return esc(text);
+        var s = text.replace(/\s+/g, " ").trim();
+        return esc(s.slice(0, k)) + "<mark>" + esc(s.slice(k, k + q.length)) + "</mark>" + esc(s.slice(k + q.length));
+      }
+      function indexUnit(u, course) {
+        var ix = st.index, ready = u.status === "ready", r = course.units[u.id] || {};
+        var tick = function (on, what) { return on ? '<span class="tick" title="Read">' + ICON.tick + '</span><span class="sr"> (' + what + " read)</span>" : ""; };
+        var head = '<div class="ix-head"><span class="ix-num">Unit ' + u.num + "</span>" +
+          '<h3 class="ix-title">' + (ready ? '<a href="' + docHref(u, "grammar") + '">' + esc(u.title) + "</a>" : esc(u.title)) + ' <span class="ix-tr" lang="tr">' + esc(u.titleTr) + "</span></h3>" +
+          (ready ? "<span></span>" : '<span class="tag-soon">Coming soon</span>') + "</div>";
+        var points = '<ul class="ix-points">' + u.points.map(function (gp) {
+          var p = ix.points[gp] || { label: gp }, k = fold(p.label + " " + gp.replace(/-/g, " "));
+          var lab = '<span class="lab" data-t="' + esc(p.label) + '">' + esc(p.label) + "</span>";
+          return '<li id="' + esc(gp) + '" data-k="' + esc(k) + '">' + (ready ? '<a href="' + docHref(u, "grammar") + "#" + esc(gp) + '">' + lab + "</a>" : lab) + "</li>";
+        }).join("") + "</ul>";
+        var docs = '<p class="ix-docs">' + (ready
+          ? '<a href="' + docHref(u, "grammar") + '">Grammar guide' + tick(r.guide, "guide") + "</a>" + '<a href="' + docHref(u, "culture") + '">Interlude: ' + esc(u.interlude) + tick(r.culture, "interlude") + "</a>"
+          : '<span class="trk-soon">Interlude: ' + esc(u.interlude) + " <small>(coming soon)</small></span>") + "</p>";
+        return '<li class="ix-unit' + (ready ? "" : " planned") + '" id="' + u.id + '" data-k="' + esc(fold(u.title + " " + u.titleTr + " " + u.interlude + " " + u.cefr + " unit " + u.num)) + '">' +
+          head + '<div class="ix-body">' + points + docs + "</div></li>";
+      }
+
+      // ── after every render: speakers, contents, quiz, position ──
+      function setMeta(title, desc, path) {
+        var abs = "https://dailyturkish.app" + path;   // the course's home, whichever domain serves the page
+        document.title = title;
+        var set = function (sel, attr, v) { var el = document.querySelector(sel); if (el && v) el.setAttribute(attr, v); };
+        set('meta[name="description"]', "content", desc && desc.length > 200 ? desc.slice(0, 197).replace(/\s+\S*$/, "") + "…" : desc);
+        set('meta[property="og:title"]', "content", title.replace(/ · Learn Turkish$/, ""));
+        set('meta[property="og:description"]', "content", desc && desc.length > 200 ? desc.slice(0, 197).replace(/\s+\S*$/, "") + "…" : desc);
+        set('link[rel="canonical"]', "href", abs);
+        set('meta[property="og:url"]', "content", abs);
+      }
+      function afterRender() {
+        mountSays($("rail"));
+        var btn = $("rail").querySelector(".toc-btn"), nav = $("toc");
+        if (btn && nav) {
+          btn.addEventListener("click", function () {
+            var open = btn.getAttribute("aria-expanded") !== "true";
+            btn.setAttribute("aria-expanded", String(open));
+            nav.classList.toggle("collapsed", !open);
+          });
+          spy(nav);
+        }
+        position();
+      }
+      // Highlights the section being read in the rail's contents (as on turkish101.html).
+      function spy(nav) {
+        if (!("IntersectionObserver" in window)) return;
+        var links = {};
+        nav.querySelectorAll("a").forEach(function (a) { links[decodeURIComponent(a.hash.slice(1))] = a; });
+        var heads = Object.keys(links).map(function (k) { return document.getElementById(k); }).filter(Boolean);
+        var activate = function (id) {
+          Object.keys(links).forEach(function (k) { links[k].classList.toggle("active", k === id); });
+          var a = links[id];
+          if (!a || !nav.offsetHeight) return;
+          var r = a.getBoundingClientRect(), n = nav.getBoundingClientRect();
+          if (r.top < n.top || r.bottom > n.bottom) nav.scrollTop += r.top - n.top - n.height / 3;
+        };
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) { if (e.isIntersecting) activate(e.target.id); });
+        }, { rootMargin: "-90px 0px -70% 0px" });
+        heads.forEach(function (h) { io.observe(h); });
+      }
+      function flash(el) { if (reduced()) return; el.classList.remove("hl"); void el.offsetWidth; el.classList.add("hl"); }
+      // Programmatic jumps are instant: styles.css makes scrolling smooth, which suits clicks, not page loads.
+      function jump(fn) {
+        var html = document.documentElement, prev = html.style.scrollBehavior;
+        html.style.scrollBehavior = "auto";
+        fn();
+        html.style.scrollBehavior = prev;
+      }
+      function toHash() {
+        var id = decodeURIComponent(location.hash.slice(1)), el = id && document.getElementById(id);
+        if (!el) return false;
+        jump(function () { el.scrollIntoView({ block: "start" }); });
+        flash(el);
+        return true;
+      }
+      // Where to land: the saved position after a reload or Back, otherwise the #fragment (content arrives after load).
+      var posKey = "trk:guide:pos:" + (reqId || "index");
+      function position() {
+        var nav = null;
+        try { nav = performance.getEntriesByType("navigation")[0]; } catch (e) { /* older browser */ }
+        var saved = null;
+        try { saved = sessionStorage.getItem(posKey); } catch (e) { /* storage blocked */ }
+        if (nav && (nav.type === "reload" || nav.type === "back_forward") && saved !== null) { jump(function () { window.scrollTo(0, +saved || 0); }); return; }
+        toHash();
+      }
+      window.addEventListener("hashchange", function () { var id = decodeURIComponent(location.hash.slice(1)), el = id && document.getElementById(id); if (el) flash(el); });
+      var saveTimer = null;
+      var savePos = function () { try { sessionStorage.setItem(posKey, String(Math.round(window.scrollY))); } catch (e) { /* storage blocked */ } };
+      window.addEventListener("scroll", function () { clearTimeout(saveTimer); saveTimer = setTimeout(savePos, 250); }, { passive: true });
+      window.addEventListener("pagehide", savePos);
+
+      // A guide counts as read once its end has been on screen (store.markRead, shown on the course page).
+      function watchRead(u, key) {
+        var end = $("doc-end"), done = false;
+        var mark = function () {
+          if (done) return;
+          done = true;
+          if (store.corrupt && store.corrupt.course) return;   // don't overwrite progress the course page can still recover
+          store.markRead(u.id, key);
+          var el = $("read-state");
+          if (el) el.innerHTML = '<span class="tick">' + ICON.tick + "</span> Marked as read" + (store.problem === "unavailable" ? " for now (this browser isn't saving)." : ": it shows on the course page.");
+          renderNotices();
+        };
+        if (!end) return;
+        if (!("IntersectionObserver" in window)) { mark(); return; }
+        var io = new IntersectionObserver(function (entries) {
+          if (entries.some(function (e) { return e.isIntersecting; })) { io.disconnect(); mark(); }
+        });
+        io.observe(end);
+      }
+
+      // Culture questions: pick an answer, see why; no XP (PROJECT.md 5.7).
+      $("main").addEventListener("click", function (e) {
+        var b = e.target.closest(".quiz-btn"), reset = e.target.closest(".quiz-reset"), box, q;
+        if (b && !b.disabled) {
+          box = b.closest(".quiz"); q = st.questions[+box.getAttribute("data-q")];
+          if (!q) return;
+          var k = +b.getAttribute("data-k"), ok = k === q.answer;
+          box.querySelectorAll(".quiz-btn").forEach(function (x) { x.disabled = true; if (+x.getAttribute("data-k") === q.answer) x.classList.add("correct"); });
+          if (!ok) b.classList.add("wrong");
+          var right = q.optionsLang === "tr" ? '<span lang="tr">' + esc(q.options[q.answer]) + "</span>" : esc(q.options[q.answer]);
+          var fb = box.querySelector(".quiz-feedback");
+          fb.innerHTML = (ok ? "<strong>Right.</strong>" : "<strong>Not quite.</strong> The answer is " + right + ".") + (q.explain ? " " + R(q.explain) : "");
+          fb.className = "quiz-feedback show " + (ok ? "ok" : "bad");
+          box.querySelector(".quiz-reset").classList.add("show");
+          fb.focus();
+        } else if (reset) {
+          box = reset.closest(".quiz");
+          box.querySelectorAll(".quiz-btn").forEach(function (x) { x.disabled = false; x.classList.remove("correct", "wrong"); });
+          var f2 = box.querySelector(".quiz-feedback");
+          f2.className = "quiz-feedback"; f2.innerHTML = "";
+          reset.classList.remove("show");
+          box.querySelector(".quiz-btn").focus();
+        }
+      });
+
+      // ── start ──
+      function boot() {
+        T.data.index().then(function (ix) {
+          st.index = ix; st.flat = T.path.flatten(ix);
+          if (!reqId) return renderIndex();
+          var m = /^((?:a1|a2|b1|b2|c1|c2)-u\d{2})-(grammar|culture)$/.exec(reqId), u = m && st.flat.unit[m[1]];
+          if (!u) return renderNotFound();
+          if (u.status !== "ready") return renderSoon(u, m[2]);
+          return T.data.get(reqId).then(function (doc) { renderDoc(u, m[2], doc); });
+        }).catch(function (e) {
+          st.error = (e && e.message) || "network error";
+          $("main").innerHTML = "";
+          renderNotices();
+        });
+      }
+      renderNotices();
+      boot();
+    });
+    </script>
+  </body>
+</html>

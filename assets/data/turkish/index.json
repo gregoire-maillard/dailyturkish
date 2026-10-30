@@ -1,0 +1,3088 @@
+{
+  "version": "9aa0917fdd",
+  "levels": [
+    {
+      "id": "a1",
+      "cefr": "A1",
+      "title": "First steps",
+      "ready": true,
+      "units": [
+        {
+          "id": "a1-u01",
+          "title": "Letters and sounds",
+          "titleTr": "Merhaba!",
+          "batch": "A1-1",
+          "status": "ready",
+          "interlude": "The 1928 alphabet reform",
+          "points": ["gp-alphabet", "gp-pronunciation", "gp-stress-basics", "gp-sentence-basics"],
+          "lessons": [
+            {
+              "id": "a1-u01-l01",
+              "title": "Hello and goodbye",
+              "exercises": 12
+            },
+            {
+              "id": "a1-u01-l02",
+              "title": "Please and thank you",
+              "exercises": 12
+            },
+            {
+              "id": "a1-u01-l03",
+              "title": "What's your name?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u01-l04",
+              "title": "A first conversation",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u02",
+          "title": "Vowel harmony and plurals",
+          "titleTr": "Bu ne?",
+          "batch": "A1-1",
+          "status": "ready",
+          "interlude": "The nazar boncuğu",
+          "points": ["gp-vowel-groups", "gp-harmony-2way", "gp-plural", "gp-demonstratives", "gp-bir-indefinite", "gp-harmony-exceptions"],
+          "lessons": [
+            {
+              "id": "a1-u02-l01",
+              "title": "What is this?",
+              "exercises": 12
+            },
+            {
+              "id": "a1-u02-l02",
+              "title": "Front and back vowels",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u02-l03",
+              "title": "Colours, these and those",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u02-l04",
+              "title": "In the classroom",
+              "exercises": 14
+            }
+          ]
+        },
+        {
+          "id": "a1-u03",
+          "title": "Saying who you are",
+          "titleTr": "Ben öğrenciyim",
+          "batch": "A1-1",
+          "status": "ready",
+          "interlude": "The 1934 Surname Law",
+          "points": ["gp-harmony-4way", "gp-personal-pronouns", "gp-copula-present", "gp-buffer-letters"],
+          "lessons": [
+            {
+              "id": "a1-u03-l01",
+              "title": "I'm tired, I'm hungry",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u03-l02",
+              "title": "Jobs: we, you and they",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u03-l03",
+              "title": "Where are you from?",
+              "exercises": 14
+            },
+            {
+              "id": "a1-u03-l04",
+              "title": "Nice to meet you, Ayşe Hanım",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u04",
+          "title": "Questions and negation",
+          "titleTr": "Yorgun musun?",
+          "batch": "A1-2",
+          "status": "ready",
+          "interlude": "Nasreddin Hoca",
+          "points": ["gp-degil", "gp-question-mi", "gp-question-words", "gp-answers", "gp-de-also"],
+          "lessons": [
+            {
+              "id": "a1-u04-l01",
+              "title": "I'm not tired",
+              "exercises": 14
+            },
+            {
+              "id": "a1-u04-l02",
+              "title": "Are you ready?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u04-l03",
+              "title": "Who is this?",
+              "exercises": 14
+            },
+            {
+              "id": "a1-u04-l04",
+              "title": "Me too",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u05",
+          "title": "Where things are",
+          "titleTr": "Evde kimse yok",
+          "batch": "A1-2",
+          "status": "ready",
+          "interlude": "Istanbul through the ages",
+          "points": ["gp-locative", "gp-consonant-assimilation", "gp-var-yok", "gp-apostrophe", "gp-pronoun-n"],
+          "lessons": [
+            {
+              "id": "a1-u05-l01",
+              "title": "At home, at school",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u05-l02",
+              "title": "Is there a pharmacy here?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u05-l03",
+              "title": "In Istanbul, over there",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u05-l04",
+              "title": "Nobody's home",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u06",
+          "title": "The present continuous",
+          "titleTr": "Ne yapıyorsun?",
+          "batch": "A1-2",
+          "status": "ready",
+          "interlude": "Çay: Turkish tea",
+          "points": ["gp-infinitive-stem", "gp-present-continuous", "gp-present-continuous-negative", "gp-present-continuous-uses"],
+          "lessons": [
+            {
+              "id": "a1-u06-l01",
+              "title": "What are you doing?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u06-l02",
+              "title": "I understand, I'm waiting",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u06-l03",
+              "title": "I don't know",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u06-l04",
+              "title": "This evening",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u07",
+          "title": "To and from",
+          "titleTr": "Nereye gidiyorsun?",
+          "batch": "A1-3",
+          "status": "ready",
+          "interlude": "From the steppe to Anatolia",
+          "points": ["gp-dative", "gp-ablative", "gp-pronoun-cases-dat-abl", "gp-buffer-y-cases"],
+          "lessons": [
+            {
+              "id": "a1-u07-l01",
+              "title": "Where are you going?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u07-l02",
+              "title": "Where are you coming from?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u07-l03",
+              "title": "Look at me",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u07-l04",
+              "title": "Which way?",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u08",
+          "title": "Definite objects",
+          "titleTr": "Ekmeği alıyorum",
+          "batch": "A1-3",
+          "status": "ready",
+          "interlude": "Kahvaltı: the Turkish breakfast",
+          "points": ["gp-accusative", "gp-consonant-softening", "gp-pronoun-accusative", "gp-object-word-order"],
+          "lessons": [
+            {
+              "id": "a1-u08-l01",
+              "title": "A coffee or the coffee?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u08-l02",
+              "title": "Kitabı, çocuğu",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u08-l03",
+              "title": "I miss you",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u08-l04",
+              "title": "At the greengrocer's",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u09",
+          "title": "My family",
+          "titleTr": "Benim ailem",
+          "batch": "A1-3",
+          "status": "ready",
+          "interlude": "Bayrams",
+          "points": ["gp-possessive-suffixes", "gp-possessive-have", "gp-vowel-loss", "gp-possessive-softening"],
+          "lessons": [
+            {
+              "id": "a1-u09-l01",
+              "title": "My family",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u09-l02",
+              "title": "Do you have…?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u09-l03",
+              "title": "My head hurts",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u09-l04",
+              "title": "A family photo",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u10",
+          "title": "Whose is it?",
+          "titleTr": "Ayşe'nin evi",
+          "batch": "A1-4",
+          "status": "ready",
+          "interlude": "The hamam",
+          "points": ["gp-genitive", "gp-genitive-possessive", "gp-pronominal-n", "gp-whose"],
+          "lessons": [
+            {
+              "id": "a1-u10-l01",
+              "title": "Ayşe's house",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u10-l02",
+              "title": "Mine and yours",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u10-l03",
+              "title": "At her place",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u10-l04",
+              "title": "Whose is this?",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u11",
+          "title": "Numbers and time",
+          "titleTr": "Saat kaç?",
+          "batch": "A1-4",
+          "status": "ready",
+          "interlude": "National days of the Republic",
+          "points": ["gp-numbers", "gp-numbers-singular", "gp-ordinals", "gp-telling-time", "gp-dates", "gp-age-price"],
+          "lessons": [
+            {
+              "id": "a1-u11-l01",
+              "title": "Counting",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u11-l02",
+              "title": "How old, how much?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u11-l03",
+              "title": "What time is it?",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u11-l04",
+              "title": "On 29 October",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a1-u12",
+          "title": "Requests and company",
+          "titleTr": "Gel, otur!",
+          "batch": "A1-4",
+          "status": "ready",
+          "interlude": "Turkish coffee",
+          "points": ["gp-imperative", "gp-ile", "gp-icin", "gp-conjunctions-basic"],
+          "lessons": [
+            {
+              "id": "a1-u12-l01",
+              "title": "Come in, sit down",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u12-l02",
+              "title": "Don't worry",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u12-l03",
+              "title": "With and for",
+              "exercises": 13
+            },
+            {
+              "id": "a1-u12-l04",
+              "title": "At the café",
+              "exercises": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "cefr": "A2",
+      "title": "Everyday life",
+      "ready": true,
+      "units": [
+        {
+          "id": "a2-u01",
+          "title": "The past tense",
+          "titleTr": "Dün ne yaptın?",
+          "batch": "A2-1",
+          "status": "ready",
+          "interlude": "1923: the Republic and Atatürk",
+          "points": ["gp-past-di", "gp-past-di-negative-question", "gp-person-endings-types", "gp-time-past"],
+          "lessons": [
+            {
+              "id": "a2-u01-l01",
+              "title": "What did you do at the weekend?",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u01-l02",
+              "title": "I didn't see it",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u01-l03",
+              "title": "I'm hungry",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u01-l04",
+              "title": "Two days ago",
+              "exercises": 14
+            }
+          ]
+        },
+        {
+          "id": "a2-u02",
+          "title": "Was, were, and once upon a time",
+          "titleTr": "Bir varmış, bir yokmuş",
+          "batch": "A2-1",
+          "status": "ready",
+          "interlude": "Keloğlan and the folk tale",
+          "points": ["gp-past-copula", "gp-idi-imis", "gp-mis-intro"],
+          "lessons": [
+            {
+              "id": "a2-u02-l01",
+              "title": "Where were you?",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u02-l02",
+              "title": "There was a cinema here",
+              "exercises": 14
+            },
+            {
+              "id": "a2-u02-l03",
+              "title": "Apparently",
+              "exercises": 14
+            },
+            {
+              "id": "a2-u02-l04",
+              "title": "Once upon a time",
+              "exercises": 14
+            }
+          ]
+        },
+        {
+          "id": "a2-u03",
+          "title": "The future",
+          "titleTr": "Yarın ne yapacaksın?",
+          "batch": "A2-1",
+          "status": "ready",
+          "interlude": "Cappadocia",
+          "points": ["gp-future", "gp-future-negative-question", "gp-future-stem-changes", "gp-future-vs-present"],
+          "lessons": [
+            {
+              "id": "a2-u03-l01",
+              "title": "Tomorrow I'll swim",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u03-l02",
+              "title": "Will you come camping?",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u03-l03",
+              "title": "What will you say?",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u03-l04",
+              "title": "Next summer",
+              "exercises": 14
+            }
+          ]
+        },
+        {
+          "id": "a2-u04",
+          "title": "Habits and truths: the aorist",
+          "titleTr": "Her sabah çay içerim",
+          "batch": "A2-2",
+          "status": "ready",
+          "interlude": "Tavla, okey and the kahvehane",
+          "points": ["gp-aorist-forms", "gp-aorist-irregulars", "gp-aorist-negative", "gp-aorist-uses"],
+          "lessons": [
+            {
+              "id": "a2-u04-l01",
+              "title": "Every morning",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u04-l02",
+              "title": "Thirteen that break the rule",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u04-l03",
+              "title": "I never smoke",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u04-l04",
+              "title": "At the coffeehouse",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a2-u05",
+          "title": "Can and can't",
+          "titleTr": "Yüzebilir misin?",
+          "batch": "A2-2",
+          "status": "ready",
+          "interlude": "Oil wrestling at Kırkpınar",
+          "points": ["gp-abil", "gp-ama-inability", "gp-abil-uses", "gp-negative-polarity"],
+          "lessons": [
+            {
+              "id": "a2-u05-l01",
+              "title": "I can swim",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u05-l02",
+              "title": "Sorry, I can't come",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u05-l03",
+              "title": "May I come in?",
+              "exercises": 14
+            },
+            {
+              "id": "a2-u05-l04",
+              "title": "Nobody can know everything",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a2-u06",
+          "title": "Must and need",
+          "titleTr": "Gitmem lazım",
+          "batch": "A2-2",
+          "status": "ready",
+          "interlude": "Visiting a Turkish home",
+          "points": ["gp-meli", "gp-gerek-lazim", "gp-zorunda", "gp-meli-inference"],
+          "lessons": [
+            {
+              "id": "a2-u06-l01",
+              "title": "At the doctor's",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u06-l02",
+              "title": "At the pharmacy",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u06-l03",
+              "title": "Rules and signs",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u06-l04",
+              "title": "A visit",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a2-u07",
+          "title": "Let's: suggestions and wishes",
+          "titleTr": "Gidelim mi?",
+          "batch": "A2-3",
+          "status": "ready",
+          "interlude": "Hıdırellez",
+          "points": ["gp-optative", "gp-imperative-3rd", "gp-set-wishes", "gp-hadi"],
+          "lessons": [
+            {
+              "id": "a2-u07-l01",
+              "title": "Shall we go?",
+              "exercises": 14
+            },
+            {
+              "id": "a2-u07-l02",
+              "title": "Let them come",
+              "exercises": 14
+            },
+            {
+              "id": "a2-u07-l03",
+              "title": "Kolay gelsin!",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u07-l04",
+              "title": "Hadi!",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a2-u08",
+          "title": "Comparing",
+          "titleTr": "Daha büyük, en güzel",
+          "batch": "A2-3",
+          "status": "ready",
+          "interlude": "Seven regions",
+          "points": ["gp-comparative", "gp-superlative", "gp-equative", "gp-intensive-reduplication", "gp-adjectives-as-adverbs"],
+          "lessons": [
+            {
+              "id": "a2-u08-l01",
+              "title": "Faster than the bus",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u08-l02",
+              "title": "The best in the world",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u08-l03",
+              "title": "As well as you",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u08-l04",
+              "title": "A deep blue sea",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a2-u09",
+          "title": "Where and when: postpositions",
+          "titleTr": "Masanın üstünde",
+          "batch": "A2-3",
+          "status": "ready",
+          "interlude": "Göbekli Tepe",
+          "points": ["gp-postp-nominative", "gp-postp-dative", "gp-postp-ablative", "gp-place-nouns", "gp-duration-dir"],
+          "lessons": [
+            {
+              "id": "a2-u09-l01",
+              "title": "On the table",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u09-l02",
+              "title": "Opposite the bank",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u09-l03",
+              "title": "Since Monday",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u09-l04",
+              "title": "In front of the cinema",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a2-u10",
+          "title": "Compound nouns and -ki",
+          "titleTr": "Türk kahvesi",
+          "batch": "A2-4",
+          "status": "ready",
+          "interlude": "Regional cuisines",
+          "points": ["gp-compound-indefinite", "gp-compound-chains", "gp-ki-adjective", "gp-ki-pronoun"],
+          "lessons": [
+            {
+              "id": "a2-u10-l01",
+              "title": "A Turkish coffee, please",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u10-l02",
+              "title": "At the bus stop",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u10-l03",
+              "title": "Mine and yours",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u10-l04",
+              "title": "At the lokanta",
+              "exercises": 14
+            }
+          ]
+        },
+        {
+          "id": "a2-u11",
+          "title": "While and then",
+          "titleTr": "Eve giderken",
+          "batch": "A2-4",
+          "status": "ready",
+          "interlude": "The Ottoman Empire",
+          "points": ["gp-ken", "gp-ip", "gp-sequence-connectors"],
+          "lessons": [
+            {
+              "id": "a2-u11-l01",
+              "title": "When I was little",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u11-l02",
+              "title": "On the way home",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u11-l03",
+              "title": "Go and see",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u11-l04",
+              "title": "And after that?",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "a2-u12",
+          "title": "Word building",
+          "titleTr": "İstanbullu bir gazeteci",
+          "batch": "A2-4",
+          "status": "ready",
+          "interlude": "The Grand Bazaar",
+          "points": ["gp-li", "gp-siz", "gp-ci", "gp-lik", "gp-ca", "gp-distributive"],
+          "lessons": [
+            {
+              "id": "a2-u12-l01",
+              "title": "With or without sugar",
+              "exercises": 14
+            },
+            {
+              "id": "a2-u12-l02",
+              "title": "Booksellers and journalists",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u12-l03",
+              "title": "In my opinion",
+              "exercises": 13
+            },
+            {
+              "id": "a2-u12-l04",
+              "title": "At the Grand Bazaar",
+              "exercises": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "cefr": "B1",
+      "title": "Stories and clauses",
+      "ready": true,
+      "units": [
+        {
+          "id": "b1-u01",
+          "title": "Past continuous and pluperfect",
+          "titleTr": "Yağmur yağıyordu",
+          "batch": "B1-1",
+          "status": "ready",
+          "interlude": "The Seljuks",
+          "points": ["gp-past-continuous", "gp-pluperfect", "gp-di-compounds", "gp-narrative-adverbs"],
+          "lessons": [
+            {
+              "id": "b1-u01-l01",
+              "title": "It was raining",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u01-l02",
+              "title": "What were you doing?",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u01-l03",
+              "title": "The film had already started",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u01-l04",
+              "title": "Suddenly…",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u02",
+          "title": "Used to, was going to, should have",
+          "titleTr": "Eskiden burada otururduk",
+          "batch": "B1-1",
+          "status": "ready",
+          "interlude": "The Tulip Era",
+          "points": ["gp-used-to", "gp-future-in-past", "gp-should-have", "gp-could-have", "gp-about-to"],
+          "lessons": [
+            {
+              "id": "b1-u02-l01",
+              "title": "We used to live here",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u02-l02",
+              "title": "I was going to call you",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u02-l03",
+              "title": "You should have told me",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u02-l04",
+              "title": "Then and now",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u03",
+          "title": "Hearsay and inference",
+          "titleTr": "Gelecekmiş",
+          "batch": "B1-1",
+          "status": "ready",
+          "interlude": "Evliya Çelebi",
+          "points": ["gp-evidential-mis", "gp-mis-vs-di", "gp-mis-compounds", "gp-mis-adjective"],
+          "lessons": [
+            {
+              "id": "b1-u03-l01",
+              "title": "You've changed so much!",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u03-l02",
+              "title": "Saw it or heard it?",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u03-l03",
+              "title": "It's going to snow, they say",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u03-l04",
+              "title": "Cooked, frozen, burnt",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u04",
+          "title": "Verbal nouns",
+          "titleTr": "Yüzmeyi seviyorum",
+          "batch": "B1-2",
+          "status": "ready",
+          "interlude": "Karagöz and Hacivat",
+          "points": ["gp-mak-cases", "gp-ma-possessive", "gp-is", "gp-purpose"],
+          "lessons": [
+            {
+              "id": "b1-u04-l01",
+              "title": "I love swimming",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u04-l02",
+              "title": "I want you to come",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u04-l03",
+              "title": "A walk, a flight, a reason",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u04-l04",
+              "title": "Free time",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u05",
+          "title": "The subject participle",
+          "titleTr": "Dönen dervişler",
+          "batch": "B1-2",
+          "status": "ready",
+          "interlude": "Rumi and the Mevlevi",
+          "points": ["gp-participle-an", "gp-headless-an", "gp-an-possessor", "gp-relative-order", "gp-aorist-participle"],
+          "lessons": [
+            {
+              "id": "b1-u05-l01",
+              "title": "The woman wearing glasses",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u05-l02",
+              "title": "Those who came",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u05-l03",
+              "title": "A room with a sea view",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u05-l04",
+              "title": "Who's who in the photo",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u06",
+          "title": "Object participles",
+          "titleTr": "Okuduğum kitap",
+          "batch": "B1-2",
+          "status": "ready",
+          "interlude": "Yunus Emre",
+          "points": ["gp-participle-dik", "gp-participle-acak", "gp-relative-genitive-subject", "gp-an-or-dik"],
+          "lessons": [
+            {
+              "id": "b1-u06-l01",
+              "title": "The book I'm reading",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u06-l02",
+              "title": "Somewhere to stay",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u06-l03",
+              "title": "The baklava my mother makes",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u06-l04",
+              "title": "A film you recommended",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u07",
+          "title": "Converbs I: when, by, without",
+          "titleTr": "Eve gelince ararım",
+          "batch": "B1-3",
+          "status": "ready",
+          "interlude": "Ephesus",
+          "points": ["gp-ince", "gp-arak", "gp-madan", "gp-dikten-sonra", "gp-ali"],
+          "lessons": [
+            {
+              "id": "b1-u07-l01",
+              "title": "When I get home",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u07-l02",
+              "title": "Running, laughing, without breakfast",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u07-l03",
+              "title": "Before, after, since",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u07-l04",
+              "title": "A day in Selçuk",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u08",
+          "title": "Converbs II: the more, whenever, because",
+          "titleTr": "Okudukça seviyorum",
+          "batch": "B1-3",
+          "status": "ready",
+          "interlude": "1453: the conquest of Constantinople",
+          "points": ["gp-dikca", "gp-diginda", "gp-digi-icin", "gp-r-maz", "gp-reduplicated-converb"],
+          "lessons": [
+            {
+              "id": "b1-u08-l01",
+              "title": "The more I read",
+              "exercises": 13
+            },
+            {
+              "id": "b1-u08-l02",
+              "title": "When I saw you",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u08-l03",
+              "title": "Because I was tired",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u08-l04",
+              "title": "A new city",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u09",
+          "title": "Conditionals",
+          "titleTr": "Fincanda kuş görürsen",
+          "batch": "B1-4",
+          "status": "ready",
+          "interlude": "Kahve falı",
+          "points": ["gp-conditional-sa", "gp-conditional-real", "gp-conditional-questions", "gp-sa-advice"],
+          "lessons": [
+            {
+              "id": "b1-u09-l01",
+              "title": "If it rains tomorrow",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u09-l02",
+              "title": "Should I call her?",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u09-l03",
+              "title": "Whenever you want",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u09-l04",
+              "title": "A bird in the cup",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u10",
+          "title": "Passive and reflexive",
+          "titleTr": "1557'de tamamlandı",
+          "batch": "B1-4",
+          "status": "ready",
+          "interlude": "Mimar Sinan",
+          "points": ["gp-passive", "gp-impersonal-passive", "gp-reflexive", "gp-kendi"],
+          "lessons": [
+            {
+              "id": "b1-u10-l01",
+              "title": "When was it built?",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u10-l02",
+              "title": "How do you get there?",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u10-l03",
+              "title": "Getting ready",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u10-l04",
+              "title": "An old mansion",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b1-u11",
+          "title": "Causative and reciprocal",
+          "titleTr": "Saçımı kestirdim",
+          "batch": "B1-5",
+          "status": "ready",
+          "interlude": "The Orkhon inscriptions",
+          "points": ["gp-causative", "gp-causative-objects", "gp-reciprocal", "gp-verb-derivation"],
+          "lessons": [
+            {
+              "id": "b1-u11-l01",
+              "title": "At the hairdresser's",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u11-l02",
+              "title": "Who made whom?",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u11-l03",
+              "title": "Each other",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u11-l04",
+              "title": "The old neighbourhood",
+              "exercises": 14
+            }
+          ]
+        },
+        {
+          "id": "b1-u12",
+          "title": "Reported speech",
+          "titleTr": "Ne dedi?",
+          "batch": "B1-5",
+          "status": "ready",
+          "interlude": "Dede Korkut",
+          "points": ["gp-direct-speech", "gp-diye-quotative", "gp-diye-purpose", "gp-reported-mis", "gp-reported-commands-intro"],
+          "lessons": [
+            {
+              "id": "b1-u12-l01",
+              "title": "What did she say?",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u12-l02",
+              "title": "Asked, shouted, thought",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u12-l03",
+              "title": "Taking a message",
+              "exercises": 14
+            },
+            {
+              "id": "b1-u12-l04",
+              "title": "A message gone wrong",
+              "exercises": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "cefr": "B2",
+      "title": "Nuance and register",
+      "ready": true,
+      "units": [
+        {
+          "id": "b2-u01",
+          "title": "Unreal conditionals and wishes",
+          "titleTr": "Keşke bilseydim",
+          "batch": "B2-1",
+          "status": "ready",
+          "interlude": "The Piri Reis map",
+          "points": ["gp-unreal-present", "gp-unreal-past", "gp-keske", "gp-even-if", "gp-wh-ever"],
+          "lessons": [
+            {
+              "id": "b2-u01-l01",
+              "title": "If I were rich",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u01-l02",
+              "title": "If I had known",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u01-l03",
+              "title": "I wish, even if",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u01-l04",
+              "title": "My grandfather's map",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b2-u02",
+          "title": "As if",
+          "titleTr": "Hiçbir şey olmamış gibi",
+          "batch": "B2-1",
+          "status": "ready",
+          "interlude": "The meddah",
+          "points": ["gp-mis-gibi", "gp-mis-gibi-yapmak", "gp-cesine", "gp-gibi-clauses"],
+          "lessons": [
+            {
+              "id": "b2-u02-l01",
+              "title": "As if nothing had happened",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u02-l02",
+              "title": "Pretending",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u02-l03",
+              "title": "As if, in a novel",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u02-l04",
+              "title": "Just like a meddah",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b2-u03",
+          "title": "Although, despite, without",
+          "titleTr": "Yorgun olmasına rağmen",
+          "batch": "B2-1",
+          "status": "ready",
+          "interlude": "Troy",
+          "points": ["gp-digi-halde", "gp-masina-ragmen", "gp-maksizin", "gp-contrast-connectors"],
+          "lessons": [
+            {
+              "id": "b2-u03-l01",
+              "title": "Although he knew",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u03-l02",
+              "title": "Despite everything",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u03-l03",
+              "title": "No entry without a permit",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u03-l04",
+              "title": "Legend and evidence",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b2-u04",
+          "title": "Noun clauses",
+          "titleTr": "Geleceğini biliyorum",
+          "batch": "B2-2",
+          "status": "ready",
+          "interlude": "Women's suffrage in Turkey",
+          "points": ["gp-dik-clauses", "gp-ma-or-dik", "gp-indirect-questions", "gp-reported-commands", "gp-clause-as-subject"],
+          "lessons": [
+            {
+              "id": "b2-u04-l01",
+              "title": "I know you'll come",
+              "exercises": 14
+            },
+            {
+              "id": "b2-u04-l02",
+              "title": "Told to, said that",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u04-l03",
+              "title": "I wonder where she lives",
+              "exercises": 14
+            },
+            {
+              "id": "b2-u04-l04",
+              "title": "Election day",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b2-u05",
+          "title": "Formal Turkish",
+          "titleTr": "Toplantı devam etmektedir",
+          "batch": "B2-2",
+          "status": "ready",
+          "interlude": "Ankara becomes the capital",
+          "points": ["gp-makta", "gp-dir-formal", "gp-formal-connectors", "gp-formal-requests", "gp-fractions-percent"],
+          "lessons": [
+            {
+              "id": "b2-u05-l01",
+              "title": "The meeting is in progress",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u05-l02",
+              "title": "Admission is free",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u05-l03",
+              "title": "Dear Sir or Madam",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u05-l04",
+              "title": "Our city in figures",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b2-u06",
+          "title": "Compound verbs",
+          "titleTr": "Kapıyı açıver",
+          "batch": "B2-3",
+          "status": "ready",
+          "interlude": "Street food",
+          "points": ["gp-ivermek", "gp-akalmak", "gp-adurmak", "gp-ayazmak-agelmek", "gp-ip-durmak"],
+          "lessons": [
+            {
+              "id": "b2-u06-l01",
+              "title": "Just a second: -(y)Iver",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u06-l02",
+              "title": "Frozen, stuck, and on and on",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u06-l03",
+              "title": "Carry on, almost, for ages",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u06-l04",
+              "title": "A morning at Eminönü",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b2-u07",
+          "title": "Stacked voices",
+          "titleTr": "Yaptırılamadı",
+          "batch": "B2-3",
+          "status": "ready",
+          "interlude": "İznik tiles",
+          "points": ["gp-voice-order", "gp-causative-passive", "gp-double-causative", "gp-voice-modality"],
+          "lessons": [
+            {
+              "id": "b2-u07-l01",
+              "title": "Reading long verbs",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u07-l02",
+              "title": "Had it done: the causative passive",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u07-l03",
+              "title": "Can't be done",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u07-l04",
+              "title": "In the tile workshop",
+              "exercises": 12
+            }
+          ]
+        },
+        {
+          "id": "b2-u08",
+          "title": "Small words: dA, bile, ki, ya",
+          "titleTr": "Ben bile anladım",
+          "batch": "B2-3",
+          "status": "ready",
+          "interlude": "Football and the Istanbul derbies",
+          "points": ["gp-da-particle", "gp-bile", "gp-ki-conjunction", "gp-ya-particle", "gp-modal-particles"],
+          "lessons": [
+            {
+              "id": "b2-u08-l01",
+              "title": "Even, and so: dA and bile",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u08-l02",
+              "title": "So … that: ki",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u08-l03",
+              "title": "Ya, hani, işte, sakın, bari, hele",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u08-l04",
+              "title": "Derby day",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b2-u09",
+          "title": "Everyday colloquial Turkish",
+          "titleTr": "Bir bakar mısın?",
+          "batch": "B2-4",
+          "status": "ready",
+          "interlude": "Yeşilçam and Turkish TV series",
+          "points": ["gp-address-forms", "gp-softeners", "gp-fillers", "gp-diminutives", "gp-register-shift"],
+          "lessons": [
+            {
+              "id": "b2-u09-l01",
+              "title": "Abi, abla, hocam",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u09-l02",
+              "title": "Bir bakar mısın?",
+              "exercises": 14
+            },
+            {
+              "id": "b2-u09-l03",
+              "title": "Şey, yani, falan",
+              "exercises": 14
+            },
+            {
+              "id": "b2-u09-l04",
+              "title": "A day on set",
+              "exercises": 13
+            }
+          ]
+        },
+        {
+          "id": "b2-u10",
+          "title": "As long as, unless, in case",
+          "titleTr": "Çalıştığın sürece",
+          "batch": "B2-4",
+          "status": "ready",
+          "interlude": "The âşık tradition",
+          "points": ["gp-digi-surece", "gp-madikca", "gp-digi-takdirde", "gp-time-clauses", "gp-correlatives"],
+          "lessons": [
+            {
+              "id": "b2-u10-l01",
+              "title": "As long as you practise",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u10-l02",
+              "title": "In case of rain",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u10-l03",
+              "title": "The moment the music started",
+              "exercises": 13
+            },
+            {
+              "id": "b2-u10-l04",
+              "title": "A night of minstrels",
+              "exercises": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "cefr": "C1",
+      "title": "Fluency and idiom",
+      "ready": true,
+      "units": [
+        {
+          "id": "c1-u01",
+          "title": "Stacked modality",
+          "titleTr": "Burada yaşamış olmalılar",
+          "batch": "C1-1",
+          "status": "ready",
+          "interlude": "Çatalhöyük",
+          "points": ["gp-mis-olmali", "gp-mis-olacak", "gp-acak-olsa", "gp-mis-olsaydi", "gp-modal-chains"],
+          "lessons": [
+            {
+              "id": "c1-u01-l01",
+              "title": "Traces in the ground",
+              "exercises": 11
+            },
+            {
+              "id": "c1-u01-l02",
+              "title": "By the end of the season",
+              "exercises": 11
+            },
+            {
+              "id": "c1-u01-l03",
+              "title": "A town without streets",
+              "exercises": 10
+            }
+          ]
+        },
+        {
+          "id": "c1-u02",
+          "title": "-DIr: assumption and authority",
+          "titleTr": "Yorulmuşlardır",
+          "batch": "C1-1",
+          "status": "ready",
+          "interlude": "The Hittites and Hattusa",
+          "points": ["gp-dir-assumption", "gp-dir-general-truth", "gp-epistemic-adverbs", "gp-certainty-scale"],
+          "lessons": [
+            {
+              "id": "c1-u02-l01",
+              "title": "They'll be there by now",
+              "exercises": 11
+            },
+            {
+              "id": "c1-u02-l02",
+              "title": "The encyclopedia's voice",
+              "exercises": 10
+            },
+            {
+              "id": "c1-u02-l03",
+              "title": "Who wrote the tablet?",
+              "exercises": 10
+            }
+          ]
+        },
+        {
+          "id": "c1-u03",
+          "title": "Complex nominalizations",
+          "titleTr": "Bilip bilmediğimi sordu",
+          "batch": "C1-2",
+          "status": "ready",
+          "interlude": "Takiyüddin's observatory",
+          "points": ["gp-nested-clauses", "gp-nominal-case-chains", "gp-clause-head-nouns", "gp-mazlik", "gp-derivation-advanced"],
+          "lessons": [
+            {
+              "id": "c1-u03-l01",
+              "title": "Whether I knew",
+              "exercises": 12
+            },
+            {
+              "id": "c1-u03-l02",
+              "title": "Turning a blind eye",
+              "exercises": 11
+            },
+            {
+              "id": "c1-u03-l03",
+              "title": "The night of the comet",
+              "exercises": 11
+            }
+          ]
+        },
+        {
+          "id": "c1-u04",
+          "title": "Ottoman, Arabic and Persian structures",
+          "titleTr": "Aşk-ı memnu",
+          "batch": "C1-2",
+          "status": "ready",
+          "interlude": "Divan poetry",
+          "points": ["gp-persian-izafet", "gp-arabic-article", "gp-arabic-plurals", "gp-nisbet-i", "gp-persian-affixes", "gp-arabic-roots"],
+          "lessons": [
+            {
+              "id": "c1-u04-l01",
+              "title": "Forbidden love",
+              "exercises": 11
+            },
+            {
+              "id": "c1-u04-l02",
+              "title": "Relatives, shopkeepers and the national team",
+              "exercises": 11
+            },
+            {
+              "id": "c1-u04-l03",
+              "title": "In the manuscript library",
+              "exercises": 11
+            }
+          ]
+        },
+        {
+          "id": "c1-u05",
+          "title": "Idioms and proverbs",
+          "titleTr": "Damlaya damlaya göl olur",
+          "batch": "C1-3",
+          "status": "ready",
+          "interlude": "Weddings and the kına gecesi",
+          "points": ["gp-body-idioms", "gp-proverbs", "gp-idiom-grammar", "gp-similes"],
+          "lessons": [
+            {
+              "id": "c1-u05-l01",
+              "title": "Eye and ear",
+              "exercises": 12
+            },
+            {
+              "id": "c1-u05-l02",
+              "title": "As the saying goes",
+              "exercises": 12
+            },
+            {
+              "id": "c1-u05-l03",
+              "title": "Ice-cold, white as snow",
+              "exercises": 12
+            }
+          ]
+        },
+        {
+          "id": "c1-u06",
+          "title": "Word order and focus",
+          "titleTr": "Gördüm onu!",
+          "batch": "C1-3",
+          "status": "ready",
+          "interlude": "Mani",
+          "points": ["gp-focus-position", "gp-postverbal", "gp-topic-marking", "gp-m-reduplication", "gp-emphasis"],
+          "lessons": [
+            {
+              "id": "c1-u06-l01",
+              "title": "The slot before the verb",
+              "exercises": 12
+            },
+            {
+              "id": "c1-u06-l02",
+              "title": "As for me",
+              "exercises": 11
+            },
+            {
+              "id": "c1-u06-l03",
+              "title": "Kitap mitap",
+              "exercises": 12
+            }
+          ]
+        },
+        {
+          "id": "c1-u07",
+          "title": "Discourse and argument",
+          "titleTr": "Kaldı ki…",
+          "batch": "C1-4",
+          "status": "ready",
+          "interlude": "Modern Turkish literature",
+          "points": ["gp-argument-markers", "gp-concluding-markers", "gp-hedging", "gp-meger", "gp-cohesion"],
+          "lessons": [
+            {
+              "id": "c1-u07-l01",
+              "title": "First, moreover, on the contrary",
+              "exercises": 12
+            },
+            {
+              "id": "c1-u07-l02",
+              "title": "If you ask me… it turns out",
+              "exercises": 12
+            },
+            {
+              "id": "c1-u07-l03",
+              "title": "The novel in question",
+              "exercises": 12
+            }
+          ]
+        },
+        {
+          "id": "c1-u08",
+          "title": "Spoken Turkish",
+          "titleTr": "N'apıyosun?",
+          "batch": "C1-4",
+          "status": "ready",
+          "interlude": "The dolmuş",
+          "points": ["gp-spoken-yor", "gp-spoken-future", "gp-spoken-reductions", "gp-informal-vocabulary", "gp-spoken-vs-written"],
+          "lessons": [
+            {
+              "id": "c1-u08-l01",
+              "title": "Geliyo musun?",
+              "exercises": 12
+            },
+            {
+              "id": "c1-u08-l02",
+              "title": "Bi dakka, kanka",
+              "exercises": 12
+            },
+            {
+              "id": "c1-u08-l03",
+              "title": "Müsait bir yerde!",
+              "exercises": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "cefr": "C2",
+      "title": "Mastery",
+      "ready": true,
+      "units": [
+        {
+          "id": "c2-u01",
+          "title": "The language of the press",
+          "titleTr": "Manşetler",
+          "batch": "C2-1",
+          "status": "planned",
+          "interlude": "A short history of the Turkish press",
+          "points": ["gp-headlines", "gp-news-reporting", "gp-news-passive", "gp-numbers-in-print"]
+        },
+        {
+          "id": "c2-u02",
+          "title": "Literary style",
+          "titleTr": "Bir zamanlar",
+          "batch": "C2-1",
+          "status": "planned",
+          "interlude": "The birth of the Turkish novel",
+          "points": ["gp-narrative-tenses", "gp-literary-forms", "gp-literary-word-order", "gp-free-indirect"]
+        },
+        {
+          "id": "c2-u03",
+          "title": "Ottoman vocabulary",
+          "titleTr": "Lügat ve sözlük",
+          "batch": "C2-2",
+          "status": "planned",
+          "interlude": "The language reform",
+          "points": ["gp-ottoman-pairs", "gp-ottoman-domains", "gp-ottoman-register", "gp-transliteration"]
+        },
+        {
+          "id": "c2-u04",
+          "title": "Regional varieties and the Turkic world",
+          "titleTr": "Ağızlar",
+          "batch": "C2-2",
+          "status": "planned",
+          "interlude": "Kaşgarlı Mahmud and the Turkic world",
+          "points": ["gp-dialect-areas", "gp-dialect-features", "gp-turkic-relatives", "gp-varieties-respect"]
+        },
+        {
+          "id": "c2-u05",
+          "title": "Wordplay and humour",
+          "titleTr": "Söz oyunları",
+          "batch": "C2-3",
+          "status": "planned",
+          "interlude": "Satire and caricature",
+          "points": ["gp-homonyms", "gp-cinas-tekerleme", "gp-fikra", "gp-irony"]
+        },
+        {
+          "id": "c2-u06",
+          "title": "Translation and style",
+          "titleTr": "Çeviri ve üslup",
+          "batch": "C2-3",
+          "status": "planned",
+          "interlude": "The Translation Bureau",
+          "points": ["gp-translation-structure", "gp-translating-evidentiality", "gp-style-analysis", "gp-untranslatables"]
+        }
+      ]
+    }
+  ],
+  "points": {
+    "gp-alphabet": {
+      "unit": "a1-u01",
+      "label": "The 29 letters",
+      "ready": true
+    },
+    "gp-pronunciation": {
+      "unit": "a1-u01",
+      "label": "One letter, one sound",
+      "ready": true
+    },
+    "gp-stress-basics": {
+      "unit": "a1-u01",
+      "label": "Where the stress falls",
+      "ready": true
+    },
+    "gp-sentence-basics": {
+      "unit": "a1-u01",
+      "label": "How a Turkish sentence is built",
+      "ready": true
+    },
+    "gp-vowel-groups": {
+      "unit": "a1-u02",
+      "label": "Eight vowels in two groups",
+      "ready": true
+    },
+    "gp-harmony-2way": {
+      "unit": "a1-u02",
+      "label": "Two-way harmony: e or a",
+      "ready": true
+    },
+    "gp-plural": {
+      "unit": "a1-u02",
+      "label": "The plural: -lar and -ler",
+      "ready": true
+    },
+    "gp-demonstratives": {
+      "unit": "a1-u02",
+      "label": "This and that: bu, şu, o",
+      "ready": true
+    },
+    "gp-bir-indefinite": {
+      "unit": "a1-u02",
+      "label": "A, an and one: bir",
+      "ready": true
+    },
+    "gp-harmony-exceptions": {
+      "unit": "a1-u02",
+      "label": "Words that break the pattern",
+      "ready": true
+    },
+    "gp-harmony-4way": {
+      "unit": "a1-u03",
+      "label": "Four-way harmony",
+      "ready": true
+    },
+    "gp-personal-pronouns": {
+      "unit": "a1-u03",
+      "label": "I, you, he, she: the personal pronouns",
+      "ready": true
+    },
+    "gp-copula-present": {
+      "unit": "a1-u03",
+      "label": "To be: the personal endings",
+      "ready": true
+    },
+    "gp-buffer-letters": {
+      "unit": "a1-u03",
+      "label": "Buffer letters: the y in öğrenciyim",
+      "ready": true
+    },
+    "gp-degil": {
+      "unit": "a1-u04",
+      "label": "Not: değil",
+      "ready": true
+    },
+    "gp-question-mi": {
+      "unit": "a1-u04",
+      "label": "Yes-no questions: mI",
+      "ready": true
+    },
+    "gp-question-words": {
+      "unit": "a1-u04",
+      "label": "Who, what, how: question words",
+      "ready": true
+    },
+    "gp-answers": {
+      "unit": "a1-u04",
+      "label": "Yes, no, of course: answering",
+      "ready": true
+    },
+    "gp-de-also": {
+      "unit": "a1-u04",
+      "label": "Me too: dA",
+      "ready": true
+    },
+    "gp-locative": {
+      "unit": "a1-u05",
+      "label": "In, at, on: the locative",
+      "ready": true
+    },
+    "gp-consonant-assimilation": {
+      "unit": "a1-u05",
+      "label": "d or t? Consonant assimilation",
+      "ready": true
+    },
+    "gp-var-yok": {
+      "unit": "a1-u05",
+      "label": "There is, there isn't: var and yok",
+      "ready": true
+    },
+    "gp-apostrophe": {
+      "unit": "a1-u05",
+      "label": "İstanbul'da: suffixes on names",
+      "ready": true
+    },
+    "gp-pronoun-n": {
+      "unit": "a1-u05",
+      "label": "Onda, burada: pronouns and place words",
+      "ready": true
+    },
+    "gp-infinitive-stem": {
+      "unit": "a1-u06",
+      "label": "Gelmek, gel-: the infinitive and the stem",
+      "ready": true
+    },
+    "gp-present-continuous": {
+      "unit": "a1-u06",
+      "label": "Geliyorum: the present continuous",
+      "ready": true
+    },
+    "gp-present-continuous-negative": {
+      "unit": "a1-u06",
+      "label": "Gelmiyorum: negative and questions",
+      "ready": true
+    },
+    "gp-present-continuous-uses": {
+      "unit": "a1-u06",
+      "label": "Now, these days and tomorrow",
+      "ready": true
+    },
+    "gp-dative": {
+      "unit": "a1-u07",
+      "label": "To, toward: the dative",
+      "ready": true
+    },
+    "gp-ablative": {
+      "unit": "a1-u07",
+      "label": "From, out of: the ablative",
+      "ready": true
+    },
+    "gp-pronoun-cases-dat-abl": {
+      "unit": "a1-u07",
+      "label": "Bana, sana, ondan: pronouns and place words",
+      "ready": true
+    },
+    "gp-buffer-y-cases": {
+      "unit": "a1-u07",
+      "label": "Arabaya, arabadan: the buffer y",
+      "ready": true
+    },
+    "gp-accusative": {
+      "unit": "a1-u08",
+      "label": "The book, not a book: the accusative",
+      "ready": true
+    },
+    "gp-consonant-softening": {
+      "unit": "a1-u08",
+      "label": "Kitap, kitabı: consonant softening",
+      "ready": true
+    },
+    "gp-pronoun-accusative": {
+      "unit": "a1-u08",
+      "label": "Beni, seni, onu: pronouns as objects",
+      "ready": true
+    },
+    "gp-object-word-order": {
+      "unit": "a1-u08",
+      "label": "Where the object goes",
+      "ready": true
+    },
+    "gp-possessive-suffixes": {
+      "unit": "a1-u09",
+      "label": "Evim, evin: possessive suffixes",
+      "ready": true
+    },
+    "gp-possessive-have": {
+      "unit": "a1-u09",
+      "label": "Arabam var: how to say have",
+      "ready": true
+    },
+    "gp-vowel-loss": {
+      "unit": "a1-u09",
+      "label": "Ağız, ağzım: vowel loss",
+      "ready": true
+    },
+    "gp-possessive-softening": {
+      "unit": "a1-u09",
+      "label": "Kitabım, çocuğumuz: softening with possessives",
+      "ready": true
+    },
+    "gp-genitive": {
+      "unit": "a1-u10",
+      "label": "Ayşe'nin, evin: the genitive",
+      "ready": true
+    },
+    "gp-genitive-possessive": {
+      "unit": "a1-u10",
+      "label": "Ayşe'nin evi: owner and owned",
+      "ready": true
+    },
+    "gp-pronominal-n": {
+      "unit": "a1-u10",
+      "label": "Evinde, arabasına: the n before a case ending",
+      "ready": true
+    },
+    "gp-whose": {
+      "unit": "a1-u10",
+      "label": "Kimin? Kimde? Whose is it, who has it?",
+      "ready": true
+    },
+    "gp-numbers": {
+      "unit": "a1-u11",
+      "label": "Bir, iki, üç: cardinal numbers",
+      "ready": true
+    },
+    "gp-numbers-singular": {
+      "unit": "a1-u11",
+      "label": "İki kitap: the singular after numbers",
+      "ready": true
+    },
+    "gp-ordinals": {
+      "unit": "a1-u11",
+      "label": "Birinci, ikinci: ordinals",
+      "ready": true
+    },
+    "gp-telling-time": {
+      "unit": "a1-u11",
+      "label": "Saat kaç? Telling the time",
+      "ready": true
+    },
+    "gp-dates": {
+      "unit": "a1-u11",
+      "label": "Pazartesi, ekim: days, months and dates",
+      "ready": true
+    },
+    "gp-age-price": {
+      "unit": "a1-u11",
+      "label": "Kaç yaşındasın? Kaç lira? Ages and prices",
+      "ready": true
+    },
+    "gp-imperative": {
+      "unit": "a1-u12",
+      "label": "Gel, gelin, geliniz: the imperative",
+      "ready": true
+    },
+    "gp-ile": {
+      "unit": "a1-u12",
+      "label": "Annemle, otobüsle: ile and -(y)lA",
+      "ready": true
+    },
+    "gp-icin": {
+      "unit": "a1-u12",
+      "label": "Senin için: için",
+      "ready": true
+    },
+    "gp-conjunctions-basic": {
+      "unit": "a1-u12",
+      "label": "Ve, ama, ya da: linking words",
+      "ready": true
+    },
+    "gp-past-di": {
+      "unit": "a2-u01",
+      "label": "Geldim: the past tense -DI",
+      "ready": true
+    },
+    "gp-past-di-negative-question": {
+      "unit": "a2-u01",
+      "label": "Gelmedim, geldin mi? Negative and questions",
+      "ready": true
+    },
+    "gp-person-endings-types": {
+      "unit": "a2-u01",
+      "label": "Two sets of personal endings",
+      "ready": true
+    },
+    "gp-time-past": {
+      "unit": "a2-u01",
+      "label": "Yesterday, last week, two days ago",
+      "ready": true
+    },
+    "gp-past-copula": {
+      "unit": "a2-u02",
+      "label": "Evdeydim: was and were",
+      "ready": true
+    },
+    "gp-idi-imis": {
+      "unit": "a2-u02",
+      "label": "Hastaydı, hastaymış: two pasts of to be",
+      "ready": true
+    },
+    "gp-mis-intro": {
+      "unit": "a2-u02",
+      "label": "Gelmiş: a first look at -mIş with verbs",
+      "ready": true
+    },
+    "gp-future": {
+      "unit": "a2-u03",
+      "label": "Geleceğim: the future -(y)AcAk",
+      "ready": true
+    },
+    "gp-future-negative-question": {
+      "unit": "a2-u03",
+      "label": "Gelmeyeceğim, gelecek misin? Negative and questions",
+      "ready": true
+    },
+    "gp-future-stem-changes": {
+      "unit": "a2-u03",
+      "label": "Diyecek, yiyecek; gidecek, edecek",
+      "ready": true
+    },
+    "gp-future-vs-present": {
+      "unit": "a2-u03",
+      "label": "Future or present continuous?",
+      "ready": true
+    },
+    "gp-aorist-forms": {
+      "unit": "a2-u04",
+      "label": "Okur, yapar, çalışır: the forms of the aorist",
+      "ready": true
+    },
+    "gp-aorist-irregulars": {
+      "unit": "a2-u04",
+      "label": "Alır, bilir, gelir: the thirteen",
+      "ready": true
+    },
+    "gp-aorist-negative": {
+      "unit": "a2-u04",
+      "label": "Gelmem, gelir misin? Negative and questions",
+      "ready": true
+    },
+    "gp-aorist-uses": {
+      "unit": "a2-u04",
+      "label": "Habits, truths, offers and promises",
+      "ready": true
+    },
+    "gp-abil": {
+      "unit": "a2-u05",
+      "label": "Gelebilirim: can with -(y)Abil",
+      "ready": true
+    },
+    "gp-ama-inability": {
+      "unit": "a2-u05",
+      "label": "Gelemem: can't with -(y)AmA",
+      "ready": true
+    },
+    "gp-abil-uses": {
+      "unit": "a2-u05",
+      "label": "Ability, permission, possibility, requests",
+      "ready": true
+    },
+    "gp-negative-polarity": {
+      "unit": "a2-u05",
+      "label": "Nobody, nothing, never: hiç and kimse",
+      "ready": true
+    },
+    "gp-meli": {
+      "unit": "a2-u06",
+      "label": "Gitmeliyim: must and should with -mAlI",
+      "ready": true
+    },
+    "gp-gerek-lazim": {
+      "unit": "a2-u06",
+      "label": "Bana su lazım: need with lazım and gerek",
+      "ready": true
+    },
+    "gp-zorunda": {
+      "unit": "a2-u06",
+      "label": "Gitmek zorundayım: have to",
+      "ready": true
+    },
+    "gp-meli-inference": {
+      "unit": "a2-u06",
+      "label": "Evde olmalı: a confident guess",
+      "ready": true
+    },
+    "gp-optative": {
+      "unit": "a2-u07",
+      "label": "Gidelim mi? Let's, let me, shall I",
+      "ready": true
+    },
+    "gp-imperative-3rd": {
+      "unit": "a2-u07",
+      "label": "Ali gelsin: let him, let them",
+      "ready": true
+    },
+    "gp-set-wishes": {
+      "unit": "a2-u07",
+      "label": "Kolay gelsin: a wish for every moment",
+      "ready": true
+    },
+    "gp-hadi": {
+      "unit": "a2-u07",
+      "label": "Hadi gidelim! Come on",
+      "ready": true
+    },
+    "gp-comparative": {
+      "unit": "a2-u08",
+      "label": "Daha büyük: bigger than",
+      "ready": true
+    },
+    "gp-superlative": {
+      "unit": "a2-u08",
+      "label": "En büyük: the biggest",
+      "ready": true
+    },
+    "gp-equative": {
+      "unit": "a2-u08",
+      "label": "Benim kadar, senin gibi: as … as, like",
+      "ready": true
+    },
+    "gp-intensive-reduplication": {
+      "unit": "a2-u08",
+      "label": "Bembeyaz, masmavi: completely white, deep blue",
+      "ready": true
+    },
+    "gp-adjectives-as-adverbs": {
+      "unit": "a2-u08",
+      "label": "İyi konuşuyor: adjectives as adverbs",
+      "ready": true
+    },
+    "gp-postp-nominative": {
+      "unit": "a2-u09",
+      "label": "Gibi, için, kadar, ile: no case",
+      "ready": true
+    },
+    "gp-postp-dative": {
+      "unit": "a2-u09",
+      "label": "Göre, doğru, karşı: with the dative",
+      "ready": true
+    },
+    "gp-postp-ablative": {
+      "unit": "a2-u09",
+      "label": "Önce, sonra, beri: with the ablative",
+      "ready": true
+    },
+    "gp-place-nouns": {
+      "unit": "a2-u09",
+      "label": "Masanın üstünde: place nouns",
+      "ready": true
+    },
+    "gp-duration-dir": {
+      "unit": "a2-u09",
+      "label": "Üç yıldır: for how long",
+      "ready": true
+    },
+    "gp-compound-indefinite": {
+      "unit": "a2-u10",
+      "label": "Türk kahvesi: the compound noun",
+      "ready": true
+    },
+    "gp-compound-chains": {
+      "unit": "a2-u10",
+      "label": "Okul çantam: compounds with owners",
+      "ready": true
+    },
+    "gp-ki-adjective": {
+      "unit": "a2-u10",
+      "label": "Masadaki kitap: -ki after places and times",
+      "ready": true
+    },
+    "gp-ki-pronoun": {
+      "unit": "a2-u10",
+      "label": "Benimki, seninki: mine and yours",
+      "ready": true
+    },
+    "gp-ken": {
+      "unit": "a2-u11",
+      "label": "Çocukken, giderken: -(y)ken",
+      "ready": true
+    },
+    "gp-ip": {
+      "unit": "a2-u11",
+      "label": "Gidip aldım: -(y)Ip",
+      "ready": true
+    },
+    "gp-sequence-connectors": {
+      "unit": "a2-u11",
+      "label": "Önce, sonra, bu yüzden: telling a story",
+      "ready": true
+    },
+    "gp-li": {
+      "unit": "a2-u12",
+      "label": "Şekerli, İstanbullu: -lI",
+      "ready": true
+    },
+    "gp-siz": {
+      "unit": "a2-u12",
+      "label": "Şekersiz, işsiz: -sIz",
+      "ready": true
+    },
+    "gp-ci": {
+      "unit": "a2-u12",
+      "label": "Gazeteci, kitapçı: -CI",
+      "ready": true
+    },
+    "gp-lik": {
+      "unit": "a2-u12",
+      "label": "Güzellik, gözlük, bir haftalık: -lIk",
+      "ready": true
+    },
+    "gp-ca": {
+      "unit": "a2-u12",
+      "label": "Türkçe, yavaşça, bence: -CA",
+      "ready": true
+    },
+    "gp-distributive": {
+      "unit": "a2-u12",
+      "label": "Birer, ikişer; sabahleyin: each, and times of day",
+      "ready": true
+    },
+    "gp-past-continuous": {
+      "unit": "b1-u01",
+      "label": "Yağıyordu: the past continuous",
+      "ready": true
+    },
+    "gp-pluperfect": {
+      "unit": "b1-u01",
+      "label": "Başlamıştı: the pluperfect",
+      "ready": true
+    },
+    "gp-di-compounds": {
+      "unit": "b1-u01",
+      "label": "Tense + -(y)DI: how compound tenses work",
+      "ready": true
+    },
+    "gp-narrative-adverbs": {
+      "unit": "b1-u01",
+      "label": "Çoktan, o sırada, birden: holding a story together",
+      "ready": true
+    },
+    "gp-used-to": {
+      "unit": "b1-u02",
+      "label": "Otururduk: used to",
+      "ready": true
+    },
+    "gp-future-in-past": {
+      "unit": "b1-u02",
+      "label": "Arayacaktım: was going to",
+      "ready": true
+    },
+    "gp-should-have": {
+      "unit": "b1-u02",
+      "label": "Gelmeliydin: should have",
+      "ready": true
+    },
+    "gp-could-have": {
+      "unit": "b1-u02",
+      "label": "Gelebilirdin, gelemezdim: could have, couldn't have",
+      "ready": true
+    },
+    "gp-about-to": {
+      "unit": "b1-u02",
+      "label": "Kalkmak üzere: about to",
+      "ready": true
+    },
+    "gp-evidential-mis": {
+      "unit": "b1-u03",
+      "label": "Gelmemiş, gelmiş mi? The full -mIş",
+      "ready": true
+    },
+    "gp-mis-vs-di": {
+      "unit": "b1-u03",
+      "label": "Geldi or gelmiş? Choosing",
+      "ready": true
+    },
+    "gp-mis-compounds": {
+      "unit": "b1-u03",
+      "label": "Geliyormuş, gelecekmiş: reported tenses",
+      "ready": true
+    },
+    "gp-mis-adjective": {
+      "unit": "b1-u03",
+      "label": "Pişmiş tavuk: -mIş as an adjective",
+      "ready": true
+    },
+    "gp-mak-cases": {
+      "unit": "b1-u04",
+      "label": "Yüzmeyi seviyorum: the infinitive as a noun",
+      "ready": true
+    },
+    "gp-ma-possessive": {
+      "unit": "b1-u04",
+      "label": "Gelmeni istiyorum: -mA with a doer",
+      "ready": true
+    },
+    "gp-is": {
+      "unit": "b1-u04",
+      "label": "Yürüyüş, giriş, çıkış: -(y)Iş",
+      "ready": true
+    },
+    "gp-purpose": {
+      "unit": "b1-u04",
+      "label": "Yüzmeye gittik: in order to",
+      "ready": true
+    },
+    "gp-participle-an": {
+      "unit": "b1-u05",
+      "label": "Kitap okuyan kız: -(y)An",
+      "ready": true
+    },
+    "gp-headless-an": {
+      "unit": "b1-u05",
+      "label": "Gelenler, okuyanlar: participles as nouns",
+      "ready": true
+    },
+    "gp-an-possessor": {
+      "unit": "b1-u05",
+      "label": "Babası doktor olan çocuk: whose",
+      "ready": true
+    },
+    "gp-relative-order": {
+      "unit": "b1-u05",
+      "label": "Everything before the noun",
+      "ready": true
+    },
+    "gp-aorist-participle": {
+      "unit": "b1-u05",
+      "label": "Akarsu, çıkmaz sokak: -(I)r and -mAz",
+      "ready": true
+    },
+    "gp-participle-dik": {
+      "unit": "b1-u06",
+      "label": "Okuduğum kitap: -DIk with a possessive",
+      "ready": true
+    },
+    "gp-participle-acak": {
+      "unit": "b1-u06",
+      "label": "Okuyacağım kitap, kalacak yer: -(y)AcAk",
+      "ready": true
+    },
+    "gp-relative-genitive-subject": {
+      "unit": "b1-u06",
+      "label": "Ali'nin okuduğu kitap: the doer in the genitive",
+      "ready": true
+    },
+    "gp-an-or-dik": {
+      "unit": "b1-u06",
+      "label": "Okuyan or okuduğu? Choosing the participle",
+      "ready": true
+    },
+    "gp-ince": {
+      "unit": "b1-u07",
+      "label": "Eve gelince: -(y)IncA, when and once",
+      "ready": true
+    },
+    "gp-arak": {
+      "unit": "b1-u07",
+      "label": "Koşarak geldi: -(y)ArAk, by and while",
+      "ready": true
+    },
+    "gp-madan": {
+      "unit": "b1-u07",
+      "label": "Bakmadan, yatmadan önce: -mAdAn, without and before",
+      "ready": true
+    },
+    "gp-dikten-sonra": {
+      "unit": "b1-u07",
+      "label": "Yedikten sonra: -DIktAn sonra, after",
+      "ready": true
+    },
+    "gp-ali": {
+      "unit": "b1-u07",
+      "label": "Geleli üç yıl oldu: -(y)AlI, since",
+      "ready": true
+    },
+    "gp-dikca": {
+      "unit": "b1-u08",
+      "label": "Okudukça: -DIkçA, the more and whenever",
+      "ready": true
+    },
+    "gp-diginda": {
+      "unit": "b1-u08",
+      "label": "Geldiğimde: -DIğIndA, when",
+      "ready": true
+    },
+    "gp-digi-icin": {
+      "unit": "b1-u08",
+      "label": "Hasta olduğum için: -DIğI için, because",
+      "ready": true
+    },
+    "gp-r-maz": {
+      "unit": "b1-u08",
+      "label": "Gelir gelmez: -(I)r -mAz, as soon as",
+      "ready": true
+    },
+    "gp-reduplicated-converb": {
+      "unit": "b1-u08",
+      "label": "Koşa koşa: a doubled -(y)A",
+      "ready": true
+    },
+    "gp-conditional-sa": {
+      "unit": "b1-u09",
+      "label": "Gelsem: the conditional -sA",
+      "ready": true
+    },
+    "gp-conditional-real": {
+      "unit": "b1-u09",
+      "label": "Gelirsem, geldiysen: real conditions",
+      "ready": true
+    },
+    "gp-conditional-questions": {
+      "unit": "b1-u09",
+      "label": "Eğer, ya, and ne zaman istersen",
+      "ready": true
+    },
+    "gp-sa-advice": {
+      "unit": "b1-u09",
+      "label": "Gitsen iyi olur: advice and suggestions",
+      "ready": true
+    },
+    "gp-passive": {
+      "unit": "b1-u10",
+      "label": "Yapıldı: the passive",
+      "ready": true
+    },
+    "gp-impersonal-passive": {
+      "unit": "b1-u10",
+      "label": "Burada sigara içilmez: rules and general statements",
+      "ready": true
+    },
+    "gp-reflexive": {
+      "unit": "b1-u10",
+      "label": "Yıkanmak, giyinmek: the reflexive",
+      "ready": true
+    },
+    "gp-kendi": {
+      "unit": "b1-u10",
+      "label": "Kendi: self and own",
+      "ready": true
+    },
+    "gp-causative": {
+      "unit": "b1-u11",
+      "label": "Yaptırmak: the causative",
+      "ready": true
+    },
+    "gp-causative-objects": {
+      "unit": "b1-u11",
+      "label": "Saçımı berbere kestirdim: who does what",
+      "ready": true
+    },
+    "gp-reciprocal": {
+      "unit": "b1-u11",
+      "label": "Tanıştık: each other and together",
+      "ready": true
+    },
+    "gp-verb-derivation": {
+      "unit": "b1-u11",
+      "label": "Temizlemek, güzelleşmek: verbs from nouns and adjectives",
+      "ready": true
+    },
+    "gp-direct-speech": {
+      "unit": "b1-u12",
+      "label": "“Geliyorum.” dedi: quoting with demek",
+      "ready": true
+    },
+    "gp-diye-quotative": {
+      "unit": "b1-u12",
+      "label": "“Neredesin?” diye sordu: diye after a quote",
+      "ready": true
+    },
+    "gp-diye-purpose": {
+      "unit": "b1-u12",
+      "label": "Uyanmasın diye: so that",
+      "ready": true
+    },
+    "gp-reported-mis": {
+      "unit": "b1-u12",
+      "label": "Yarın gelecekmiş: passing on news",
+      "ready": true
+    },
+    "gp-reported-commands-intro": {
+      "unit": "b1-u12",
+      "label": "Gelmeni söyledi: passing on requests",
+      "ready": true
+    },
+    "gp-unreal-present": {
+      "unit": "b2-u01",
+      "label": "Zengin olsam: if I were rich",
+      "ready": true
+    },
+    "gp-unreal-past": {
+      "unit": "b2-u01",
+      "label": "Bilseydim: if I had known",
+      "ready": true
+    },
+    "gp-keske": {
+      "unit": "b2-u01",
+      "label": "Keşke: I wish, if only",
+      "ready": true
+    },
+    "gp-even-if": {
+      "unit": "b2-u01",
+      "label": "Olsa bile, olsa da: even if",
+      "ready": true
+    },
+    "gp-wh-ever": {
+      "unit": "b2-u01",
+      "label": "Ne olursa olsun: whatever happens",
+      "ready": true
+    },
+    "gp-mis-gibi": {
+      "unit": "b2-u02",
+      "label": "Olmamış gibi: as if it had happened",
+      "ready": true
+    },
+    "gp-mis-gibi-yapmak": {
+      "unit": "b2-u02",
+      "label": "Uyuyormuş gibi yaptı: pretending",
+      "ready": true
+    },
+    "gp-cesine": {
+      "unit": "b2-u02",
+      "label": "-cAsInA: as if, in writing",
+      "ready": true
+    },
+    "gp-gibi-clauses": {
+      "unit": "b2-u02",
+      "label": "Dediğim gibi, yağacak gibi, sanki",
+      "ready": true
+    },
+    "gp-digi-halde": {
+      "unit": "b2-u03",
+      "label": "Bildiği hâlde: although",
+      "ready": true
+    },
+    "gp-masina-ragmen": {
+      "unit": "b2-u03",
+      "label": "Yorgun olmasına rağmen: despite",
+      "ready": true
+    },
+    "gp-maksizin": {
+      "unit": "b2-u03",
+      "label": "Durmaksızın: without, in formal Turkish",
+      "ready": true
+    },
+    "gp-contrast-connectors": {
+      "unit": "b2-u03",
+      "label": "İse, oysa, hâlbuki, gerçi: setting things against each other",
+      "ready": true
+    },
+    "gp-dik-clauses": {
+      "unit": "b2-u04",
+      "label": "Geldiğini biliyorum: that-clauses",
+      "ready": true
+    },
+    "gp-ma-or-dik": {
+      "unit": "b2-u04",
+      "label": "Gelmeni mi, geldiğini mi? -mA or -DIk",
+      "ready": true
+    },
+    "gp-indirect-questions": {
+      "unit": "b2-u04",
+      "label": "Nerede oturduğunu bilmiyorum: questions inside sentences",
+      "ready": true
+    },
+    "gp-reported-commands": {
+      "unit": "b2-u04",
+      "label": "Gelmesini rica etti: passing on requests",
+      "ready": true
+    },
+    "gp-clause-as-subject": {
+      "unit": "b2-u04",
+      "label": "Gelmen önemli: clauses as subjects",
+      "ready": true
+    },
+    "gp-makta": {
+      "unit": "b2-u05",
+      "label": "Devam etmektedir: the formal progressive",
+      "ready": true
+    },
+    "gp-dir-formal": {
+      "unit": "b2-u05",
+      "label": "Giriş ücretsizdir: -DIr in formal statements",
+      "ready": true
+    },
+    "gp-formal-connectors": {
+      "unit": "b2-u05",
+      "label": "Ayrıca, ancak, dolayısıyla: formal link words",
+      "ready": true
+    },
+    "gp-formal-requests": {
+      "unit": "b2-u05",
+      "label": "Sayın…, Saygılarımla: formal letters and requests",
+      "ready": true
+    },
+    "gp-fractions-percent": {
+      "unit": "b2-u05",
+      "label": "Yarım, buçuk, üçte bir, yüzde elli: figures aloud",
+      "ready": true
+    },
+    "gp-ivermek": {
+      "unit": "b2-u06",
+      "label": "Açıver: quickly, casually, suddenly",
+      "ready": true
+    },
+    "gp-akalmak": {
+      "unit": "b2-u06",
+      "label": "Bakakaldı: frozen on the spot",
+      "ready": true
+    },
+    "gp-adurmak": {
+      "unit": "b2-u06",
+      "label": "Siz yiyedurun: carry on",
+      "ready": true
+    },
+    "gp-ayazmak-agelmek": {
+      "unit": "b2-u06",
+      "label": "Düşeyazdım, süregelen: almost, and for ages",
+      "ready": true
+    },
+    "gp-ip-durmak": {
+      "unit": "b2-u06",
+      "label": "Söyleyip durma! Over and over, and stuck",
+      "ready": true
+    },
+    "gp-voice-order": {
+      "unit": "b2-u07",
+      "label": "Tanıştırıldım: reading a long verb from the root out",
+      "ready": true
+    },
+    "gp-causative-passive": {
+      "unit": "b2-u07",
+      "label": "Yaptırıldı: had done, commissioned",
+      "ready": true
+    },
+    "gp-double-causative": {
+      "unit": "b2-u07",
+      "label": "Öldürtmek, yaptırtmak: a second causative",
+      "ready": true
+    },
+    "gp-voice-modality": {
+      "unit": "b2-u07",
+      "label": "Yapılamaz, yaptırılabilir: voices with can and can't",
+      "ready": true
+    },
+    "gp-da-particle": {
+      "unit": "b2-u08",
+      "label": "Gel de gör: dA beyond too",
+      "ready": true
+    },
+    "gp-bile": {
+      "unit": "b2-u08",
+      "label": "Çocuk bile biliyor: even, and already",
+      "ready": true
+    },
+    "gp-ki-conjunction": {
+      "unit": "b2-u08",
+      "label": "Öyle yorgunum ki: the conjunction ki",
+      "ready": true
+    },
+    "gp-ya-particle": {
+      "unit": "b2-u08",
+      "label": "Ya sen? Biliyorsun ya: ya",
+      "ready": true
+    },
+    "gp-modal-particles": {
+      "unit": "b2-u08",
+      "label": "Hani, işte, acaba, sakın, bari, hele",
+      "ready": true
+    },
+    "gp-address-forms": {
+      "unit": "b2-u09",
+      "label": "Abi, abla, hocam: addressing people",
+      "ready": true
+    },
+    "gp-softeners": {
+      "unit": "b2-u09",
+      "label": "Bir bakar mısın? Softening a request",
+      "ready": true
+    },
+    "gp-fillers": {
+      "unit": "b2-u09",
+      "label": "Şey, yani, falan: filling the gaps",
+      "ready": true
+    },
+    "gp-diminutives": {
+      "unit": "b2-u09",
+      "label": "Küçücük, adamcağız, yeşilimsi: small, dear, pitiful, -ish",
+      "ready": true
+    },
+    "gp-register-shift": {
+      "unit": "b2-u09",
+      "label": "One request, three registers",
+      "ready": true
+    },
+    "gp-digi-surece": {
+      "unit": "b2-u10",
+      "label": "Çalıştığın sürece: as long as",
+      "ready": true
+    },
+    "gp-madikca": {
+      "unit": "b2-u10",
+      "label": "Çalışmadıkça: unless",
+      "ready": true
+    },
+    "gp-digi-takdirde": {
+      "unit": "b2-u10",
+      "label": "Yağdığı takdirde: in case, in the event that",
+      "ready": true
+    },
+    "gp-time-clauses": {
+      "unit": "b2-u10",
+      "label": "Geldiği an, geldiğinden beri: more time clauses",
+      "ready": true
+    },
+    "gp-correlatives": {
+      "unit": "b2-u10",
+      "label": "Hem … hem, ne … ne: paired words",
+      "ready": true
+    },
+    "gp-mis-olmali": {
+      "unit": "c1-u01",
+      "label": "Gitmiş olmalı: guesses about the past",
+      "ready": true
+    },
+    "gp-mis-olacak": {
+      "unit": "c1-u01",
+      "label": "Bitirmiş olacağım: will have done, will be doing",
+      "ready": true
+    },
+    "gp-acak-olsa": {
+      "unit": "c1-u01",
+      "label": "Gidecek olsam: if it came to that",
+      "ready": true
+    },
+    "gp-mis-olsaydi": {
+      "unit": "c1-u01",
+      "label": "Bilmiş olsaydım: the counterfactual perfect",
+      "ready": true
+    },
+    "gp-modal-chains": {
+      "unit": "c1-u01",
+      "label": "Gelememiş olabilir: reading modal chains",
+      "ready": true
+    },
+    "gp-dir-assumption": {
+      "unit": "c1-u02",
+      "label": "Yorulmuşlardır: a confident assumption",
+      "ready": true
+    },
+    "gp-dir-general-truth": {
+      "unit": "c1-u02",
+      "label": "Kullanmışlardır: the voice of encyclopedias",
+      "ready": true
+    },
+    "gp-epistemic-adverbs": {
+      "unit": "c1-u02",
+      "label": "Herhâlde, muhtemelen, mutlaka: how sure are you?",
+      "ready": true
+    },
+    "gp-certainty-scale": {
+      "unit": "c1-u02",
+      "label": "Geldi, gelmiş, gelmiştir: from certain to guessed",
+      "ready": true
+    },
+    "gp-nested-clauses": {
+      "unit": "c1-u03",
+      "label": "Bilip bilmediğimi sordu: clauses inside clauses",
+      "ready": true
+    },
+    "gp-nominal-case-chains": {
+      "unit": "c1-u03",
+      "label": "Gelmesinden dolayı: verbal noun, case, postposition",
+      "ready": true
+    },
+    "gp-clause-head-nouns": {
+      "unit": "c1-u03",
+      "label": "-DIğI gerçeği, -mAsI ihtimali: a clause as a label",
+      "ready": true
+    },
+    "gp-mazlik": {
+      "unit": "c1-u03",
+      "label": "Bilmezlikten gelmek: -mAzlIk",
+      "ready": true
+    },
+    "gp-derivation-advanced": {
+      "unit": "c1-u03",
+      "label": "Çalışkan, ölçüm, bilimsel: the suffixes behind the vocabulary",
+      "ready": true
+    },
+    "gp-persian-izafet": {
+      "unit": "c1-u04",
+      "label": "Aşk-ı memnu: the Persian izafet",
+      "ready": true
+    },
+    "gp-arabic-article": {
+      "unit": "c1-u04",
+      "label": "Bilhassa, maalesef: the Arabic article",
+      "ready": true
+    },
+    "gp-arabic-plurals": {
+      "unit": "c1-u04",
+      "label": "Ahval, eşya, ulema: Arabic plurals",
+      "ready": true
+    },
+    "gp-nisbet-i": {
+      "unit": "c1-u04",
+      "label": "Millî, resmî, askerî: the adjective suffix -î",
+      "ready": true
+    },
+    "gp-persian-affixes": {
+      "unit": "c1-u04",
+      "label": "Bî-, na-, -hane, -kâr: Persian affixes",
+      "ready": true
+    },
+    "gp-arabic-roots": {
+      "unit": "c1-u04",
+      "label": "Kitap, kâtip, mektup: Arabic root families",
+      "ready": true
+    },
+    "gp-body-idioms": {
+      "unit": "c1-u05",
+      "label": "Göz kulak olmak: idioms of the body",
+      "ready": true
+    },
+    "gp-proverbs": {
+      "unit": "c1-u05",
+      "label": "Damlaya damlaya göl olur: proverbs",
+      "ready": true
+    },
+    "gp-idiom-grammar": {
+      "unit": "c1-u05",
+      "label": "Gözüm yemedi: what changes inside an idiom",
+      "ready": true
+    },
+    "gp-similes": {
+      "unit": "c1-u05",
+      "label": "Buz gibi, kuzu gibi: similes with gibi",
+      "ready": true
+    },
+    "gp-focus-position": {
+      "unit": "c1-u06",
+      "label": "The focus slot before the verb",
+      "ready": true
+    },
+    "gp-postverbal": {
+      "unit": "c1-u06",
+      "label": "After the verb: inverted sentences",
+      "ready": true
+    },
+    "gp-topic-marking": {
+      "unit": "c1-u06",
+      "label": "Topics: ise, -(y)sA and gelince",
+      "ready": true
+    },
+    "gp-m-reduplication": {
+      "unit": "c1-u06",
+      "label": "Kitap mitap, ıvır zıvır: echo words",
+      "ready": true
+    },
+    "gp-emphasis": {
+      "unit": "c1-u06",
+      "label": "Ta, hem de, de mi, işte: adding emphasis",
+      "ready": true
+    },
+    "gp-argument-markers": {
+      "unit": "c1-u07",
+      "label": "Ordering, adding, contrasting and proving",
+      "ready": true
+    },
+    "gp-concluding-markers": {
+      "unit": "c1-u07",
+      "label": "Drawing conclusions",
+      "ready": true
+    },
+    "gp-hedging": {
+      "unit": "c1-u07",
+      "label": "Softening a claim",
+      "ready": true
+    },
+    "gp-meger": {
+      "unit": "c1-u07",
+      "label": "Meğer: it turns out",
+      "ready": true
+    },
+    "gp-cohesion": {
+      "unit": "c1-u07",
+      "label": "Holding a written text together",
+      "ready": true
+    },
+    "gp-spoken-yor": {
+      "unit": "c1-u08",
+      "label": "Geliyo, biliyo musun: -(I)yor in speech",
+      "ready": true
+    },
+    "gp-spoken-future": {
+      "unit": "c1-u08",
+      "label": "Gelicem, yapcaz: the future in speech",
+      "ready": true
+    },
+    "gp-spoken-reductions": {
+      "unit": "c1-u08",
+      "label": "Bi, n'aber, baya: everyday reductions",
+      "ready": true
+    },
+    "gp-informal-vocabulary": {
+      "unit": "c1-u08",
+      "label": "Kanka, harbiden, slm: informal words and texting",
+      "ready": true
+    },
+    "gp-spoken-vs-written": {
+      "unit": "c1-u08",
+      "label": "When to write it as it is said",
+      "ready": true
+    },
+    "gp-headlines": {
+      "unit": "c2-u01",
+      "label": "headline grammar: missing copula and tense, -DI and -mIş in leads",
+      "ready": false
+    },
+    "gp-news-reporting": {
+      "unit": "c2-u01",
+      "label": "reporting verbs and attribution (-DIğInI belirtti, ifade etti, kaydetti",
+      "ready": false
+    },
+    "gp-news-passive": {
+      "unit": "c2-u01",
+      "label": "passive and impersonal structures in the news (açıklandı, bildirildi, kabul edildi)",
+      "ready": false
+    },
+    "gp-numbers-in-print": {
+      "unit": "c2-u01",
+      "label": "dates, figures, abbreviations and suffixes in print (2026'da, %15'lik, TBMM'de)",
+      "ready": false
+    },
+    "gp-narrative-tenses": {
+      "unit": "c2-u02",
+      "label": "tense in narration: -DI, -mIş, the historical present, chains of -(y)Ip and -(y)ArAk",
+      "ready": false
+    },
+    "gp-literary-forms": {
+      "unit": "c2-u02",
+      "label": "literary and older forms (-(y)AsI as in gidesi geldi, -(y)ArAktAn, -cAsInA)",
+      "ready": false
+    },
+    "gp-literary-word-order": {
+      "unit": "c2-u02",
+      "label": "inversion and rhythm in prose and poetry",
+      "ready": false
+    },
+    "gp-free-indirect": {
+      "unit": "c2-u02",
+      "label": "free indirect speech and the narrator's voice",
+      "ready": false
+    },
+    "gp-ottoman-pairs": {
+      "unit": "c2-u03",
+      "label": "Ottoman and Öz Türkçe pairs (mektep/okul, talebe/öğrenci, lügat/sözlük, mesele/sorun, h…",
+      "ready": false
+    },
+    "gp-ottoman-domains": {
+      "unit": "c2-u03",
+      "label": "administration, law and daily life (sadrazam, vezir, ferman, kadı, hane, peder, valide)",
+      "ready": false
+    },
+    "gp-ottoman-register": {
+      "unit": "c2-u03",
+      "label": "what an Ottoman-flavoured word signals today: formality, law, religion, nostalgia, irony",
+      "ready": false
+    },
+    "gp-transliteration": {
+      "unit": "c2-u03",
+      "label": "reading Ottoman Turkish in Latin transliteration",
+      "ready": false
+    },
+    "gp-dialect-areas": {
+      "unit": "c2-u04",
+      "label": "the main dialect areas of Anatolia and Thrace, and how Istanbul speech became the standard",
+      "ready": false
+    },
+    "gp-dialect-features": {
+      "unit": "c2-u04",
+      "label": "well-documented regional features, to recognize rather than produce (for example Aegean…",
+      "ready": false
+    },
+    "gp-turkic-relatives": {
+      "unit": "c2-u04",
+      "label": "Turkish beside Azerbaijani, Turkmen, Uzbek, Kazakh, Kyrgyz, Tatar, Uyghur and Sakha: sh…",
+      "ready": false
+    },
+    "gp-varieties-respect": {
+      "unit": "c2-u04",
+      "label": "talking about regional speech without stereotypes",
+      "ready": false
+    },
+    "gp-homonyms": {
+      "unit": "c2-u05",
+      "label": "homonyms behind puns (yüz, gül, çay, dolu, yaz, ben, at, düş)",
+      "ready": false
+    },
+    "gp-cinas-tekerleme": {
+      "unit": "c2-u05",
+      "label": "cinas in folk and divan poetry",
+      "ready": false
+    },
+    "gp-fikra": {
+      "unit": "c2-u05",
+      "label": "the fıkra: setup, turn and punchline",
+      "ready": false
+    },
+    "gp-irony": {
+      "unit": "c2-u05",
+      "label": "irony, understatement and teasing in conversation",
+      "ready": false
+    },
+    "gp-translation-structure": {
+      "unit": "c2-u06",
+      "label": "unpacking long words and left-branching clauses into English, and back",
+      "ready": false
+    },
+    "gp-translating-evidentiality": {
+      "unit": "c2-u06",
+      "label": "rendering -mIş, -DIr and dropped pronouns in English",
+      "ready": false
+    },
+    "gp-style-analysis": {
+      "unit": "c2-u06",
+      "label": "sentence length, word origin, register and rhythm",
+      "ready": false
+    },
+    "gp-untranslatables": {
+      "unit": "c2-u06",
+      "label": "hüzün, gurbet, kolay gelsin, keyif, nazar, hayırlı olsun",
+      "ready": false
+    }
+  },
+  "flashcards": {
+    "files": ["flashcards/fc-0001-0200.json", "flashcards/fc-0201-0400.json", "flashcards/fc-0401-0600.json", "flashcards/fc-0601-0800.json", "flashcards/fc-0801-1000.json"],
+    "count": 1000
+  },
+  "counts": {
+    "units": 54,
+    "lessons": 208,
+    "exercises": 2699,
+    "cards": 1000
+  }
+}

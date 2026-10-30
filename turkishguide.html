@@ -1,0 +1,953 @@
+<!doctype html>
+<!-- © 2026 Grégoire Maillard. All rights reserved. Not open source: see /LICENSE.txt -->
+<html lang="en">
+  <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HT8J8ZFYTB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HT8J8ZFYTB');
+</script>
+    <meta charset="utf-8">
+    <title>Turkish grammar guides and interludes · Learn Turkish</title>
+    <meta name="description" content="The grammar guide and culture interlude of every unit of a free Turkish course from A1 to C2, with an index of every grammar point.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="64x64" href="/assets/img/daily-turkish-favicon.png">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/daily-turkish-favicon.svg">
+    <link rel="apple-touch-icon" href="/assets/img/daily-turkish-apple-touch-icon.png">
+    <link rel="canonical" href="https://dailyturkish.app/turkishguide.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Daily Turkish">
+    <meta property="og:title" content="Turkish grammar guides and interludes">
+    <meta property="og:description" content="The grammar guide and culture interlude of every unit of a free Turkish course from A1 to C2, with an index of every grammar point.">
+    <meta property="og:url" content="https://dailyturkish.app/turkishguide.html">
+
+    <link rel="preload" href="/assets/fonts/inter-fleet.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <style>
+      /* Header: the site's sticky glass bar (mtlmobility.html), with this section's three tabs.
+         Below 600 px the name collapses to the mark so the tabs stay in the bar (PROJECT.md 3). */
+      @font-face { font-family: "Inter Fleet"; src: url("/assets/fonts/inter-fleet.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+      .at-hdr {
+        --at-ink: #151A23; --at-ink-2: #5B6272; --at-hair: rgb(15 23 42 / .07); --at-wash: rgb(15 23 42 / .04);
+        --at-blur: blur(20px) saturate(180%); --at-m: 40px;
+        position: sticky; top: 0; z-index: 1000;
+        background: rgb(255 255 255 / .6); -webkit-backdrop-filter: var(--at-blur); backdrop-filter: var(--at-blur);
+        box-shadow: 0 1px 0 var(--at-hair), inset 0 -1px 0 rgb(255 255 255 / .6);
+        font-family: "Inter Fleet", InterVariable, Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        font-size: 14px; line-height: 20px; font-weight: 400; color: var(--at-ink); -webkit-font-smoothing: antialiased;
+      }
+      @media (max-width: 1279px) { .at-hdr { --at-m: 24px; } }
+      @media (max-width: 599px)  { .at-hdr { --at-m: 16px; } }
+      .at-hdr *, .at-hdr *::before, .at-hdr *::after { box-sizing: border-box; }
+      .at-hdr a { color: inherit; text-decoration: none; }
+      .at-hdr .at-wrap { width: 100%; max-width: calc(1320px + 2 * var(--at-m)); margin-inline: auto; padding-inline: var(--at-m); height: 64px; display: flex; align-items: center; gap: 24px; }
+      .at-hdr .at-home { display: flex; align-items: center; gap: 10px; font-weight: 600; margin-left: -4px; padding: 4px; border-radius: 10px; white-space: nowrap; }
+      .at-hdr .at-home:hover { background: var(--at-wash); }
+      .at-hdr .at-logo { width: 28px; height: 28px; flex: none; display: block; }
+      .at-hdr .at-name { font-size: 18px; line-height: 1; letter-spacing: -0.02em; }
+      .at-hdr .at-d { color: #e34b4f; font-weight: 600; }
+      .at-hdr .at-t { color: #242424; font-weight: 750; margin-left: 0.22em; }
+      .at-hdr .at-tabs { display: flex; flex: 1; align-self: stretch; gap: 8px; }
+      .at-hdr .at-push { margin-left: auto; }   /* About, My Profile and Settings sit on the right */
+      .at-hdr .at-tab { position: relative; display: flex; align-items: center; padding: 0 8px; color: var(--at-ink-2); font-weight: 500; }
+      .at-hdr .at-tab:hover, .at-hdr .at-tab[aria-current="page"] { color: var(--at-ink); }
+      .at-hdr .at-tab[aria-current="page"]::after { content: ""; position: absolute; left: 8px; right: 8px; bottom: 0; height: 2px; background: var(--at-ink); border-radius: 2px 2px 0 0; }
+      .at-hdr a:focus-visible { outline: 2px solid var(--at-ink); outline-offset: -2px; border-radius: 6px; }
+      @media (max-width: 599px) {
+        .at-hdr .at-wrap { height: 56px; gap: 8px; }
+        .at-hdr .at-home { min-width: 44px; min-height: 44px; justify-content: center; margin-left: -10px; }
+        .at-hdr .at-name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+        .at-hdr .at-tabs { margin-left: auto; gap: 0; }
+        .at-hdr .at-tab { min-width: 44px; justify-content: center; padding: 0 10px; }
+        .at-hdr .at-tab[aria-current="page"]::after { left: 10px; right: 10px; }
+      }
+      .at-hdr .at-gear { display: none; }
+      @media (max-width: 767px) {   /* About, My Profile and Settings become icons */
+        .at-hdr .at-wrap { gap: 16px; }
+        .at-hdr .at-gear { display: block; }
+        .at-hdr .at-set { min-width: 44px; justify-content: center; }
+        .at-hdr .at-set-l { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+      }
+      @media (max-width: 599px) { .at-hdr .at-wrap { gap: 8px; } }
+      @media (max-width: 479px) {   /* six tabs: tighter so they still fit at 360 px */
+        .at-hdr { --at-m: 12px; }
+        .at-hdr .at-wrap { gap: 2px; }
+        .at-hdr .at-tab { padding: 0 6px; min-width: 36px; font-size: 13px; }
+        .at-hdr .at-set { min-width: 38px; }
+        .at-hdr .at-tab[aria-current="page"]::after { left: 6px; right: 6px; }
+      }
+      @media (max-width: 399px) {
+        .at-hdr { --at-m: 10px; }
+        .at-hdr .at-tab { padding: 0 5px; }
+        .at-hdr .at-set { min-width: 34px; }
+        .at-hdr .at-tab[aria-current="page"]::after { left: 5px; right: 5px; }
+      }
+    </style>
+    <style>
+      /* Reader: the reading layout of stylesheets/styles.css (left rail, reading column; harmony classes
+         .back .front .suf .stem), fitted under the sticky header. PROJECT.md 3 and 5.1. */
+      :root {
+        --warm: #8a5a10; --warm-line: #cf953a; --warm-wash: #fdf7ee;
+        --green: #2e6b4f; --green-line: #3f8f69; --green-wash: rgb(46 125 90 / 6%);
+        --sepia: #6e5232; --sepia-line: #a98656; --sepia-wash: #f8f5ef;
+        --hdr: 64px; --r: 8px;
+      }
+      @media (max-width: 599px) { :root { --hdr: 56px; } }
+      html { scroll-padding-top: calc(var(--hdr) + 24px); -webkit-text-size-adjust: 100%; }
+      [hidden] { display: none !important; }
+      .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+      i[lang="tr"] { color: var(--ink); }
+      code { padding: 0.05em 0.3em; color: #333; font-family: var(--mono); font-size: 0.86em; background: #f2f2f0; border-radius: 4px; }
+      .trk-soon { color: var(--muted); }
+      .trk-soon small { font-size: 0.85em; }
+      .trk-nw { white-space: nowrap; }
+
+      /* layout: the rail sits below the sticky header */
+      .wrapper { padding-top: 3rem; }
+      .wrapper > header { top: calc(var(--hdr) + 2rem); max-height: calc(100dvh - var(--hdr) - 4rem); }
+      .wrapper > section { min-height: 50vh; }
+
+      /* rail */
+      .rail-kicker, .doc-kicker {
+        margin: 0 0 0.45rem; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--lv-dark);
+      }
+      /* UI-5: a unit's guide and interlude wear the level's colour on their labels; links and harmony colours don't change */
+      .rail-title { margin: 0; color: var(--ink); font-size: 1.05rem; font-weight: 600; line-height: 1.3; }
+      .rail-title a { color: var(--ink); }
+      .rail-title a:hover { color: var(--blue-dark); }
+      .rail-tr { margin: 0.1rem 0 1.1rem; color: var(--lv-dark); font-style: italic; }
+      .rail-blurb { margin: 0 0 1.1rem; font-size: 0.86rem; }
+      .rail-docs { margin-bottom: 0.25rem; }
+      .rail-docs a[aria-current="page"] { color: var(--lv-on); background: var(--lv); border-color: var(--lv); box-shadow: none; }
+      .rail-docs a[aria-current="page"]:hover { color: #fff; background: var(--lv-dark); }
+      .rail-docs a.soon { color: var(--muted); background: var(--panel); border-color: var(--line); box-shadow: none; }
+      .toc-btn {
+        display: none; align-self: flex-start; align-items: center; gap: 0.5rem; min-height: 44px; margin-top: 0.9rem; padding: 0 0.95rem;
+        color: var(--ink); font: inherit; font-size: 0.88rem; font-weight: 560; cursor: pointer;
+        background: #fff; border: 1px solid var(--line); border-radius: 999px;
+      }
+      .toc-btn svg { transition: transform 150ms ease; }
+      .toc-btn[aria-expanded="true"] svg { transform: rotate(180deg); }
+      .toc-n { color: var(--muted); font-weight: 400; }
+      .chapter-nav a.soon { color: var(--faint); }
+      .chapter-nav a .ch-n { display: inline-block; min-width: 1.4rem; }
+      .legend {
+        margin-top: 0.9rem; padding-top: 0.8rem; color: var(--muted); font-size: 0.76rem; line-height: 1.6; border-top: 1px solid var(--line);
+      }
+      .legend b { display: block; color: var(--ink); font-weight: 560; }
+      .rail-foot { margin-top: 0.9rem; font-size: 0.84rem; }
+      .rail-foot a { display: inline-flex; align-items: center; min-height: 32px; }
+      .wrapper > footer a { white-space: nowrap; }
+
+      /* reading column */
+      .notices:empty { display: none; }
+      .notice { margin: 0 0 1rem; padding: 0.65rem 0.9rem; color: #5e4210; font-size: 0.86rem; background: #fdf7ee; border: 1px solid #ecd6b3; border-radius: var(--r); }
+      .notice.err { color: #6e1d15; background: #fdf3f2; border-color: #efc4be; }
+      .notice button, .notice a { padding: 0; color: inherit; font: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; background: none; border: 0; }
+      .loading { color: var(--muted); }
+      .doc-kicker { color: var(--muted); }
+      .doc-kicker .dot { margin: 0 0.35em; color: var(--faint); }
+      .doc-title { margin: 0 0 0.35rem; color: var(--ink); font-size: 2.1rem; font-weight: 620; line-height: 1.12; letter-spacing: -0.035em; }
+      .doc-sub { margin: 0 0 1.1rem; color: var(--muted); font-size: 0.9rem; }
+      .doc-tr { margin: 0 0 1.1rem; color: var(--lv-dark); font-size: 1.1rem; font-style: italic; }
+      .lede { margin-top: 1rem; color: #444; font-size: 1.02rem; line-height: 1.65; }
+      #main h2 {
+        margin: 2.8rem 0 1rem; padding-top: 1.7rem; font-size: 1.42rem; border-top: 1px solid var(--line);
+      }
+      #main h2 .h-n { margin-right: 0.45rem; color: var(--faint); font-size: 0.8em; font-weight: 500; font-variant-numeric: tabular-nums; }
+      #main h3 { margin: 1.6rem 0 0.6rem; font-size: 1.08rem; }
+      .hl { animation: hl 2.2s ease-out; }
+      @keyframes hl { from { background: var(--blue-wash); box-shadow: 0 0 0 0.4rem var(--blue-wash); } to { background: transparent; box-shadow: 0 0 0 0.4rem transparent; } }
+      .blist li::marker { color: var(--faint); }
+
+      /* morpheme colouring (TRK.seg with harmony): stem + suffix, suffix vowels front or back */
+      .trk-seg .suf { margin-left: 0.06em; text-decoration: underline; text-decoration-color: rgb(39 174 96 / 45%); text-decoration-thickness: 1.5px; text-underline-offset: 0.24em; text-decoration-skip-ink: auto; }
+      .trk-seg .stem { font-weight: 450; }
+
+      /* speaker buttons (TRK.tts.button), hidden without a Turkish voice */
+      .trk-say { display: inline-grid; place-items: center; flex: none; width: 34px; height: 34px; padding: 0; color: var(--blue); vertical-align: middle; cursor: pointer; background: #fff; border: 1px solid var(--line); border-radius: 50%; }
+      .trk-say:hover { background: var(--blue-tint); border-color: var(--blue); }
+      @media (pointer: coarse) { .trk-say { width: 44px; height: 44px; } }
+
+      /* tables and rules */
+      .tbl { margin: 1.4rem 0; overflow-x: auto; }
+      .tbl table { margin: 0; }
+      .tbl caption, .para-head { padding: 0 0 0.5rem; color: var(--muted); font-size: 0.82rem; text-align: left; caption-side: top; }
+      .t td.seg { color: var(--ink); font-size: 0.92rem; }
+      .t td.tr { color: var(--blue-dark); }
+      .t th code, .t td code { white-space: nowrap; }
+      .rule pre { margin: 0; font: inherit; white-space: pre; }
+
+      /* examples */
+      .ex-block { padding: 0.75rem 1.1rem 0.35rem; }
+      .ex-list { margin: 0; padding: 0; list-style: none; }
+      .ex-list li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 0.75rem; align-items: center; margin: 0; padding: 0.55rem 0; border-top: 1px solid var(--line); }
+      .ex-list li:first-child { border-top: 0; padding-top: 0.15rem; }
+      .ex-tr { display: block; color: var(--ink); font-size: 1.08em; line-height: 1.5; }
+      .ex-gloss { display: block; color: var(--muted); font-family: var(--mono); font-size: 0.78em; letter-spacing: 0.02em; }
+      .ex-en { display: block; color: var(--muted); line-height: 1.5; }
+      .ex-note { color: var(--body); }
+      .ex-note::before { content: "·"; margin: 0 0.45em; color: var(--faint); }
+
+      /* paradigm */
+      .para { margin: 1.4rem 0; }
+      .para-head { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0 0 0.35rem; }
+      .para-head .ttl { color: var(--ink); font-size: 0.9rem; font-weight: 560; }
+      .para table { margin: 0; border-top: 1px solid var(--line); }
+      .para th[scope="row"] { width: 4.6rem; color: var(--muted); font-weight: 450; font-style: italic; }
+      .para td.seg { width: 36%; font-size: 1rem; white-space: nowrap; }
+
+      /* dialogue */
+      .dialogue { margin: 1.4rem 0; padding: 0.75rem 1.1rem 0.35rem; background: var(--panel); border: 1px solid var(--line); }
+      .dl-line { display: grid; grid-template-columns: 5rem minmax(0, 1fr) auto; gap: 0.1rem 0.8rem; align-items: center; padding: 0.55rem 0; border-top: 1px solid var(--line); }
+      .dialogue .example-label + .dl-line { border-top: 0; padding-top: 0.15rem; }
+      .dl-who { align-self: start; padding-top: 0.12rem; color: var(--blue-dark); font-size: 0.84rem; font-weight: 600; overflow-wrap: anywhere; }
+      .dl-tr, .dl-en { margin: 0; }
+      .dl-tr { color: var(--ink); font-size: 1.03em; }
+      .dl-en { color: var(--muted); font-size: 0.92em; }
+
+      /* callouts: styles.css .callout, one colour per kind */
+      .callout p { margin: 0; }
+      .callout .callout-title { margin: 0 0 0.15rem; color: inherit; font-weight: 600; }
+      .callout.k-pitfall { color: #4f3a12; background: var(--warm-wash); border-left-color: var(--warm-line); }
+      .callout.k-pitfall .callout-label { color: var(--warm); }
+      .callout.k-compare { color: var(--body); background: var(--panel); border-left-color: #9a988f; }
+      .callout.k-compare .callout-label { color: var(--muted); }
+      .callout.k-culture { color: #24453a; background: var(--green-wash); border-left-color: var(--green-line); }
+      .callout.k-culture .callout-label { color: var(--green); }
+      .callout.k-history { color: #4a3b28; background: var(--sepia-wash); border-left-color: var(--sepia-line); }
+      .callout.k-history .callout-label { color: var(--sepia); }
+
+      /* parallel text, passage, quote, image, see */
+      .lbl-row { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; min-height: 34px; margin-bottom: 0.35rem; }
+      .lbl { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+      .parallel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); margin: 1.4rem 0; border: 1px solid var(--line); }
+      .parallel > div { min-width: 0; padding: 0.75rem 1.1rem 0.9rem; }
+      .par-tr { background: var(--blue-tint); }
+      .par-tr p { margin: 0 0 0.6rem; color: var(--ink); line-height: 1.7; }
+      .par-en p { margin: 0 0 0.6rem; color: var(--muted); line-height: 1.7; }
+      .parallel p:last-child { margin-bottom: 0; }
+      .par-en { border-left: 1px solid var(--line); }
+      .passage { margin: 1.4rem 0; padding: 0.75rem 1.2rem 1rem; background: #fff; border: 1px solid var(--line); border-left: 2px solid var(--blue); }
+      .passage p[lang="tr"] { margin: 0 0 0.8rem; color: var(--ink); font-size: 1.04rem; line-height: 1.8; }
+      .glossary { display: grid; grid-template-columns: fit-content(45%) minmax(0, 1fr); gap: 0.25rem 1rem; margin: 0.9rem 0 0; padding-top: 0.8rem; font-size: 0.86rem; border-top: 1px solid var(--line); }
+      .glossary dt { color: var(--ink); font-style: italic; }
+      .glossary dd { margin: 0; color: var(--muted); }
+      .quote { margin: 1.6rem 0; padding: 0.2rem 0 0.2rem 1.2rem; border-left: 3px solid var(--blue); }
+      .quote blockquote { margin: 0; }
+      .quote .q-tr { margin: 0 0 0.55rem; color: var(--ink); font-size: 1.06rem; font-style: italic; line-height: 1.7; white-space: pre-line; }
+      .quote .q-en { margin: 0 0 0.45rem; white-space: pre-line; }
+      .quote figcaption { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); font-size: 0.8rem; }
+      .fig { margin: 1.6rem 0; }
+      .fig img { display: block; width: 100%; margin: 0; border: 1px solid var(--line); }
+      .fig figcaption { margin-top: 0.45rem; color: var(--muted); font-size: 0.8rem; }
+      .fig .credit { color: var(--faint); }
+      .see { margin: 1.4rem 0; padding: 0.7rem 0; font-size: 0.9em; border-top: 1px dashed var(--line); border-bottom: 1px dashed var(--line); }
+      .see .lbl { margin-right: 0.4rem; }
+      .see-list { margin: 0.35rem 0 0; padding-left: 1.1rem; }
+      .see-list li { margin: 0.15rem 0; }
+
+      /* end of a guide: summary, culture extras, what next */
+      .summary { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+      .summary li { position: relative; margin: 0; padding: 0.6rem 0 0.6rem 2.1rem; border-top: 1px solid var(--line); }
+      .summary li:first-child { border-top: 0; padding-top: 0.2rem; }
+      .summary li::before {
+        counter-increment: s; content: counter(s); position: absolute; left: 0; top: 0.68rem; display: grid; place-items: center;
+        width: 1.35rem; height: 1.35rem; color: var(--blue-dark); font-size: 0.7rem; font-weight: 700; background: var(--blue-wash); border-radius: 50%;
+      }
+      .summary li:first-child::before { top: 0.28rem; }
+      .vocab { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1.5rem; margin: 0; padding: 0; list-style: none; }
+      .vocab li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 0.6rem; align-items: center; margin: 0; padding: 0.45rem 0; border-top: 1px solid var(--line); }
+      .vocab .v-tr { display: block; color: var(--ink); font-style: italic; }
+      .vocab .v-en { display: block; color: var(--muted); font-size: 0.86rem; }
+      .quiz-intro { color: var(--muted); font-size: 0.86rem; }
+      .quiz-btn { min-height: 44px; }
+      .quiz-feedback:focus { outline: none; }
+      .sources { padding-left: 1.25rem; font-size: 0.86rem; }
+      .sources li { margin-bottom: 0.55rem; }
+      .sources .src-note { display: block; color: var(--muted); font-size: 0.92em; }
+      .soon-box { margin: 1.4rem 0; padding: 0.9rem 1.1rem; color: var(--body); background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); }
+      .soon-box p { margin: 0; }
+      .soon-box p + p { margin-top: 0.5rem; }
+      .soon-list li { color: var(--body); }
+      .next-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; margin: 2.8rem 0 0; padding-top: 1.7rem; border-top: 1px solid var(--line); }
+      .next-card { display: block; min-height: 44px; padding: 0.8rem 1rem; color: var(--ink); line-height: 1.4; border: 1px solid var(--line); border-radius: var(--r); transition: border-color 150ms ease, background 150ms ease; }
+      .next-card small { display: block; margin-bottom: 0.2rem; color: var(--muted); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+      a.next-card:hover { color: var(--ink); background: var(--blue-tint); border-color: var(--blue); }
+      .next-card.soon { color: var(--muted); background: var(--panel); }
+      .read-state { margin: 1rem 0 0; color: var(--muted); font-size: 0.84rem; }
+      .read-state:empty { display: none; }
+      .tick { display: inline-flex; vertical-align: -2px; color: var(--blue); }
+
+      /* index of guides and grammar points */
+      .find { margin: 1.6rem 0 0.4rem; }
+      .find label { display: block; margin-bottom: 0.35rem; color: var(--ink); font-size: 0.84rem; font-weight: 560; }
+      .find input { width: 100%; height: 44px; padding: 0 0.9rem; color: var(--ink); font: inherit; font-size: 1rem; background: #fff; border: 1px solid #d6d5d0; border-radius: var(--r); }
+      .find input:focus-visible { border-color: var(--blue-dark); outline: 2px solid var(--blue-dark); outline-offset: 0; }
+      .find-n { min-height: 1.3em; margin: 0.4rem 0 0; color: var(--muted); font-size: 0.8rem; }
+      .ix-meta { margin: -0.55rem 0 0.9rem; color: var(--muted); font-size: 0.84rem; }
+      .ix-units { margin: 0; padding: 0; list-style: none; }
+      .ix-unit { margin: 0; padding: 0.95rem 0 1rem; border-top: 1px solid var(--line); }
+      .ix-units > .ix-unit:first-child { border-top: 0; padding-top: 0.2rem; }
+      .ix-head { display: grid; grid-template-columns: 3.6rem minmax(0, 1fr) auto; gap: 0 0.5rem; align-items: baseline; }
+      .ix-num { color: var(--muted); font-size: 0.74rem; font-variant-numeric: tabular-nums; }
+      #main .ix-title { margin: 0; font-size: 1.04rem; font-weight: 610; line-height: 1.35; }
+      .ix-tr { color: var(--blue-dark); font-size: 0.9rem; font-style: italic; font-weight: 400; }
+      .ix-body { margin-left: 4.1rem; }
+      .ix-points { margin: 0.4rem 0 0; padding-left: 1.05rem; font-size: 0.9rem; }
+      .ix-points li { margin: 0.12rem 0; }
+      .ix-points li::marker { color: var(--faint); }
+      .ix-docs { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; margin: 0.45rem 0 0; font-size: 0.86rem; }
+      .ix-docs a, .ix-docs span { display: inline-flex; align-items: center; gap: 0.3rem; }
+      .ix-unit.planned .ix-title, .ix-unit.planned .ix-points { color: var(--muted); }
+      .tag-soon { display: inline-flex; align-items: center; height: 20px; padding: 0 7px; color: var(--muted); font-size: 0.7rem; font-weight: 600; white-space: nowrap; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; }
+      mark { padding: 0 0.05em; color: inherit; background: rgb(40 122 158 / 16%); border-radius: 2px; }
+
+      /* tablet and phone (styles.css stacks the rail above the column below 60rem) */
+      @media (max-width: 60rem) {
+        .wrapper { row-gap: 1.6rem; }
+        .wrapper > header { padding-bottom: 1.1rem; border-bottom: 1px solid var(--line); }
+        .toc-btn { display: inline-flex; }
+        .wrapper > header .chapter-nav { max-height: none; margin-top: 0.6rem; -webkit-mask-image: none; mask-image: none; }
+        .wrapper > header .chapter-nav.collapsed { display: none; }
+        .rail-title.dup, .rail-title.dup + .rail-tr { display: none; }
+        .rail-kicker { margin-bottom: 0.7rem; }
+        .rail-tr { margin-bottom: 0.9rem; }
+      }
+      @media (max-width: 35rem) {
+        .wrapper { padding-top: 1.25rem; }
+        .doc-title { font-size: 1.7rem; }
+        .lede { font-size: 0.96rem; }
+        .rule { padding: 0.75rem 0.85rem; font-size: 0.76rem; }
+        #main h2 { margin-top: 2.2rem; padding-top: 1.4rem; font-size: 1.25rem; }
+        .ex-block, .dialogue { padding-left: 0.85rem; padding-right: 0.85rem; }
+        .dl-line { grid-template-columns: minmax(0, 1fr) auto; }
+        .dl-who { grid-column: 1 / -1; padding-top: 0; }
+        .parallel { grid-template-columns: minmax(0, 1fr); }
+        .par-en { border-left: 0; border-top: 1px solid var(--line); }
+        .vocab { grid-template-columns: minmax(0, 1fr); }
+        .next-grid { grid-template-columns: minmax(0, 1fr); }
+        .ix-head { grid-template-columns: minmax(0, 1fr) auto; }
+        .ix-num { grid-column: 1 / -1; }
+        .ix-body { margin-left: 0; }
+        .para th[scope="row"] { width: 3.6rem; }
+        .para td.seg { white-space: normal; }
+      }
+      @media (pointer: coarse), (max-width: 35rem) {
+        .chapter-nav a { display: flex; align-items: center; min-height: 44px; line-height: 1.35; }
+        .profile-links a { min-height: 44px; }
+        .ix-points a, .see-list a { display: inline-flex; align-items: center; min-height: 44px; }
+        .sources a { display: block; padding: 0.75rem 0; }
+        .sources .src-note { margin-top: -0.55rem; }
+        .ix-docs a { min-height: 44px; }
+        .rail-foot a { min-height: 44px; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .hl { animation: none; }
+        .toc-btn svg { transition: none; }
+      }
+    </style>
+    <style>
+      /* Level colours and the İznik pattern (decided in UI-5, PROJECT.md 3).
+         The same block sits in turkish.html, turkishlesson.html, turkishguide.html and turkishcards.html. */
+      :root {
+        /* --lv*: the colour of the level in scope (data-lvl); outside a level, the site blue. Buttons keep the site blue. */
+        --lv: #287a9e; --lv-dark: #155b7c; --lv-wash: rgb(40 122 158 / 11%); --lv-tint: rgb(40 122 158 / 5%); --lv-line: rgb(40 122 158 / 35%); --lv-on: #fff;
+        --gold: #a87812; --gold-dark: #7d5a0d; --gold-wash: rgb(168 120 18 / 13%);
+        --gold-shine: linear-gradient(135deg, #f7dc80 0%, #e0b23c 38%, #b8861a 70%, #8a6210 100%);
+        --iznik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke-width='1.3'%3E%3Cg stroke='%232452a0'%3E%3Crect x='21' y='21' width='22' height='22'/%3E%3Crect x='21' y='21' width='22' height='22' transform='rotate%2845 32 32%29'/%3E%3Ccircle cx='0' cy='0' r='11'/%3E%3Ccircle cx='64' cy='0' r='11'/%3E%3Ccircle cx='0' cy='64' r='11'/%3E%3Ccircle cx='64' cy='64' r='11'/%3E%3C/g%3E%3Cg stroke='%2311847f'%3E%3Ccircle cx='32' cy='32' r='5'/%3E%3Cpath d='M32 -5l5 5-5 5-5-5zM32 59l5 5-5 5-5-5zM-5 32l5-5 5 5-5 5zM59 32l5-5 5 5-5 5z'/%3E%3Cpath d='M0 5.5a5.5 5.5 0 0 0 5.5-5.5M58.5 0a5.5 5.5 0 0 0 5.5 5.5M64 58.5a5.5 5.5 0 0 0-5.5 5.5M5.5 64a5.5 5.5 0 0 0-5.5-5.5'/%3E%3C/g%3E%3Cg stroke='%23c2462c'%3E%3Cpath d='M32 17.5v-4M32 46.5v4M17.5 32h-4M46.5 32h4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+      /* İznik tiles: turquoise, cobalt, green, tomato red, manganese purple and mustard. --lv-on is the text on a solid --lv.
+         "Mastered" is a brighter, shinier gold (--gold-shine) so it doesn't read as C2's flat mustard. */
+      [data-lvl="a1"] { --lv: #11847f; --lv-dark: #0a5f5b; --lv-wash: rgb(17 132 127 / 12%); --lv-tint: rgb(17 132 127 / 5%); --lv-line: rgb(17 132 127 / 35%); }
+      [data-lvl="a2"] { --lv: #2452a0; --lv-dark: #1b3f7d; --lv-wash: rgb(36 82 160 / 11%); --lv-tint: rgb(36 82 160 / 5%); --lv-line: rgb(36 82 160 / 35%); }
+      [data-lvl="b1"] { --lv: #2b7d50; --lv-dark: #1d5c3a; --lv-wash: rgb(43 125 80 / 12%); --lv-tint: rgb(43 125 80 / 5%); --lv-line: rgb(43 125 80 / 35%); }
+      [data-lvl="b2"] { --lv: #c2462c; --lv-dark: #9a3420; --lv-wash: rgb(194 70 44 / 11%); --lv-tint: rgb(194 70 44 / 5%); --lv-line: rgb(194 70 44 / 35%); }
+      [data-lvl="c1"] { --lv: #6c3f9e; --lv-dark: #51307a; --lv-wash: rgb(108 63 158 / 11%); --lv-tint: rgb(108 63 158 / 5%); --lv-line: rgb(108 63 158 / 35%); }
+      [data-lvl="c2"] { --lv: #b8861a; --lv-dark: #7d5b10; --lv-wash: rgb(184 134 26 / 14%); --lv-tint: rgb(184 134 26 / 6%); --lv-line: rgb(184 134 26 / 40%); --lv-on: #2b2006; }
+      .lv-tag { display: inline-flex; align-items: center; height: 20px; padding: 0 7px; border-radius: 999px; background: var(--lv-wash); color: var(--lv-dark); font-size: 11.5px; font-weight: 650; letter-spacing: .02em; white-space: nowrap; }
+      /* a tile of the wall: laid (unit done) in its level's colour, glazed gold once the unit is mastered */
+      .tw-t { position: relative; display: block; aspect-ratio: 1; border-radius: 3px; background: #f3f2ee; box-shadow: inset 0 0 0 1px #e4e3df; }
+      .tw-t.open { background: var(--lv-tint); box-shadow: inset 0 0 0 1px var(--lv-wash); }
+      .tw-t.laid { background: var(--lv); box-shadow: none; }
+      .tw-t.gold { background: var(--gold-shine); box-shadow: inset 0 0 0 1px rgb(255 240 190 / .55); }
+      .tw-t.laid[data-lvl="c2"]::before { border-color: rgb(43 32 6 / .55); }
+      .tw-t.laid[data-lvl="c2"]::after { border-color: rgb(43 32 6 / .35); }
+      .tw-t.laid::before, .tw-t.gold::before { content: ""; position: absolute; inset: 26%; border: 1.5px solid rgb(255 255 255 / .85); border-radius: 1px; transform: rotate(45deg); }
+      .tw-t.laid::after, .tw-t.gold::after { content: ""; position: absolute; inset: 26%; border: 1.5px solid rgb(255 255 255 / .55); border-radius: 1px; }
+    </style>
+    <script defer src="/assets/js/turkish.js"></script>
+    <script defer src="/assets/js/turkish-account.js"></script>
+    <style>
+      /* Footer: one line asking for a Turkish coffee (buymeacoffee.com/dailyturkish) */
+      .dt-foot { margin: 48px auto 0; padding: 0 16px 28px; text-align: center;
+                 font: 12.5px/1.5 "Inter Fleet", InterVariable, Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+      .dt-foot p { margin: 0; }
+      .dt-foot a { color: #9a9a96; text-decoration: none; }
+      .dt-foot a:hover { color: #c43b3f; }
+      body.studying .dt-foot { display: none; }
+    </style>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Daily Turkish","item":"https://dailyturkish.app/"},{"@type":"ListItem","position":2,"name":"Grammar guides","item":"https://dailyturkish.app/turkishguide.html"}]}</script>
+    <meta property="og:image" content="https://dailyturkish.app/assets/img/og/daily-turkish.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Daily Turkish · A free Turkish course, from A1 to C2">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <div class="at-hdr" role="banner">
+      <div class="at-wrap">
+        <a class="at-home" href="/" aria-label="Daily Turkish, back to the course"><svg class="at-logo" viewBox="14 14 152 152" width="28" height="28" aria-hidden="true"><circle cx="90" cy="90" r="76" fill="#e34b4f"/><circle cx="76" cy="55" r="17" fill="#fff"/><circle cx="83" cy="49" r="16" fill="#e34b4f"/><path d="m105 42 3.3 6.6 7.3 1.1-5.3 5.1 1.2 7.2-6.5-3.4-6.5 3.4 1.2-7.2-5.3-5.1 7.3-1.1z" fill="#fff"/><path d="M31 83c17-7 37-5 57 7v46c-20-12-40-14-57-7z" fill="#fff"/><path d="M89 90c20-12 40-14 57-7v46c-17-7-37-5-57 7z" fill="#fff"/><path d="M89 90v46" fill="none" stroke="#f4b7ba" stroke-linecap="round" stroke-width="3"/><path d="M40 94c12-3 25-1 37 4M40 106c12-3 25-1 37 4M102 98c12-5 25-7 37-4M102 110c12-5 25-7 37-4" fill="none" stroke="#f4b7ba" stroke-linecap="round" stroke-width="2.5"/></svg><span class="at-name"><span class="at-d">Daily</span><span class="at-t">Turkish</span></span></a>
+        <nav class="at-tabs" aria-label="Turkish course">
+          <a class="at-tab" href="/">Course</a>
+          <a class="at-tab" href="/turkishguide.html" aria-current="page">Grammar</a>
+          <a class="at-tab" href="/turkishcards.html">Flashcards</a>
+          <a class="at-tab at-set at-push" href="/#about" id="tab-about"><svg class="at-gear" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><circle cx="10" cy="10" r="7.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 9v5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="10" cy="6.4" r="1" fill="currentColor"/></svg><span class="at-set-l">About</span></a>
+          <a class="at-tab at-set" href="/#profile" id="tab-profile"><svg class="at-gear" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><circle cx="10" cy="7" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3.8 16.5c.9-3 3.3-4.6 6.2-4.6s5.3 1.6 6.2 4.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span class="at-set-l">My Profile</span></a>
+          <a class="at-tab at-set" href="/#settings" id="tab-settings"><svg class="at-gear" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M10 12.6a2.6 2.6 0 1 0 0-5.2 2.6 2.6 0 0 0 0 5.2Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8.4 2.5h3.2l.4 2.1 1.4.8 2-.7 1.6 2.8-1.6 1.4v1.6l1.6 1.4-1.6 2.8-2-.7-1.4.8-.4 2.1H8.4l-.4-2.1-1.4-.8-2 .7-1.6-2.8 1.6-1.4V9.2L3 7.8l1.6-2.8 2 .7 1.4-.8.4-2.1Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg><span class="at-set-l">Settings</span></a>
+        </nav>
+      </div>
+    </div>
+
+    <main class="wrapper">
+      <header id="rail"><div class="rail-kicker">Turkish · A1 → C2</div><div class="rail-title">Grammar and culture</div><div class="rail-blurb">Each unit has a grammar guide, with a section for every grammar point, and a short culture interlude.</div><button type="button" class="toc-btn" aria-expanded="false" aria-controls="toc">Levels <span class="toc-n">6</span><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button><nav class="chapter-nav collapsed" id="toc" aria-label="Levels"><a href="#a1">A1 · First steps</a><a href="#a2">A2 · Everyday life</a><a href="#b1">B1 · Stories and clauses</a><a href="#b2">B2 · Nuance and register</a><a href="#c1">C1 · Fluency and idiom</a><a href="#c2" class="soon">C2 · Mastery</a></nav><div class="rail-foot"><a href="/">Back to the course</a></div></header>
+
+      <section id="doc">
+        <div class="notices" id="notices" role="status" aria-live="polite"></div>
+        <div id="main"><p class="doc-kicker">Grammar index</p><h1 class="doc-title" id="top">Grammar guides and interludes</h1><p class="lede">Every grammar point of the course, unit by unit, from the alphabet to the language of the press. 54 of 60 units are written so far; the rest are listed as they're planned.</p><p class="read-state">You haven't opened a guide yet: start with <a href="/guides/a1-u01-grammar.html">Letters and sounds</a>.</p><div class="find" role="search"><label for="find">Find a grammar point</label><input id="find" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="plural, -DA, değil, past tense…" aria-describedby="find-n"><p class="find-n" id="find-n" aria-live="polite">243 of 267 grammar points written</p></div><div class="ix-level" data-level="a1"><h2 id="a1">A1 · First steps</h2><p class="ix-meta">12 of 12 units written</p><ol class="ix-units"><li class="ix-unit" id="a1-u01" data-k="letters and sounds merhaba! the 1928 alphabet reform a1 unit 1"><div class="ix-head"><span class="ix-num">Unit 1</span><h3 class="ix-title"><a href="/guides/a1-u01-grammar.html">Letters and sounds</a> <span class="ix-tr" lang="tr">Merhaba!</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-alphabet" data-k="the 29 letters gp alphabet"><a href="/guides/a1-u01-grammar.html#gp-alphabet"><span class="lab" data-t="The 29 letters">The 29 letters</span></a></li><li id="gp-pronunciation" data-k="one letter, one sound gp pronunciation"><a href="/guides/a1-u01-grammar.html#gp-pronunciation"><span class="lab" data-t="One letter, one sound">One letter, one sound</span></a></li><li id="gp-stress-basics" data-k="where the stress falls gp stress basics"><a href="/guides/a1-u01-grammar.html#gp-stress-basics"><span class="lab" data-t="Where the stress falls">Where the stress falls</span></a></li><li id="gp-sentence-basics" data-k="how a turkish sentence is built gp sentence basics"><a href="/guides/a1-u01-grammar.html#gp-sentence-basics"><span class="lab" data-t="How a Turkish sentence is built">How a Turkish sentence is built</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u01-grammar.html">Grammar guide</a><a href="/guides/a1-u01-culture.html">Interlude: The 1928 alphabet reform</a></p></div></li><li class="ix-unit" id="a1-u02" data-k="vowel harmony and plurals bu ne? the nazar boncugu a1 unit 2"><div class="ix-head"><span class="ix-num">Unit 2</span><h3 class="ix-title"><a href="/guides/a1-u02-grammar.html">Vowel harmony and plurals</a> <span class="ix-tr" lang="tr">Bu ne?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-vowel-groups" data-k="eight vowels in two groups gp vowel groups"><a href="/guides/a1-u02-grammar.html#gp-vowel-groups"><span class="lab" data-t="Eight vowels in two groups">Eight vowels in two groups</span></a></li><li id="gp-harmony-2way" data-k="two-way harmony: e or a gp harmony 2way"><a href="/guides/a1-u02-grammar.html#gp-harmony-2way"><span class="lab" data-t="Two-way harmony: e or a">Two-way harmony: e or a</span></a></li><li id="gp-plural" data-k="the plural: -lar and -ler gp plural"><a href="/guides/a1-u02-grammar.html#gp-plural"><span class="lab" data-t="The plural: -lar and -ler">The plural: -lar and -ler</span></a></li><li id="gp-demonstratives" data-k="this and that: bu, su, o gp demonstratives"><a href="/guides/a1-u02-grammar.html#gp-demonstratives"><span class="lab" data-t="This and that: bu, şu, o">This and that: bu, şu, o</span></a></li><li id="gp-bir-indefinite" data-k="a, an and one: bir gp bir indefinite"><a href="/guides/a1-u02-grammar.html#gp-bir-indefinite"><span class="lab" data-t="A, an and one: bir">A, an and one: bir</span></a></li><li id="gp-harmony-exceptions" data-k="words that break the pattern gp harmony exceptions"><a href="/guides/a1-u02-grammar.html#gp-harmony-exceptions"><span class="lab" data-t="Words that break the pattern">Words that break the pattern</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u02-grammar.html">Grammar guide</a><a href="/guides/a1-u02-culture.html">Interlude: The nazar boncuğu</a></p></div></li><li class="ix-unit" id="a1-u03" data-k="saying who you are ben ogrenciyim the 1934 surname law a1 unit 3"><div class="ix-head"><span class="ix-num">Unit 3</span><h3 class="ix-title"><a href="/guides/a1-u03-grammar.html">Saying who you are</a> <span class="ix-tr" lang="tr">Ben öğrenciyim</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-harmony-4way" data-k="four-way harmony gp harmony 4way"><a href="/guides/a1-u03-grammar.html#gp-harmony-4way"><span class="lab" data-t="Four-way harmony">Four-way harmony</span></a></li><li id="gp-personal-pronouns" data-k="i, you, he, she: the personal pronouns gp personal pronouns"><a href="/guides/a1-u03-grammar.html#gp-personal-pronouns"><span class="lab" data-t="I, you, he, she: the personal pronouns">I, you, he, she: the personal pronouns</span></a></li><li id="gp-copula-present" data-k="to be: the personal endings gp copula present"><a href="/guides/a1-u03-grammar.html#gp-copula-present"><span class="lab" data-t="To be: the personal endings">To be: the personal endings</span></a></li><li id="gp-buffer-letters" data-k="buffer letters: the y in ogrenciyim gp buffer letters"><a href="/guides/a1-u03-grammar.html#gp-buffer-letters"><span class="lab" data-t="Buffer letters: the y in öğrenciyim">Buffer letters: the y in öğrenciyim</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u03-grammar.html">Grammar guide</a><a href="/guides/a1-u03-culture.html">Interlude: The 1934 Surname Law</a></p></div></li><li class="ix-unit" id="a1-u04" data-k="questions and negation yorgun musun? nasreddin hoca a1 unit 4"><div class="ix-head"><span class="ix-num">Unit 4</span><h3 class="ix-title"><a href="/guides/a1-u04-grammar.html">Questions and negation</a> <span class="ix-tr" lang="tr">Yorgun musun?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-degil" data-k="not: degil gp degil"><a href="/guides/a1-u04-grammar.html#gp-degil"><span class="lab" data-t="Not: değil">Not: değil</span></a></li><li id="gp-question-mi" data-k="yes-no questions: mi gp question mi"><a href="/guides/a1-u04-grammar.html#gp-question-mi"><span class="lab" data-t="Yes-no questions: mI">Yes-no questions: mI</span></a></li><li id="gp-question-words" data-k="who, what, how: question words gp question words"><a href="/guides/a1-u04-grammar.html#gp-question-words"><span class="lab" data-t="Who, what, how: question words">Who, what, how: question words</span></a></li><li id="gp-answers" data-k="yes, no, of course: answering gp answers"><a href="/guides/a1-u04-grammar.html#gp-answers"><span class="lab" data-t="Yes, no, of course: answering">Yes, no, of course: answering</span></a></li><li id="gp-de-also" data-k="me too: da gp de also"><a href="/guides/a1-u04-grammar.html#gp-de-also"><span class="lab" data-t="Me too: dA">Me too: dA</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u04-grammar.html">Grammar guide</a><a href="/guides/a1-u04-culture.html">Interlude: Nasreddin Hoca</a></p></div></li><li class="ix-unit" id="a1-u05" data-k="where things are evde kimse yok istanbul through the ages a1 unit 5"><div class="ix-head"><span class="ix-num">Unit 5</span><h3 class="ix-title"><a href="/guides/a1-u05-grammar.html">Where things are</a> <span class="ix-tr" lang="tr">Evde kimse yok</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-locative" data-k="in, at, on: the locative gp locative"><a href="/guides/a1-u05-grammar.html#gp-locative"><span class="lab" data-t="In, at, on: the locative">In, at, on: the locative</span></a></li><li id="gp-consonant-assimilation" data-k="d or t? consonant assimilation gp consonant assimilation"><a href="/guides/a1-u05-grammar.html#gp-consonant-assimilation"><span class="lab" data-t="d or t? Consonant assimilation">d or t? Consonant assimilation</span></a></li><li id="gp-var-yok" data-k="there is, there isn't: var and yok gp var yok"><a href="/guides/a1-u05-grammar.html#gp-var-yok"><span class="lab" data-t="There is, there isn't: var and yok">There is, there isn't: var and yok</span></a></li><li id="gp-apostrophe" data-k="istanbul'da: suffixes on names gp apostrophe"><a href="/guides/a1-u05-grammar.html#gp-apostrophe"><span class="lab" data-t="İstanbul'da: suffixes on names">İstanbul'da: suffixes on names</span></a></li><li id="gp-pronoun-n" data-k="onda, burada: pronouns and place words gp pronoun n"><a href="/guides/a1-u05-grammar.html#gp-pronoun-n"><span class="lab" data-t="Onda, burada: pronouns and place words">Onda, burada: pronouns and place words</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u05-grammar.html">Grammar guide</a><a href="/guides/a1-u05-culture.html">Interlude: Istanbul through the ages</a></p></div></li><li class="ix-unit" id="a1-u06" data-k="the present continuous ne yapiyorsun? cay: turkish tea a1 unit 6"><div class="ix-head"><span class="ix-num">Unit 6</span><h3 class="ix-title"><a href="/guides/a1-u06-grammar.html">The present continuous</a> <span class="ix-tr" lang="tr">Ne yapıyorsun?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-infinitive-stem" data-k="gelmek, gel-: the infinitive and the stem gp infinitive stem"><a href="/guides/a1-u06-grammar.html#gp-infinitive-stem"><span class="lab" data-t="Gelmek, gel-: the infinitive and the stem">Gelmek, gel-: the infinitive and the stem</span></a></li><li id="gp-present-continuous" data-k="geliyorum: the present continuous gp present continuous"><a href="/guides/a1-u06-grammar.html#gp-present-continuous"><span class="lab" data-t="Geliyorum: the present continuous">Geliyorum: the present continuous</span></a></li><li id="gp-present-continuous-negative" data-k="gelmiyorum: negative and questions gp present continuous negative"><a href="/guides/a1-u06-grammar.html#gp-present-continuous-negative"><span class="lab" data-t="Gelmiyorum: negative and questions">Gelmiyorum: negative and questions</span></a></li><li id="gp-present-continuous-uses" data-k="now, these days and tomorrow gp present continuous uses"><a href="/guides/a1-u06-grammar.html#gp-present-continuous-uses"><span class="lab" data-t="Now, these days and tomorrow">Now, these days and tomorrow</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u06-grammar.html">Grammar guide</a><a href="/guides/a1-u06-culture.html">Interlude: Çay: Turkish tea</a></p></div></li><li class="ix-unit" id="a1-u07" data-k="to and from nereye gidiyorsun? from the steppe to anatolia a1 unit 7"><div class="ix-head"><span class="ix-num">Unit 7</span><h3 class="ix-title"><a href="/guides/a1-u07-grammar.html">To and from</a> <span class="ix-tr" lang="tr">Nereye gidiyorsun?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-dative" data-k="to, toward: the dative gp dative"><a href="/guides/a1-u07-grammar.html#gp-dative"><span class="lab" data-t="To, toward: the dative">To, toward: the dative</span></a></li><li id="gp-ablative" data-k="from, out of: the ablative gp ablative"><a href="/guides/a1-u07-grammar.html#gp-ablative"><span class="lab" data-t="From, out of: the ablative">From, out of: the ablative</span></a></li><li id="gp-pronoun-cases-dat-abl" data-k="bana, sana, ondan: pronouns and place words gp pronoun cases dat abl"><a href="/guides/a1-u07-grammar.html#gp-pronoun-cases-dat-abl"><span class="lab" data-t="Bana, sana, ondan: pronouns and place words">Bana, sana, ondan: pronouns and place words</span></a></li><li id="gp-buffer-y-cases" data-k="arabaya, arabadan: the buffer y gp buffer y cases"><a href="/guides/a1-u07-grammar.html#gp-buffer-y-cases"><span class="lab" data-t="Arabaya, arabadan: the buffer y">Arabaya, arabadan: the buffer y</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u07-grammar.html">Grammar guide</a><a href="/guides/a1-u07-culture.html">Interlude: From the steppe to Anatolia</a></p></div></li><li class="ix-unit" id="a1-u08" data-k="definite objects ekmegi aliyorum kahvalti: the turkish breakfast a1 unit 8"><div class="ix-head"><span class="ix-num">Unit 8</span><h3 class="ix-title"><a href="/guides/a1-u08-grammar.html">Definite objects</a> <span class="ix-tr" lang="tr">Ekmeği alıyorum</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-accusative" data-k="the book, not a book: the accusative gp accusative"><a href="/guides/a1-u08-grammar.html#gp-accusative"><span class="lab" data-t="The book, not a book: the accusative">The book, not a book: the accusative</span></a></li><li id="gp-consonant-softening" data-k="kitap, kitabi: consonant softening gp consonant softening"><a href="/guides/a1-u08-grammar.html#gp-consonant-softening"><span class="lab" data-t="Kitap, kitabı: consonant softening">Kitap, kitabı: consonant softening</span></a></li><li id="gp-pronoun-accusative" data-k="beni, seni, onu: pronouns as objects gp pronoun accusative"><a href="/guides/a1-u08-grammar.html#gp-pronoun-accusative"><span class="lab" data-t="Beni, seni, onu: pronouns as objects">Beni, seni, onu: pronouns as objects</span></a></li><li id="gp-object-word-order" data-k="where the object goes gp object word order"><a href="/guides/a1-u08-grammar.html#gp-object-word-order"><span class="lab" data-t="Where the object goes">Where the object goes</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u08-grammar.html">Grammar guide</a><a href="/guides/a1-u08-culture.html">Interlude: Kahvaltı: the Turkish breakfast</a></p></div></li><li class="ix-unit" id="a1-u09" data-k="my family benim ailem bayrams a1 unit 9"><div class="ix-head"><span class="ix-num">Unit 9</span><h3 class="ix-title"><a href="/guides/a1-u09-grammar.html">My family</a> <span class="ix-tr" lang="tr">Benim ailem</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-possessive-suffixes" data-k="evim, evin: possessive suffixes gp possessive suffixes"><a href="/guides/a1-u09-grammar.html#gp-possessive-suffixes"><span class="lab" data-t="Evim, evin: possessive suffixes">Evim, evin: possessive suffixes</span></a></li><li id="gp-possessive-have" data-k="arabam var: how to say have gp possessive have"><a href="/guides/a1-u09-grammar.html#gp-possessive-have"><span class="lab" data-t="Arabam var: how to say have">Arabam var: how to say have</span></a></li><li id="gp-vowel-loss" data-k="agiz, agzim: vowel loss gp vowel loss"><a href="/guides/a1-u09-grammar.html#gp-vowel-loss"><span class="lab" data-t="Ağız, ağzım: vowel loss">Ağız, ağzım: vowel loss</span></a></li><li id="gp-possessive-softening" data-k="kitabim, cocugumuz: softening with possessives gp possessive softening"><a href="/guides/a1-u09-grammar.html#gp-possessive-softening"><span class="lab" data-t="Kitabım, çocuğumuz: softening with possessives">Kitabım, çocuğumuz: softening with possessives</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u09-grammar.html">Grammar guide</a><a href="/guides/a1-u09-culture.html">Interlude: Bayrams</a></p></div></li><li class="ix-unit" id="a1-u10" data-k="whose is it? ayse'nin evi the hamam a1 unit 10"><div class="ix-head"><span class="ix-num">Unit 10</span><h3 class="ix-title"><a href="/guides/a1-u10-grammar.html">Whose is it?</a> <span class="ix-tr" lang="tr">Ayşe'nin evi</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-genitive" data-k="ayse'nin, evin: the genitive gp genitive"><a href="/guides/a1-u10-grammar.html#gp-genitive"><span class="lab" data-t="Ayşe'nin, evin: the genitive">Ayşe'nin, evin: the genitive</span></a></li><li id="gp-genitive-possessive" data-k="ayse'nin evi: owner and owned gp genitive possessive"><a href="/guides/a1-u10-grammar.html#gp-genitive-possessive"><span class="lab" data-t="Ayşe'nin evi: owner and owned">Ayşe'nin evi: owner and owned</span></a></li><li id="gp-pronominal-n" data-k="evinde, arabasina: the n before a case ending gp pronominal n"><a href="/guides/a1-u10-grammar.html#gp-pronominal-n"><span class="lab" data-t="Evinde, arabasına: the n before a case ending">Evinde, arabasına: the n before a case ending</span></a></li><li id="gp-whose" data-k="kimin? kimde? whose is it, who has it? gp whose"><a href="/guides/a1-u10-grammar.html#gp-whose"><span class="lab" data-t="Kimin? Kimde? Whose is it, who has it?">Kimin? Kimde? Whose is it, who has it?</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u10-grammar.html">Grammar guide</a><a href="/guides/a1-u10-culture.html">Interlude: The hamam</a></p></div></li><li class="ix-unit" id="a1-u11" data-k="numbers and time saat kac? national days of the republic a1 unit 11"><div class="ix-head"><span class="ix-num">Unit 11</span><h3 class="ix-title"><a href="/guides/a1-u11-grammar.html">Numbers and time</a> <span class="ix-tr" lang="tr">Saat kaç?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-numbers" data-k="bir, iki, uc: cardinal numbers gp numbers"><a href="/guides/a1-u11-grammar.html#gp-numbers"><span class="lab" data-t="Bir, iki, üç: cardinal numbers">Bir, iki, üç: cardinal numbers</span></a></li><li id="gp-numbers-singular" data-k="iki kitap: the singular after numbers gp numbers singular"><a href="/guides/a1-u11-grammar.html#gp-numbers-singular"><span class="lab" data-t="İki kitap: the singular after numbers">İki kitap: the singular after numbers</span></a></li><li id="gp-ordinals" data-k="birinci, ikinci: ordinals gp ordinals"><a href="/guides/a1-u11-grammar.html#gp-ordinals"><span class="lab" data-t="Birinci, ikinci: ordinals">Birinci, ikinci: ordinals</span></a></li><li id="gp-telling-time" data-k="saat kac? telling the time gp telling time"><a href="/guides/a1-u11-grammar.html#gp-telling-time"><span class="lab" data-t="Saat kaç? Telling the time">Saat kaç? Telling the time</span></a></li><li id="gp-dates" data-k="pazartesi, ekim: days, months and dates gp dates"><a href="/guides/a1-u11-grammar.html#gp-dates"><span class="lab" data-t="Pazartesi, ekim: days, months and dates">Pazartesi, ekim: days, months and dates</span></a></li><li id="gp-age-price" data-k="kac yasindasin? kac lira? ages and prices gp age price"><a href="/guides/a1-u11-grammar.html#gp-age-price"><span class="lab" data-t="Kaç yaşındasın? Kaç lira? Ages and prices">Kaç yaşındasın? Kaç lira? Ages and prices</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u11-grammar.html">Grammar guide</a><a href="/guides/a1-u11-culture.html">Interlude: National days of the Republic</a></p></div></li><li class="ix-unit" id="a1-u12" data-k="requests and company gel, otur! turkish coffee a1 unit 12"><div class="ix-head"><span class="ix-num">Unit 12</span><h3 class="ix-title"><a href="/guides/a1-u12-grammar.html">Requests and company</a> <span class="ix-tr" lang="tr">Gel, otur!</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-imperative" data-k="gel, gelin, geliniz: the imperative gp imperative"><a href="/guides/a1-u12-grammar.html#gp-imperative"><span class="lab" data-t="Gel, gelin, geliniz: the imperative">Gel, gelin, geliniz: the imperative</span></a></li><li id="gp-ile" data-k="annemle, otobusle: ile and -(y)la gp ile"><a href="/guides/a1-u12-grammar.html#gp-ile"><span class="lab" data-t="Annemle, otobüsle: ile and -(y)lA">Annemle, otobüsle: ile and -(y)lA</span></a></li><li id="gp-icin" data-k="senin icin: icin gp icin"><a href="/guides/a1-u12-grammar.html#gp-icin"><span class="lab" data-t="Senin için: için">Senin için: için</span></a></li><li id="gp-conjunctions-basic" data-k="ve, ama, ya da: linking words gp conjunctions basic"><a href="/guides/a1-u12-grammar.html#gp-conjunctions-basic"><span class="lab" data-t="Ve, ama, ya da: linking words">Ve, ama, ya da: linking words</span></a></li></ul><p class="ix-docs"><a href="/guides/a1-u12-grammar.html">Grammar guide</a><a href="/guides/a1-u12-culture.html">Interlude: Turkish coffee</a></p></div></li></ol></div><div class="ix-level" data-level="a2"><h2 id="a2">A2 · Everyday life</h2><p class="ix-meta">12 of 12 units written</p><ol class="ix-units"><li class="ix-unit" id="a2-u01" data-k="the past tense dun ne yaptin? 1923: the republic and ataturk a2 unit 1"><div class="ix-head"><span class="ix-num">Unit 1</span><h3 class="ix-title"><a href="/guides/a2-u01-grammar.html">The past tense</a> <span class="ix-tr" lang="tr">Dün ne yaptın?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-past-di" data-k="geldim: the past tense -di gp past di"><a href="/guides/a2-u01-grammar.html#gp-past-di"><span class="lab" data-t="Geldim: the past tense -DI">Geldim: the past tense -DI</span></a></li><li id="gp-past-di-negative-question" data-k="gelmedim, geldin mi? negative and questions gp past di negative question"><a href="/guides/a2-u01-grammar.html#gp-past-di-negative-question"><span class="lab" data-t="Gelmedim, geldin mi? Negative and questions">Gelmedim, geldin mi? Negative and questions</span></a></li><li id="gp-person-endings-types" data-k="two sets of personal endings gp person endings types"><a href="/guides/a2-u01-grammar.html#gp-person-endings-types"><span class="lab" data-t="Two sets of personal endings">Two sets of personal endings</span></a></li><li id="gp-time-past" data-k="yesterday, last week, two days ago gp time past"><a href="/guides/a2-u01-grammar.html#gp-time-past"><span class="lab" data-t="Yesterday, last week, two days ago">Yesterday, last week, two days ago</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u01-grammar.html">Grammar guide</a><a href="/guides/a2-u01-culture.html">Interlude: 1923: the Republic and Atatürk</a></p></div></li><li class="ix-unit" id="a2-u02" data-k="was, were, and once upon a time bir varmis, bir yokmus keloglan and the folk tale a2 unit 2"><div class="ix-head"><span class="ix-num">Unit 2</span><h3 class="ix-title"><a href="/guides/a2-u02-grammar.html">Was, were, and once upon a time</a> <span class="ix-tr" lang="tr">Bir varmış, bir yokmuş</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-past-copula" data-k="evdeydim: was and were gp past copula"><a href="/guides/a2-u02-grammar.html#gp-past-copula"><span class="lab" data-t="Evdeydim: was and were">Evdeydim: was and were</span></a></li><li id="gp-idi-imis" data-k="hastaydi, hastaymis: two pasts of to be gp idi imis"><a href="/guides/a2-u02-grammar.html#gp-idi-imis"><span class="lab" data-t="Hastaydı, hastaymış: two pasts of to be">Hastaydı, hastaymış: two pasts of to be</span></a></li><li id="gp-mis-intro" data-k="gelmis: a first look at -mis with verbs gp mis intro"><a href="/guides/a2-u02-grammar.html#gp-mis-intro"><span class="lab" data-t="Gelmiş: a first look at -mIş with verbs">Gelmiş: a first look at -mIş with verbs</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u02-grammar.html">Grammar guide</a><a href="/guides/a2-u02-culture.html">Interlude: Keloğlan and the folk tale</a></p></div></li><li class="ix-unit" id="a2-u03" data-k="the future yarin ne yapacaksin? cappadocia a2 unit 3"><div class="ix-head"><span class="ix-num">Unit 3</span><h3 class="ix-title"><a href="/guides/a2-u03-grammar.html">The future</a> <span class="ix-tr" lang="tr">Yarın ne yapacaksın?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-future" data-k="gelecegim: the future -(y)acak gp future"><a href="/guides/a2-u03-grammar.html#gp-future"><span class="lab" data-t="Geleceğim: the future -(y)AcAk">Geleceğim: the future -(y)AcAk</span></a></li><li id="gp-future-negative-question" data-k="gelmeyecegim, gelecek misin? negative and questions gp future negative question"><a href="/guides/a2-u03-grammar.html#gp-future-negative-question"><span class="lab" data-t="Gelmeyeceğim, gelecek misin? Negative and questions">Gelmeyeceğim, gelecek misin? Negative and questions</span></a></li><li id="gp-future-stem-changes" data-k="diyecek, yiyecek; gidecek, edecek gp future stem changes"><a href="/guides/a2-u03-grammar.html#gp-future-stem-changes"><span class="lab" data-t="Diyecek, yiyecek; gidecek, edecek">Diyecek, yiyecek; gidecek, edecek</span></a></li><li id="gp-future-vs-present" data-k="future or present continuous? gp future vs present"><a href="/guides/a2-u03-grammar.html#gp-future-vs-present"><span class="lab" data-t="Future or present continuous?">Future or present continuous?</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u03-grammar.html">Grammar guide</a><a href="/guides/a2-u03-culture.html">Interlude: Cappadocia</a></p></div></li><li class="ix-unit" id="a2-u04" data-k="habits and truths: the aorist her sabah cay icerim tavla, okey and the kahvehane a2 unit 4"><div class="ix-head"><span class="ix-num">Unit 4</span><h3 class="ix-title"><a href="/guides/a2-u04-grammar.html">Habits and truths: the aorist</a> <span class="ix-tr" lang="tr">Her sabah çay içerim</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-aorist-forms" data-k="okur, yapar, calisir: the forms of the aorist gp aorist forms"><a href="/guides/a2-u04-grammar.html#gp-aorist-forms"><span class="lab" data-t="Okur, yapar, çalışır: the forms of the aorist">Okur, yapar, çalışır: the forms of the aorist</span></a></li><li id="gp-aorist-irregulars" data-k="alir, bilir, gelir: the thirteen gp aorist irregulars"><a href="/guides/a2-u04-grammar.html#gp-aorist-irregulars"><span class="lab" data-t="Alır, bilir, gelir: the thirteen">Alır, bilir, gelir: the thirteen</span></a></li><li id="gp-aorist-negative" data-k="gelmem, gelir misin? negative and questions gp aorist negative"><a href="/guides/a2-u04-grammar.html#gp-aorist-negative"><span class="lab" data-t="Gelmem, gelir misin? Negative and questions">Gelmem, gelir misin? Negative and questions</span></a></li><li id="gp-aorist-uses" data-k="habits, truths, offers and promises gp aorist uses"><a href="/guides/a2-u04-grammar.html#gp-aorist-uses"><span class="lab" data-t="Habits, truths, offers and promises">Habits, truths, offers and promises</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u04-grammar.html">Grammar guide</a><a href="/guides/a2-u04-culture.html">Interlude: Tavla, okey and the kahvehane</a></p></div></li><li class="ix-unit" id="a2-u05" data-k="can and can't yuzebilir misin? oil wrestling at kirkpinar a2 unit 5"><div class="ix-head"><span class="ix-num">Unit 5</span><h3 class="ix-title"><a href="/guides/a2-u05-grammar.html">Can and can't</a> <span class="ix-tr" lang="tr">Yüzebilir misin?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-abil" data-k="gelebilirim: can with -(y)abil gp abil"><a href="/guides/a2-u05-grammar.html#gp-abil"><span class="lab" data-t="Gelebilirim: can with -(y)Abil">Gelebilirim: can with -(y)Abil</span></a></li><li id="gp-ama-inability" data-k="gelemem: can't with -(y)ama gp ama inability"><a href="/guides/a2-u05-grammar.html#gp-ama-inability"><span class="lab" data-t="Gelemem: can't with -(y)AmA">Gelemem: can't with -(y)AmA</span></a></li><li id="gp-abil-uses" data-k="ability, permission, possibility, requests gp abil uses"><a href="/guides/a2-u05-grammar.html#gp-abil-uses"><span class="lab" data-t="Ability, permission, possibility, requests">Ability, permission, possibility, requests</span></a></li><li id="gp-negative-polarity" data-k="nobody, nothing, never: hic and kimse gp negative polarity"><a href="/guides/a2-u05-grammar.html#gp-negative-polarity"><span class="lab" data-t="Nobody, nothing, never: hiç and kimse">Nobody, nothing, never: hiç and kimse</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u05-grammar.html">Grammar guide</a><a href="/guides/a2-u05-culture.html">Interlude: Oil wrestling at Kırkpınar</a></p></div></li><li class="ix-unit" id="a2-u06" data-k="must and need gitmem lazim visiting a turkish home a2 unit 6"><div class="ix-head"><span class="ix-num">Unit 6</span><h3 class="ix-title"><a href="/guides/a2-u06-grammar.html">Must and need</a> <span class="ix-tr" lang="tr">Gitmem lazım</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-meli" data-k="gitmeliyim: must and should with -mali gp meli"><a href="/guides/a2-u06-grammar.html#gp-meli"><span class="lab" data-t="Gitmeliyim: must and should with -mAlI">Gitmeliyim: must and should with -mAlI</span></a></li><li id="gp-gerek-lazim" data-k="bana su lazim: need with lazim and gerek gp gerek lazim"><a href="/guides/a2-u06-grammar.html#gp-gerek-lazim"><span class="lab" data-t="Bana su lazım: need with lazım and gerek">Bana su lazım: need with lazım and gerek</span></a></li><li id="gp-zorunda" data-k="gitmek zorundayim: have to gp zorunda"><a href="/guides/a2-u06-grammar.html#gp-zorunda"><span class="lab" data-t="Gitmek zorundayım: have to">Gitmek zorundayım: have to</span></a></li><li id="gp-meli-inference" data-k="evde olmali: a confident guess gp meli inference"><a href="/guides/a2-u06-grammar.html#gp-meli-inference"><span class="lab" data-t="Evde olmalı: a confident guess">Evde olmalı: a confident guess</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u06-grammar.html">Grammar guide</a><a href="/guides/a2-u06-culture.html">Interlude: Visiting a Turkish home</a></p></div></li><li class="ix-unit" id="a2-u07" data-k="let's: suggestions and wishes gidelim mi? hidirellez a2 unit 7"><div class="ix-head"><span class="ix-num">Unit 7</span><h3 class="ix-title"><a href="/guides/a2-u07-grammar.html">Let's: suggestions and wishes</a> <span class="ix-tr" lang="tr">Gidelim mi?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-optative" data-k="gidelim mi? let's, let me, shall i gp optative"><a href="/guides/a2-u07-grammar.html#gp-optative"><span class="lab" data-t="Gidelim mi? Let's, let me, shall I">Gidelim mi? Let's, let me, shall I</span></a></li><li id="gp-imperative-3rd" data-k="ali gelsin: let him, let them gp imperative 3rd"><a href="/guides/a2-u07-grammar.html#gp-imperative-3rd"><span class="lab" data-t="Ali gelsin: let him, let them">Ali gelsin: let him, let them</span></a></li><li id="gp-set-wishes" data-k="kolay gelsin: a wish for every moment gp set wishes"><a href="/guides/a2-u07-grammar.html#gp-set-wishes"><span class="lab" data-t="Kolay gelsin: a wish for every moment">Kolay gelsin: a wish for every moment</span></a></li><li id="gp-hadi" data-k="hadi gidelim! come on gp hadi"><a href="/guides/a2-u07-grammar.html#gp-hadi"><span class="lab" data-t="Hadi gidelim! Come on">Hadi gidelim! Come on</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u07-grammar.html">Grammar guide</a><a href="/guides/a2-u07-culture.html">Interlude: Hıdırellez</a></p></div></li><li class="ix-unit" id="a2-u08" data-k="comparing daha buyuk, en guzel seven regions a2 unit 8"><div class="ix-head"><span class="ix-num">Unit 8</span><h3 class="ix-title"><a href="/guides/a2-u08-grammar.html">Comparing</a> <span class="ix-tr" lang="tr">Daha büyük, en güzel</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-comparative" data-k="daha buyuk: bigger than gp comparative"><a href="/guides/a2-u08-grammar.html#gp-comparative"><span class="lab" data-t="Daha büyük: bigger than">Daha büyük: bigger than</span></a></li><li id="gp-superlative" data-k="en buyuk: the biggest gp superlative"><a href="/guides/a2-u08-grammar.html#gp-superlative"><span class="lab" data-t="En büyük: the biggest">En büyük: the biggest</span></a></li><li id="gp-equative" data-k="benim kadar, senin gibi: as … as, like gp equative"><a href="/guides/a2-u08-grammar.html#gp-equative"><span class="lab" data-t="Benim kadar, senin gibi: as … as, like">Benim kadar, senin gibi: as … as, like</span></a></li><li id="gp-intensive-reduplication" data-k="bembeyaz, masmavi: completely white, deep blue gp intensive reduplication"><a href="/guides/a2-u08-grammar.html#gp-intensive-reduplication"><span class="lab" data-t="Bembeyaz, masmavi: completely white, deep blue">Bembeyaz, masmavi: completely white, deep blue</span></a></li><li id="gp-adjectives-as-adverbs" data-k="iyi konusuyor: adjectives as adverbs gp adjectives as adverbs"><a href="/guides/a2-u08-grammar.html#gp-adjectives-as-adverbs"><span class="lab" data-t="İyi konuşuyor: adjectives as adverbs">İyi konuşuyor: adjectives as adverbs</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u08-grammar.html">Grammar guide</a><a href="/guides/a2-u08-culture.html">Interlude: Seven regions</a></p></div></li><li class="ix-unit" id="a2-u09" data-k="where and when: postpositions masanin ustunde gobekli tepe a2 unit 9"><div class="ix-head"><span class="ix-num">Unit 9</span><h3 class="ix-title"><a href="/guides/a2-u09-grammar.html">Where and when: postpositions</a> <span class="ix-tr" lang="tr">Masanın üstünde</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-postp-nominative" data-k="gibi, icin, kadar, ile: no case gp postp nominative"><a href="/guides/a2-u09-grammar.html#gp-postp-nominative"><span class="lab" data-t="Gibi, için, kadar, ile: no case">Gibi, için, kadar, ile: no case</span></a></li><li id="gp-postp-dative" data-k="gore, dogru, karsi: with the dative gp postp dative"><a href="/guides/a2-u09-grammar.html#gp-postp-dative"><span class="lab" data-t="Göre, doğru, karşı: with the dative">Göre, doğru, karşı: with the dative</span></a></li><li id="gp-postp-ablative" data-k="once, sonra, beri: with the ablative gp postp ablative"><a href="/guides/a2-u09-grammar.html#gp-postp-ablative"><span class="lab" data-t="Önce, sonra, beri: with the ablative">Önce, sonra, beri: with the ablative</span></a></li><li id="gp-place-nouns" data-k="masanin ustunde: place nouns gp place nouns"><a href="/guides/a2-u09-grammar.html#gp-place-nouns"><span class="lab" data-t="Masanın üstünde: place nouns">Masanın üstünde: place nouns</span></a></li><li id="gp-duration-dir" data-k="uc yildir: for how long gp duration dir"><a href="/guides/a2-u09-grammar.html#gp-duration-dir"><span class="lab" data-t="Üç yıldır: for how long">Üç yıldır: for how long</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u09-grammar.html">Grammar guide</a><a href="/guides/a2-u09-culture.html">Interlude: Göbekli Tepe</a></p></div></li><li class="ix-unit" id="a2-u10" data-k="compound nouns and -ki turk kahvesi regional cuisines a2 unit 10"><div class="ix-head"><span class="ix-num">Unit 10</span><h3 class="ix-title"><a href="/guides/a2-u10-grammar.html">Compound nouns and -ki</a> <span class="ix-tr" lang="tr">Türk kahvesi</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-compound-indefinite" data-k="turk kahvesi: the compound noun gp compound indefinite"><a href="/guides/a2-u10-grammar.html#gp-compound-indefinite"><span class="lab" data-t="Türk kahvesi: the compound noun">Türk kahvesi: the compound noun</span></a></li><li id="gp-compound-chains" data-k="okul cantam: compounds with owners gp compound chains"><a href="/guides/a2-u10-grammar.html#gp-compound-chains"><span class="lab" data-t="Okul çantam: compounds with owners">Okul çantam: compounds with owners</span></a></li><li id="gp-ki-adjective" data-k="masadaki kitap: -ki after places and times gp ki adjective"><a href="/guides/a2-u10-grammar.html#gp-ki-adjective"><span class="lab" data-t="Masadaki kitap: -ki after places and times">Masadaki kitap: -ki after places and times</span></a></li><li id="gp-ki-pronoun" data-k="benimki, seninki: mine and yours gp ki pronoun"><a href="/guides/a2-u10-grammar.html#gp-ki-pronoun"><span class="lab" data-t="Benimki, seninki: mine and yours">Benimki, seninki: mine and yours</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u10-grammar.html">Grammar guide</a><a href="/guides/a2-u10-culture.html">Interlude: Regional cuisines</a></p></div></li><li class="ix-unit" id="a2-u11" data-k="while and then eve giderken the ottoman empire a2 unit 11"><div class="ix-head"><span class="ix-num">Unit 11</span><h3 class="ix-title"><a href="/guides/a2-u11-grammar.html">While and then</a> <span class="ix-tr" lang="tr">Eve giderken</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-ken" data-k="cocukken, giderken: -(y)ken gp ken"><a href="/guides/a2-u11-grammar.html#gp-ken"><span class="lab" data-t="Çocukken, giderken: -(y)ken">Çocukken, giderken: -(y)ken</span></a></li><li id="gp-ip" data-k="gidip aldim: -(y)ip gp ip"><a href="/guides/a2-u11-grammar.html#gp-ip"><span class="lab" data-t="Gidip aldım: -(y)Ip">Gidip aldım: -(y)Ip</span></a></li><li id="gp-sequence-connectors" data-k="once, sonra, bu yuzden: telling a story gp sequence connectors"><a href="/guides/a2-u11-grammar.html#gp-sequence-connectors"><span class="lab" data-t="Önce, sonra, bu yüzden: telling a story">Önce, sonra, bu yüzden: telling a story</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u11-grammar.html">Grammar guide</a><a href="/guides/a2-u11-culture.html">Interlude: The Ottoman Empire</a></p></div></li><li class="ix-unit" id="a2-u12" data-k="word building istanbullu bir gazeteci the grand bazaar a2 unit 12"><div class="ix-head"><span class="ix-num">Unit 12</span><h3 class="ix-title"><a href="/guides/a2-u12-grammar.html">Word building</a> <span class="ix-tr" lang="tr">İstanbullu bir gazeteci</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-li" data-k="sekerli, istanbullu: -li gp li"><a href="/guides/a2-u12-grammar.html#gp-li"><span class="lab" data-t="Şekerli, İstanbullu: -lI">Şekerli, İstanbullu: -lI</span></a></li><li id="gp-siz" data-k="sekersiz, issiz: -siz gp siz"><a href="/guides/a2-u12-grammar.html#gp-siz"><span class="lab" data-t="Şekersiz, işsiz: -sIz">Şekersiz, işsiz: -sIz</span></a></li><li id="gp-ci" data-k="gazeteci, kitapci: -ci gp ci"><a href="/guides/a2-u12-grammar.html#gp-ci"><span class="lab" data-t="Gazeteci, kitapçı: -CI">Gazeteci, kitapçı: -CI</span></a></li><li id="gp-lik" data-k="guzellik, gozluk, bir haftalik: -lik gp lik"><a href="/guides/a2-u12-grammar.html#gp-lik"><span class="lab" data-t="Güzellik, gözlük, bir haftalık: -lIk">Güzellik, gözlük, bir haftalık: -lIk</span></a></li><li id="gp-ca" data-k="turkce, yavasca, bence: -ca gp ca"><a href="/guides/a2-u12-grammar.html#gp-ca"><span class="lab" data-t="Türkçe, yavaşça, bence: -CA">Türkçe, yavaşça, bence: -CA</span></a></li><li id="gp-distributive" data-k="birer, ikiser; sabahleyin: each, and times of day gp distributive"><a href="/guides/a2-u12-grammar.html#gp-distributive"><span class="lab" data-t="Birer, ikişer; sabahleyin: each, and times of day">Birer, ikişer; sabahleyin: each, and times of day</span></a></li></ul><p class="ix-docs"><a href="/guides/a2-u12-grammar.html">Grammar guide</a><a href="/guides/a2-u12-culture.html">Interlude: The Grand Bazaar</a></p></div></li></ol></div><div class="ix-level" data-level="b1"><h2 id="b1">B1 · Stories and clauses</h2><p class="ix-meta">12 of 12 units written</p><ol class="ix-units"><li class="ix-unit" id="b1-u01" data-k="past continuous and pluperfect yagmur yagiyordu the seljuks b1 unit 1"><div class="ix-head"><span class="ix-num">Unit 1</span><h3 class="ix-title"><a href="/guides/b1-u01-grammar.html">Past continuous and pluperfect</a> <span class="ix-tr" lang="tr">Yağmur yağıyordu</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-past-continuous" data-k="yagiyordu: the past continuous gp past continuous"><a href="/guides/b1-u01-grammar.html#gp-past-continuous"><span class="lab" data-t="Yağıyordu: the past continuous">Yağıyordu: the past continuous</span></a></li><li id="gp-pluperfect" data-k="baslamisti: the pluperfect gp pluperfect"><a href="/guides/b1-u01-grammar.html#gp-pluperfect"><span class="lab" data-t="Başlamıştı: the pluperfect">Başlamıştı: the pluperfect</span></a></li><li id="gp-di-compounds" data-k="tense + -(y)di: how compound tenses work gp di compounds"><a href="/guides/b1-u01-grammar.html#gp-di-compounds"><span class="lab" data-t="Tense + -(y)DI: how compound tenses work">Tense + -(y)DI: how compound tenses work</span></a></li><li id="gp-narrative-adverbs" data-k="coktan, o sirada, birden: holding a story together gp narrative adverbs"><a href="/guides/b1-u01-grammar.html#gp-narrative-adverbs"><span class="lab" data-t="Çoktan, o sırada, birden: holding a story together">Çoktan, o sırada, birden: holding a story together</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u01-grammar.html">Grammar guide</a><a href="/guides/b1-u01-culture.html">Interlude: The Seljuks</a></p></div></li><li class="ix-unit" id="b1-u02" data-k="used to, was going to, should have eskiden burada otururduk the tulip era b1 unit 2"><div class="ix-head"><span class="ix-num">Unit 2</span><h3 class="ix-title"><a href="/guides/b1-u02-grammar.html">Used to, was going to, should have</a> <span class="ix-tr" lang="tr">Eskiden burada otururduk</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-used-to" data-k="otururduk: used to gp used to"><a href="/guides/b1-u02-grammar.html#gp-used-to"><span class="lab" data-t="Otururduk: used to">Otururduk: used to</span></a></li><li id="gp-future-in-past" data-k="arayacaktim: was going to gp future in past"><a href="/guides/b1-u02-grammar.html#gp-future-in-past"><span class="lab" data-t="Arayacaktım: was going to">Arayacaktım: was going to</span></a></li><li id="gp-should-have" data-k="gelmeliydin: should have gp should have"><a href="/guides/b1-u02-grammar.html#gp-should-have"><span class="lab" data-t="Gelmeliydin: should have">Gelmeliydin: should have</span></a></li><li id="gp-could-have" data-k="gelebilirdin, gelemezdim: could have, couldn't have gp could have"><a href="/guides/b1-u02-grammar.html#gp-could-have"><span class="lab" data-t="Gelebilirdin, gelemezdim: could have, couldn't have">Gelebilirdin, gelemezdim: could have, couldn't have</span></a></li><li id="gp-about-to" data-k="kalkmak uzere: about to gp about to"><a href="/guides/b1-u02-grammar.html#gp-about-to"><span class="lab" data-t="Kalkmak üzere: about to">Kalkmak üzere: about to</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u02-grammar.html">Grammar guide</a><a href="/guides/b1-u02-culture.html">Interlude: The Tulip Era</a></p></div></li><li class="ix-unit" id="b1-u03" data-k="hearsay and inference gelecekmis evliya celebi b1 unit 3"><div class="ix-head"><span class="ix-num">Unit 3</span><h3 class="ix-title"><a href="/guides/b1-u03-grammar.html">Hearsay and inference</a> <span class="ix-tr" lang="tr">Gelecekmiş</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-evidential-mis" data-k="gelmemis, gelmis mi? the full -mis gp evidential mis"><a href="/guides/b1-u03-grammar.html#gp-evidential-mis"><span class="lab" data-t="Gelmemiş, gelmiş mi? The full -mIş">Gelmemiş, gelmiş mi? The full -mIş</span></a></li><li id="gp-mis-vs-di" data-k="geldi or gelmis? choosing gp mis vs di"><a href="/guides/b1-u03-grammar.html#gp-mis-vs-di"><span class="lab" data-t="Geldi or gelmiş? Choosing">Geldi or gelmiş? Choosing</span></a></li><li id="gp-mis-compounds" data-k="geliyormus, gelecekmis: reported tenses gp mis compounds"><a href="/guides/b1-u03-grammar.html#gp-mis-compounds"><span class="lab" data-t="Geliyormuş, gelecekmiş: reported tenses">Geliyormuş, gelecekmiş: reported tenses</span></a></li><li id="gp-mis-adjective" data-k="pismis tavuk: -mis as an adjective gp mis adjective"><a href="/guides/b1-u03-grammar.html#gp-mis-adjective"><span class="lab" data-t="Pişmiş tavuk: -mIş as an adjective">Pişmiş tavuk: -mIş as an adjective</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u03-grammar.html">Grammar guide</a><a href="/guides/b1-u03-culture.html">Interlude: Evliya Çelebi</a></p></div></li><li class="ix-unit" id="b1-u04" data-k="verbal nouns yuzmeyi seviyorum karagoz and hacivat b1 unit 4"><div class="ix-head"><span class="ix-num">Unit 4</span><h3 class="ix-title"><a href="/guides/b1-u04-grammar.html">Verbal nouns</a> <span class="ix-tr" lang="tr">Yüzmeyi seviyorum</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-mak-cases" data-k="yuzmeyi seviyorum: the infinitive as a noun gp mak cases"><a href="/guides/b1-u04-grammar.html#gp-mak-cases"><span class="lab" data-t="Yüzmeyi seviyorum: the infinitive as a noun">Yüzmeyi seviyorum: the infinitive as a noun</span></a></li><li id="gp-ma-possessive" data-k="gelmeni istiyorum: -ma with a doer gp ma possessive"><a href="/guides/b1-u04-grammar.html#gp-ma-possessive"><span class="lab" data-t="Gelmeni istiyorum: -mA with a doer">Gelmeni istiyorum: -mA with a doer</span></a></li><li id="gp-is" data-k="yuruyus, giris, cikis: -(y)is gp is"><a href="/guides/b1-u04-grammar.html#gp-is"><span class="lab" data-t="Yürüyüş, giriş, çıkış: -(y)Iş">Yürüyüş, giriş, çıkış: -(y)Iş</span></a></li><li id="gp-purpose" data-k="yuzmeye gittik: in order to gp purpose"><a href="/guides/b1-u04-grammar.html#gp-purpose"><span class="lab" data-t="Yüzmeye gittik: in order to">Yüzmeye gittik: in order to</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u04-grammar.html">Grammar guide</a><a href="/guides/b1-u04-culture.html">Interlude: Karagöz and Hacivat</a></p></div></li><li class="ix-unit" id="b1-u05" data-k="the subject participle donen dervisler rumi and the mevlevi b1 unit 5"><div class="ix-head"><span class="ix-num">Unit 5</span><h3 class="ix-title"><a href="/guides/b1-u05-grammar.html">The subject participle</a> <span class="ix-tr" lang="tr">Dönen dervişler</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-participle-an" data-k="kitap okuyan kiz: -(y)an gp participle an"><a href="/guides/b1-u05-grammar.html#gp-participle-an"><span class="lab" data-t="Kitap okuyan kız: -(y)An">Kitap okuyan kız: -(y)An</span></a></li><li id="gp-headless-an" data-k="gelenler, okuyanlar: participles as nouns gp headless an"><a href="/guides/b1-u05-grammar.html#gp-headless-an"><span class="lab" data-t="Gelenler, okuyanlar: participles as nouns">Gelenler, okuyanlar: participles as nouns</span></a></li><li id="gp-an-possessor" data-k="babasi doktor olan cocuk: whose gp an possessor"><a href="/guides/b1-u05-grammar.html#gp-an-possessor"><span class="lab" data-t="Babası doktor olan çocuk: whose">Babası doktor olan çocuk: whose</span></a></li><li id="gp-relative-order" data-k="everything before the noun gp relative order"><a href="/guides/b1-u05-grammar.html#gp-relative-order"><span class="lab" data-t="Everything before the noun">Everything before the noun</span></a></li><li id="gp-aorist-participle" data-k="akarsu, cikmaz sokak: -(i)r and -maz gp aorist participle"><a href="/guides/b1-u05-grammar.html#gp-aorist-participle"><span class="lab" data-t="Akarsu, çıkmaz sokak: -(I)r and -mAz">Akarsu, çıkmaz sokak: -(I)r and -mAz</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u05-grammar.html">Grammar guide</a><a href="/guides/b1-u05-culture.html">Interlude: Rumi and the Mevlevi</a></p></div></li><li class="ix-unit" id="b1-u06" data-k="object participles okudugum kitap yunus emre b1 unit 6"><div class="ix-head"><span class="ix-num">Unit 6</span><h3 class="ix-title"><a href="/guides/b1-u06-grammar.html">Object participles</a> <span class="ix-tr" lang="tr">Okuduğum kitap</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-participle-dik" data-k="okudugum kitap: -dik with a possessive gp participle dik"><a href="/guides/b1-u06-grammar.html#gp-participle-dik"><span class="lab" data-t="Okuduğum kitap: -DIk with a possessive">Okuduğum kitap: -DIk with a possessive</span></a></li><li id="gp-participle-acak" data-k="okuyacagim kitap, kalacak yer: -(y)acak gp participle acak"><a href="/guides/b1-u06-grammar.html#gp-participle-acak"><span class="lab" data-t="Okuyacağım kitap, kalacak yer: -(y)AcAk">Okuyacağım kitap, kalacak yer: -(y)AcAk</span></a></li><li id="gp-relative-genitive-subject" data-k="ali'nin okudugu kitap: the doer in the genitive gp relative genitive subject"><a href="/guides/b1-u06-grammar.html#gp-relative-genitive-subject"><span class="lab" data-t="Ali'nin okuduğu kitap: the doer in the genitive">Ali'nin okuduğu kitap: the doer in the genitive</span></a></li><li id="gp-an-or-dik" data-k="okuyan or okudugu? choosing the participle gp an or dik"><a href="/guides/b1-u06-grammar.html#gp-an-or-dik"><span class="lab" data-t="Okuyan or okuduğu? Choosing the participle">Okuyan or okuduğu? Choosing the participle</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u06-grammar.html">Grammar guide</a><a href="/guides/b1-u06-culture.html">Interlude: Yunus Emre</a></p></div></li><li class="ix-unit" id="b1-u07" data-k="converbs i: when, by, without eve gelince ararim ephesus b1 unit 7"><div class="ix-head"><span class="ix-num">Unit 7</span><h3 class="ix-title"><a href="/guides/b1-u07-grammar.html">Converbs I: when, by, without</a> <span class="ix-tr" lang="tr">Eve gelince ararım</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-ince" data-k="eve gelince: -(y)inca, when and once gp ince"><a href="/guides/b1-u07-grammar.html#gp-ince"><span class="lab" data-t="Eve gelince: -(y)IncA, when and once">Eve gelince: -(y)IncA, when and once</span></a></li><li id="gp-arak" data-k="kosarak geldi: -(y)arak, by and while gp arak"><a href="/guides/b1-u07-grammar.html#gp-arak"><span class="lab" data-t="Koşarak geldi: -(y)ArAk, by and while">Koşarak geldi: -(y)ArAk, by and while</span></a></li><li id="gp-madan" data-k="bakmadan, yatmadan once: -madan, without and before gp madan"><a href="/guides/b1-u07-grammar.html#gp-madan"><span class="lab" data-t="Bakmadan, yatmadan önce: -mAdAn, without and before">Bakmadan, yatmadan önce: -mAdAn, without and before</span></a></li><li id="gp-dikten-sonra" data-k="yedikten sonra: -diktan sonra, after gp dikten sonra"><a href="/guides/b1-u07-grammar.html#gp-dikten-sonra"><span class="lab" data-t="Yedikten sonra: -DIktAn sonra, after">Yedikten sonra: -DIktAn sonra, after</span></a></li><li id="gp-ali" data-k="geleli uc yil oldu: -(y)ali, since gp ali"><a href="/guides/b1-u07-grammar.html#gp-ali"><span class="lab" data-t="Geleli üç yıl oldu: -(y)AlI, since">Geleli üç yıl oldu: -(y)AlI, since</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u07-grammar.html">Grammar guide</a><a href="/guides/b1-u07-culture.html">Interlude: Ephesus</a></p></div></li><li class="ix-unit" id="b1-u08" data-k="converbs ii: the more, whenever, because okudukca seviyorum 1453: the conquest of constantinople b1 unit 8"><div class="ix-head"><span class="ix-num">Unit 8</span><h3 class="ix-title"><a href="/guides/b1-u08-grammar.html">Converbs II: the more, whenever, because</a> <span class="ix-tr" lang="tr">Okudukça seviyorum</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-dikca" data-k="okudukca: -dikca, the more and whenever gp dikca"><a href="/guides/b1-u08-grammar.html#gp-dikca"><span class="lab" data-t="Okudukça: -DIkçA, the more and whenever">Okudukça: -DIkçA, the more and whenever</span></a></li><li id="gp-diginda" data-k="geldigimde: -diginda, when gp diginda"><a href="/guides/b1-u08-grammar.html#gp-diginda"><span class="lab" data-t="Geldiğimde: -DIğIndA, when">Geldiğimde: -DIğIndA, when</span></a></li><li id="gp-digi-icin" data-k="hasta oldugum icin: -digi icin, because gp digi icin"><a href="/guides/b1-u08-grammar.html#gp-digi-icin"><span class="lab" data-t="Hasta olduğum için: -DIğI için, because">Hasta olduğum için: -DIğI için, because</span></a></li><li id="gp-r-maz" data-k="gelir gelmez: -(i)r -maz, as soon as gp r maz"><a href="/guides/b1-u08-grammar.html#gp-r-maz"><span class="lab" data-t="Gelir gelmez: -(I)r -mAz, as soon as">Gelir gelmez: -(I)r -mAz, as soon as</span></a></li><li id="gp-reduplicated-converb" data-k="kosa kosa: a doubled -(y)a gp reduplicated converb"><a href="/guides/b1-u08-grammar.html#gp-reduplicated-converb"><span class="lab" data-t="Koşa koşa: a doubled -(y)A">Koşa koşa: a doubled -(y)A</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u08-grammar.html">Grammar guide</a><a href="/guides/b1-u08-culture.html">Interlude: 1453: the conquest of Constantinople</a></p></div></li><li class="ix-unit" id="b1-u09" data-k="conditionals fincanda kus gorursen kahve fali b1 unit 9"><div class="ix-head"><span class="ix-num">Unit 9</span><h3 class="ix-title"><a href="/guides/b1-u09-grammar.html">Conditionals</a> <span class="ix-tr" lang="tr">Fincanda kuş görürsen</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-conditional-sa" data-k="gelsem: the conditional -sa gp conditional sa"><a href="/guides/b1-u09-grammar.html#gp-conditional-sa"><span class="lab" data-t="Gelsem: the conditional -sA">Gelsem: the conditional -sA</span></a></li><li id="gp-conditional-real" data-k="gelirsem, geldiysen: real conditions gp conditional real"><a href="/guides/b1-u09-grammar.html#gp-conditional-real"><span class="lab" data-t="Gelirsem, geldiysen: real conditions">Gelirsem, geldiysen: real conditions</span></a></li><li id="gp-conditional-questions" data-k="eger, ya, and ne zaman istersen gp conditional questions"><a href="/guides/b1-u09-grammar.html#gp-conditional-questions"><span class="lab" data-t="Eğer, ya, and ne zaman istersen">Eğer, ya, and ne zaman istersen</span></a></li><li id="gp-sa-advice" data-k="gitsen iyi olur: advice and suggestions gp sa advice"><a href="/guides/b1-u09-grammar.html#gp-sa-advice"><span class="lab" data-t="Gitsen iyi olur: advice and suggestions">Gitsen iyi olur: advice and suggestions</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u09-grammar.html">Grammar guide</a><a href="/guides/b1-u09-culture.html">Interlude: Kahve falı</a></p></div></li><li class="ix-unit" id="b1-u10" data-k="passive and reflexive 1557'de tamamlandi mimar sinan b1 unit 10"><div class="ix-head"><span class="ix-num">Unit 10</span><h3 class="ix-title"><a href="/guides/b1-u10-grammar.html">Passive and reflexive</a> <span class="ix-tr" lang="tr">1557'de tamamlandı</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-passive" data-k="yapildi: the passive gp passive"><a href="/guides/b1-u10-grammar.html#gp-passive"><span class="lab" data-t="Yapıldı: the passive">Yapıldı: the passive</span></a></li><li id="gp-impersonal-passive" data-k="burada sigara icilmez: rules and general statements gp impersonal passive"><a href="/guides/b1-u10-grammar.html#gp-impersonal-passive"><span class="lab" data-t="Burada sigara içilmez: rules and general statements">Burada sigara içilmez: rules and general statements</span></a></li><li id="gp-reflexive" data-k="yikanmak, giyinmek: the reflexive gp reflexive"><a href="/guides/b1-u10-grammar.html#gp-reflexive"><span class="lab" data-t="Yıkanmak, giyinmek: the reflexive">Yıkanmak, giyinmek: the reflexive</span></a></li><li id="gp-kendi" data-k="kendi: self and own gp kendi"><a href="/guides/b1-u10-grammar.html#gp-kendi"><span class="lab" data-t="Kendi: self and own">Kendi: self and own</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u10-grammar.html">Grammar guide</a><a href="/guides/b1-u10-culture.html">Interlude: Mimar Sinan</a></p></div></li><li class="ix-unit" id="b1-u11" data-k="causative and reciprocal sacimi kestirdim the orkhon inscriptions b1 unit 11"><div class="ix-head"><span class="ix-num">Unit 11</span><h3 class="ix-title"><a href="/guides/b1-u11-grammar.html">Causative and reciprocal</a> <span class="ix-tr" lang="tr">Saçımı kestirdim</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-causative" data-k="yaptirmak: the causative gp causative"><a href="/guides/b1-u11-grammar.html#gp-causative"><span class="lab" data-t="Yaptırmak: the causative">Yaptırmak: the causative</span></a></li><li id="gp-causative-objects" data-k="sacimi berbere kestirdim: who does what gp causative objects"><a href="/guides/b1-u11-grammar.html#gp-causative-objects"><span class="lab" data-t="Saçımı berbere kestirdim: who does what">Saçımı berbere kestirdim: who does what</span></a></li><li id="gp-reciprocal" data-k="tanistik: each other and together gp reciprocal"><a href="/guides/b1-u11-grammar.html#gp-reciprocal"><span class="lab" data-t="Tanıştık: each other and together">Tanıştık: each other and together</span></a></li><li id="gp-verb-derivation" data-k="temizlemek, guzellesmek: verbs from nouns and adjectives gp verb derivation"><a href="/guides/b1-u11-grammar.html#gp-verb-derivation"><span class="lab" data-t="Temizlemek, güzelleşmek: verbs from nouns and adjectives">Temizlemek, güzelleşmek: verbs from nouns and adjectives</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u11-grammar.html">Grammar guide</a><a href="/guides/b1-u11-culture.html">Interlude: The Orkhon inscriptions</a></p></div></li><li class="ix-unit" id="b1-u12" data-k="reported speech ne dedi? dede korkut b1 unit 12"><div class="ix-head"><span class="ix-num">Unit 12</span><h3 class="ix-title"><a href="/guides/b1-u12-grammar.html">Reported speech</a> <span class="ix-tr" lang="tr">Ne dedi?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-direct-speech" data-k="“geliyorum.” dedi: quoting with demek gp direct speech"><a href="/guides/b1-u12-grammar.html#gp-direct-speech"><span class="lab" data-t="“Geliyorum.” dedi: quoting with demek">“Geliyorum.” dedi: quoting with demek</span></a></li><li id="gp-diye-quotative" data-k="“neredesin?” diye sordu: diye after a quote gp diye quotative"><a href="/guides/b1-u12-grammar.html#gp-diye-quotative"><span class="lab" data-t="“Neredesin?” diye sordu: diye after a quote">“Neredesin?” diye sordu: diye after a quote</span></a></li><li id="gp-diye-purpose" data-k="uyanmasin diye: so that gp diye purpose"><a href="/guides/b1-u12-grammar.html#gp-diye-purpose"><span class="lab" data-t="Uyanmasın diye: so that">Uyanmasın diye: so that</span></a></li><li id="gp-reported-mis" data-k="yarin gelecekmis: passing on news gp reported mis"><a href="/guides/b1-u12-grammar.html#gp-reported-mis"><span class="lab" data-t="Yarın gelecekmiş: passing on news">Yarın gelecekmiş: passing on news</span></a></li><li id="gp-reported-commands-intro" data-k="gelmeni soyledi: passing on requests gp reported commands intro"><a href="/guides/b1-u12-grammar.html#gp-reported-commands-intro"><span class="lab" data-t="Gelmeni söyledi: passing on requests">Gelmeni söyledi: passing on requests</span></a></li></ul><p class="ix-docs"><a href="/guides/b1-u12-grammar.html">Grammar guide</a><a href="/guides/b1-u12-culture.html">Interlude: Dede Korkut</a></p></div></li></ol></div><div class="ix-level" data-level="b2"><h2 id="b2">B2 · Nuance and register</h2><p class="ix-meta">10 of 10 units written</p><ol class="ix-units"><li class="ix-unit" id="b2-u01" data-k="unreal conditionals and wishes keske bilseydim the piri reis map b2 unit 1"><div class="ix-head"><span class="ix-num">Unit 1</span><h3 class="ix-title"><a href="/guides/b2-u01-grammar.html">Unreal conditionals and wishes</a> <span class="ix-tr" lang="tr">Keşke bilseydim</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-unreal-present" data-k="zengin olsam: if i were rich gp unreal present"><a href="/guides/b2-u01-grammar.html#gp-unreal-present"><span class="lab" data-t="Zengin olsam: if I were rich">Zengin olsam: if I were rich</span></a></li><li id="gp-unreal-past" data-k="bilseydim: if i had known gp unreal past"><a href="/guides/b2-u01-grammar.html#gp-unreal-past"><span class="lab" data-t="Bilseydim: if I had known">Bilseydim: if I had known</span></a></li><li id="gp-keske" data-k="keske: i wish, if only gp keske"><a href="/guides/b2-u01-grammar.html#gp-keske"><span class="lab" data-t="Keşke: I wish, if only">Keşke: I wish, if only</span></a></li><li id="gp-even-if" data-k="olsa bile, olsa da: even if gp even if"><a href="/guides/b2-u01-grammar.html#gp-even-if"><span class="lab" data-t="Olsa bile, olsa da: even if">Olsa bile, olsa da: even if</span></a></li><li id="gp-wh-ever" data-k="ne olursa olsun: whatever happens gp wh ever"><a href="/guides/b2-u01-grammar.html#gp-wh-ever"><span class="lab" data-t="Ne olursa olsun: whatever happens">Ne olursa olsun: whatever happens</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u01-grammar.html">Grammar guide</a><a href="/guides/b2-u01-culture.html">Interlude: The Piri Reis map</a></p></div></li><li class="ix-unit" id="b2-u02" data-k="as if hicbir sey olmamis gibi the meddah b2 unit 2"><div class="ix-head"><span class="ix-num">Unit 2</span><h3 class="ix-title"><a href="/guides/b2-u02-grammar.html">As if</a> <span class="ix-tr" lang="tr">Hiçbir şey olmamış gibi</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-mis-gibi" data-k="olmamis gibi: as if it had happened gp mis gibi"><a href="/guides/b2-u02-grammar.html#gp-mis-gibi"><span class="lab" data-t="Olmamış gibi: as if it had happened">Olmamış gibi: as if it had happened</span></a></li><li id="gp-mis-gibi-yapmak" data-k="uyuyormus gibi yapti: pretending gp mis gibi yapmak"><a href="/guides/b2-u02-grammar.html#gp-mis-gibi-yapmak"><span class="lab" data-t="Uyuyormuş gibi yaptı: pretending">Uyuyormuş gibi yaptı: pretending</span></a></li><li id="gp-cesine" data-k="-casina: as if, in writing gp cesine"><a href="/guides/b2-u02-grammar.html#gp-cesine"><span class="lab" data-t="-cAsInA: as if, in writing">-cAsInA: as if, in writing</span></a></li><li id="gp-gibi-clauses" data-k="dedigim gibi, yagacak gibi, sanki gp gibi clauses"><a href="/guides/b2-u02-grammar.html#gp-gibi-clauses"><span class="lab" data-t="Dediğim gibi, yağacak gibi, sanki">Dediğim gibi, yağacak gibi, sanki</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u02-grammar.html">Grammar guide</a><a href="/guides/b2-u02-culture.html">Interlude: The meddah</a></p></div></li><li class="ix-unit" id="b2-u03" data-k="although, despite, without yorgun olmasina ragmen troy b2 unit 3"><div class="ix-head"><span class="ix-num">Unit 3</span><h3 class="ix-title"><a href="/guides/b2-u03-grammar.html">Although, despite, without</a> <span class="ix-tr" lang="tr">Yorgun olmasına rağmen</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-digi-halde" data-k="bildigi halde: although gp digi halde"><a href="/guides/b2-u03-grammar.html#gp-digi-halde"><span class="lab" data-t="Bildiği hâlde: although">Bildiği hâlde: although</span></a></li><li id="gp-masina-ragmen" data-k="yorgun olmasina ragmen: despite gp masina ragmen"><a href="/guides/b2-u03-grammar.html#gp-masina-ragmen"><span class="lab" data-t="Yorgun olmasına rağmen: despite">Yorgun olmasına rağmen: despite</span></a></li><li id="gp-maksizin" data-k="durmaksizin: without, in formal turkish gp maksizin"><a href="/guides/b2-u03-grammar.html#gp-maksizin"><span class="lab" data-t="Durmaksızın: without, in formal Turkish">Durmaksızın: without, in formal Turkish</span></a></li><li id="gp-contrast-connectors" data-k="ise, oysa, halbuki, gerci: setting things against each other gp contrast connectors"><a href="/guides/b2-u03-grammar.html#gp-contrast-connectors"><span class="lab" data-t="İse, oysa, hâlbuki, gerçi: setting things against each other">İse, oysa, hâlbuki, gerçi: setting things against each other</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u03-grammar.html">Grammar guide</a><a href="/guides/b2-u03-culture.html">Interlude: Troy</a></p></div></li><li class="ix-unit" id="b2-u04" data-k="noun clauses gelecegini biliyorum women's suffrage in turkey b2 unit 4"><div class="ix-head"><span class="ix-num">Unit 4</span><h3 class="ix-title"><a href="/guides/b2-u04-grammar.html">Noun clauses</a> <span class="ix-tr" lang="tr">Geleceğini biliyorum</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-dik-clauses" data-k="geldigini biliyorum: that-clauses gp dik clauses"><a href="/guides/b2-u04-grammar.html#gp-dik-clauses"><span class="lab" data-t="Geldiğini biliyorum: that-clauses">Geldiğini biliyorum: that-clauses</span></a></li><li id="gp-ma-or-dik" data-k="gelmeni mi, geldigini mi? -ma or -dik gp ma or dik"><a href="/guides/b2-u04-grammar.html#gp-ma-or-dik"><span class="lab" data-t="Gelmeni mi, geldiğini mi? -mA or -DIk">Gelmeni mi, geldiğini mi? -mA or -DIk</span></a></li><li id="gp-indirect-questions" data-k="nerede oturdugunu bilmiyorum: questions inside sentences gp indirect questions"><a href="/guides/b2-u04-grammar.html#gp-indirect-questions"><span class="lab" data-t="Nerede oturduğunu bilmiyorum: questions inside sentences">Nerede oturduğunu bilmiyorum: questions inside sentences</span></a></li><li id="gp-reported-commands" data-k="gelmesini rica etti: passing on requests gp reported commands"><a href="/guides/b2-u04-grammar.html#gp-reported-commands"><span class="lab" data-t="Gelmesini rica etti: passing on requests">Gelmesini rica etti: passing on requests</span></a></li><li id="gp-clause-as-subject" data-k="gelmen onemli: clauses as subjects gp clause as subject"><a href="/guides/b2-u04-grammar.html#gp-clause-as-subject"><span class="lab" data-t="Gelmen önemli: clauses as subjects">Gelmen önemli: clauses as subjects</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u04-grammar.html">Grammar guide</a><a href="/guides/b2-u04-culture.html">Interlude: Women's suffrage in Turkey</a></p></div></li><li class="ix-unit" id="b2-u05" data-k="formal turkish toplanti devam etmektedir ankara becomes the capital b2 unit 5"><div class="ix-head"><span class="ix-num">Unit 5</span><h3 class="ix-title"><a href="/guides/b2-u05-grammar.html">Formal Turkish</a> <span class="ix-tr" lang="tr">Toplantı devam etmektedir</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-makta" data-k="devam etmektedir: the formal progressive gp makta"><a href="/guides/b2-u05-grammar.html#gp-makta"><span class="lab" data-t="Devam etmektedir: the formal progressive">Devam etmektedir: the formal progressive</span></a></li><li id="gp-dir-formal" data-k="giris ucretsizdir: -dir in formal statements gp dir formal"><a href="/guides/b2-u05-grammar.html#gp-dir-formal"><span class="lab" data-t="Giriş ücretsizdir: -DIr in formal statements">Giriş ücretsizdir: -DIr in formal statements</span></a></li><li id="gp-formal-connectors" data-k="ayrica, ancak, dolayisiyla: formal link words gp formal connectors"><a href="/guides/b2-u05-grammar.html#gp-formal-connectors"><span class="lab" data-t="Ayrıca, ancak, dolayısıyla: formal link words">Ayrıca, ancak, dolayısıyla: formal link words</span></a></li><li id="gp-formal-requests" data-k="sayin…, saygilarimla: formal letters and requests gp formal requests"><a href="/guides/b2-u05-grammar.html#gp-formal-requests"><span class="lab" data-t="Sayın…, Saygılarımla: formal letters and requests">Sayın…, Saygılarımla: formal letters and requests</span></a></li><li id="gp-fractions-percent" data-k="yarim, bucuk, ucte bir, yuzde elli: figures aloud gp fractions percent"><a href="/guides/b2-u05-grammar.html#gp-fractions-percent"><span class="lab" data-t="Yarım, buçuk, üçte bir, yüzde elli: figures aloud">Yarım, buçuk, üçte bir, yüzde elli: figures aloud</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u05-grammar.html">Grammar guide</a><a href="/guides/b2-u05-culture.html">Interlude: Ankara becomes the capital</a></p></div></li><li class="ix-unit" id="b2-u06" data-k="compound verbs kapiyi aciver street food b2 unit 6"><div class="ix-head"><span class="ix-num">Unit 6</span><h3 class="ix-title"><a href="/guides/b2-u06-grammar.html">Compound verbs</a> <span class="ix-tr" lang="tr">Kapıyı açıver</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-ivermek" data-k="aciver: quickly, casually, suddenly gp ivermek"><a href="/guides/b2-u06-grammar.html#gp-ivermek"><span class="lab" data-t="Açıver: quickly, casually, suddenly">Açıver: quickly, casually, suddenly</span></a></li><li id="gp-akalmak" data-k="bakakaldi: frozen on the spot gp akalmak"><a href="/guides/b2-u06-grammar.html#gp-akalmak"><span class="lab" data-t="Bakakaldı: frozen on the spot">Bakakaldı: frozen on the spot</span></a></li><li id="gp-adurmak" data-k="siz yiyedurun: carry on gp adurmak"><a href="/guides/b2-u06-grammar.html#gp-adurmak"><span class="lab" data-t="Siz yiyedurun: carry on">Siz yiyedurun: carry on</span></a></li><li id="gp-ayazmak-agelmek" data-k="duseyazdim, suregelen: almost, and for ages gp ayazmak agelmek"><a href="/guides/b2-u06-grammar.html#gp-ayazmak-agelmek"><span class="lab" data-t="Düşeyazdım, süregelen: almost, and for ages">Düşeyazdım, süregelen: almost, and for ages</span></a></li><li id="gp-ip-durmak" data-k="soyleyip durma! over and over, and stuck gp ip durmak"><a href="/guides/b2-u06-grammar.html#gp-ip-durmak"><span class="lab" data-t="Söyleyip durma! Over and over, and stuck">Söyleyip durma! Over and over, and stuck</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u06-grammar.html">Grammar guide</a><a href="/guides/b2-u06-culture.html">Interlude: Street food</a></p></div></li><li class="ix-unit" id="b2-u07" data-k="stacked voices yaptirilamadi iznik tiles b2 unit 7"><div class="ix-head"><span class="ix-num">Unit 7</span><h3 class="ix-title"><a href="/guides/b2-u07-grammar.html">Stacked voices</a> <span class="ix-tr" lang="tr">Yaptırılamadı</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-voice-order" data-k="tanistirildim: reading a long verb from the root out gp voice order"><a href="/guides/b2-u07-grammar.html#gp-voice-order"><span class="lab" data-t="Tanıştırıldım: reading a long verb from the root out">Tanıştırıldım: reading a long verb from the root out</span></a></li><li id="gp-causative-passive" data-k="yaptirildi: had done, commissioned gp causative passive"><a href="/guides/b2-u07-grammar.html#gp-causative-passive"><span class="lab" data-t="Yaptırıldı: had done, commissioned">Yaptırıldı: had done, commissioned</span></a></li><li id="gp-double-causative" data-k="oldurtmek, yaptirtmak: a second causative gp double causative"><a href="/guides/b2-u07-grammar.html#gp-double-causative"><span class="lab" data-t="Öldürtmek, yaptırtmak: a second causative">Öldürtmek, yaptırtmak: a second causative</span></a></li><li id="gp-voice-modality" data-k="yapilamaz, yaptirilabilir: voices with can and can't gp voice modality"><a href="/guides/b2-u07-grammar.html#gp-voice-modality"><span class="lab" data-t="Yapılamaz, yaptırılabilir: voices with can and can't">Yapılamaz, yaptırılabilir: voices with can and can't</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u07-grammar.html">Grammar guide</a><a href="/guides/b2-u07-culture.html">Interlude: İznik tiles</a></p></div></li><li class="ix-unit" id="b2-u08" data-k="small words: da, bile, ki, ya ben bile anladim football and the istanbul derbies b2 unit 8"><div class="ix-head"><span class="ix-num">Unit 8</span><h3 class="ix-title"><a href="/guides/b2-u08-grammar.html">Small words: dA, bile, ki, ya</a> <span class="ix-tr" lang="tr">Ben bile anladım</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-da-particle" data-k="gel de gor: da beyond too gp da particle"><a href="/guides/b2-u08-grammar.html#gp-da-particle"><span class="lab" data-t="Gel de gör: dA beyond too">Gel de gör: dA beyond too</span></a></li><li id="gp-bile" data-k="cocuk bile biliyor: even, and already gp bile"><a href="/guides/b2-u08-grammar.html#gp-bile"><span class="lab" data-t="Çocuk bile biliyor: even, and already">Çocuk bile biliyor: even, and already</span></a></li><li id="gp-ki-conjunction" data-k="oyle yorgunum ki: the conjunction ki gp ki conjunction"><a href="/guides/b2-u08-grammar.html#gp-ki-conjunction"><span class="lab" data-t="Öyle yorgunum ki: the conjunction ki">Öyle yorgunum ki: the conjunction ki</span></a></li><li id="gp-ya-particle" data-k="ya sen? biliyorsun ya: ya gp ya particle"><a href="/guides/b2-u08-grammar.html#gp-ya-particle"><span class="lab" data-t="Ya sen? Biliyorsun ya: ya">Ya sen? Biliyorsun ya: ya</span></a></li><li id="gp-modal-particles" data-k="hani, iste, acaba, sakin, bari, hele gp modal particles"><a href="/guides/b2-u08-grammar.html#gp-modal-particles"><span class="lab" data-t="Hani, işte, acaba, sakın, bari, hele">Hani, işte, acaba, sakın, bari, hele</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u08-grammar.html">Grammar guide</a><a href="/guides/b2-u08-culture.html">Interlude: Football and the Istanbul derbies</a></p></div></li><li class="ix-unit" id="b2-u09" data-k="everyday colloquial turkish bir bakar misin? yesilcam and turkish tv series b2 unit 9"><div class="ix-head"><span class="ix-num">Unit 9</span><h3 class="ix-title"><a href="/guides/b2-u09-grammar.html">Everyday colloquial Turkish</a> <span class="ix-tr" lang="tr">Bir bakar mısın?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-address-forms" data-k="abi, abla, hocam: addressing people gp address forms"><a href="/guides/b2-u09-grammar.html#gp-address-forms"><span class="lab" data-t="Abi, abla, hocam: addressing people">Abi, abla, hocam: addressing people</span></a></li><li id="gp-softeners" data-k="bir bakar misin? softening a request gp softeners"><a href="/guides/b2-u09-grammar.html#gp-softeners"><span class="lab" data-t="Bir bakar mısın? Softening a request">Bir bakar mısın? Softening a request</span></a></li><li id="gp-fillers" data-k="sey, yani, falan: filling the gaps gp fillers"><a href="/guides/b2-u09-grammar.html#gp-fillers"><span class="lab" data-t="Şey, yani, falan: filling the gaps">Şey, yani, falan: filling the gaps</span></a></li><li id="gp-diminutives" data-k="kucucuk, adamcagiz, yesilimsi: small, dear, pitiful, -ish gp diminutives"><a href="/guides/b2-u09-grammar.html#gp-diminutives"><span class="lab" data-t="Küçücük, adamcağız, yeşilimsi: small, dear, pitiful, -ish">Küçücük, adamcağız, yeşilimsi: small, dear, pitiful, -ish</span></a></li><li id="gp-register-shift" data-k="one request, three registers gp register shift"><a href="/guides/b2-u09-grammar.html#gp-register-shift"><span class="lab" data-t="One request, three registers">One request, three registers</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u09-grammar.html">Grammar guide</a><a href="/guides/b2-u09-culture.html">Interlude: Yeşilçam and Turkish TV series</a></p></div></li><li class="ix-unit" id="b2-u10" data-k="as long as, unless, in case calistigin surece the asik tradition b2 unit 10"><div class="ix-head"><span class="ix-num">Unit 10</span><h3 class="ix-title"><a href="/guides/b2-u10-grammar.html">As long as, unless, in case</a> <span class="ix-tr" lang="tr">Çalıştığın sürece</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-digi-surece" data-k="calistigin surece: as long as gp digi surece"><a href="/guides/b2-u10-grammar.html#gp-digi-surece"><span class="lab" data-t="Çalıştığın sürece: as long as">Çalıştığın sürece: as long as</span></a></li><li id="gp-madikca" data-k="calismadikca: unless gp madikca"><a href="/guides/b2-u10-grammar.html#gp-madikca"><span class="lab" data-t="Çalışmadıkça: unless">Çalışmadıkça: unless</span></a></li><li id="gp-digi-takdirde" data-k="yagdigi takdirde: in case, in the event that gp digi takdirde"><a href="/guides/b2-u10-grammar.html#gp-digi-takdirde"><span class="lab" data-t="Yağdığı takdirde: in case, in the event that">Yağdığı takdirde: in case, in the event that</span></a></li><li id="gp-time-clauses" data-k="geldigi an, geldiginden beri: more time clauses gp time clauses"><a href="/guides/b2-u10-grammar.html#gp-time-clauses"><span class="lab" data-t="Geldiği an, geldiğinden beri: more time clauses">Geldiği an, geldiğinden beri: more time clauses</span></a></li><li id="gp-correlatives" data-k="hem … hem, ne … ne: paired words gp correlatives"><a href="/guides/b2-u10-grammar.html#gp-correlatives"><span class="lab" data-t="Hem … hem, ne … ne: paired words">Hem … hem, ne … ne: paired words</span></a></li></ul><p class="ix-docs"><a href="/guides/b2-u10-grammar.html">Grammar guide</a><a href="/guides/b2-u10-culture.html">Interlude: The âşık tradition</a></p></div></li></ol></div><div class="ix-level" data-level="c1"><h2 id="c1">C1 · Fluency and idiom</h2><p class="ix-meta">8 of 8 units written</p><ol class="ix-units"><li class="ix-unit" id="c1-u01" data-k="stacked modality burada yasamis olmalilar catalhoyuk c1 unit 1"><div class="ix-head"><span class="ix-num">Unit 1</span><h3 class="ix-title"><a href="/guides/c1-u01-grammar.html">Stacked modality</a> <span class="ix-tr" lang="tr">Burada yaşamış olmalılar</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-mis-olmali" data-k="gitmis olmali: guesses about the past gp mis olmali"><a href="/guides/c1-u01-grammar.html#gp-mis-olmali"><span class="lab" data-t="Gitmiş olmalı: guesses about the past">Gitmiş olmalı: guesses about the past</span></a></li><li id="gp-mis-olacak" data-k="bitirmis olacagim: will have done, will be doing gp mis olacak"><a href="/guides/c1-u01-grammar.html#gp-mis-olacak"><span class="lab" data-t="Bitirmiş olacağım: will have done, will be doing">Bitirmiş olacağım: will have done, will be doing</span></a></li><li id="gp-acak-olsa" data-k="gidecek olsam: if it came to that gp acak olsa"><a href="/guides/c1-u01-grammar.html#gp-acak-olsa"><span class="lab" data-t="Gidecek olsam: if it came to that">Gidecek olsam: if it came to that</span></a></li><li id="gp-mis-olsaydi" data-k="bilmis olsaydim: the counterfactual perfect gp mis olsaydi"><a href="/guides/c1-u01-grammar.html#gp-mis-olsaydi"><span class="lab" data-t="Bilmiş olsaydım: the counterfactual perfect">Bilmiş olsaydım: the counterfactual perfect</span></a></li><li id="gp-modal-chains" data-k="gelememis olabilir: reading modal chains gp modal chains"><a href="/guides/c1-u01-grammar.html#gp-modal-chains"><span class="lab" data-t="Gelememiş olabilir: reading modal chains">Gelememiş olabilir: reading modal chains</span></a></li></ul><p class="ix-docs"><a href="/guides/c1-u01-grammar.html">Grammar guide</a><a href="/guides/c1-u01-culture.html">Interlude: Çatalhöyük</a></p></div></li><li class="ix-unit" id="c1-u02" data-k="-dir: assumption and authority yorulmuslardir the hittites and hattusa c1 unit 2"><div class="ix-head"><span class="ix-num">Unit 2</span><h3 class="ix-title"><a href="/guides/c1-u02-grammar.html">-DIr: assumption and authority</a> <span class="ix-tr" lang="tr">Yorulmuşlardır</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-dir-assumption" data-k="yorulmuslardir: a confident assumption gp dir assumption"><a href="/guides/c1-u02-grammar.html#gp-dir-assumption"><span class="lab" data-t="Yorulmuşlardır: a confident assumption">Yorulmuşlardır: a confident assumption</span></a></li><li id="gp-dir-general-truth" data-k="kullanmislardir: the voice of encyclopedias gp dir general truth"><a href="/guides/c1-u02-grammar.html#gp-dir-general-truth"><span class="lab" data-t="Kullanmışlardır: the voice of encyclopedias">Kullanmışlardır: the voice of encyclopedias</span></a></li><li id="gp-epistemic-adverbs" data-k="herhalde, muhtemelen, mutlaka: how sure are you? gp epistemic adverbs"><a href="/guides/c1-u02-grammar.html#gp-epistemic-adverbs"><span class="lab" data-t="Herhâlde, muhtemelen, mutlaka: how sure are you?">Herhâlde, muhtemelen, mutlaka: how sure are you?</span></a></li><li id="gp-certainty-scale" data-k="geldi, gelmis, gelmistir: from certain to guessed gp certainty scale"><a href="/guides/c1-u02-grammar.html#gp-certainty-scale"><span class="lab" data-t="Geldi, gelmiş, gelmiştir: from certain to guessed">Geldi, gelmiş, gelmiştir: from certain to guessed</span></a></li></ul><p class="ix-docs"><a href="/guides/c1-u02-grammar.html">Grammar guide</a><a href="/guides/c1-u02-culture.html">Interlude: The Hittites and Hattusa</a></p></div></li><li class="ix-unit" id="c1-u03" data-k="complex nominalizations bilip bilmedigimi sordu takiyuddin's observatory c1 unit 3"><div class="ix-head"><span class="ix-num">Unit 3</span><h3 class="ix-title"><a href="/guides/c1-u03-grammar.html">Complex nominalizations</a> <span class="ix-tr" lang="tr">Bilip bilmediğimi sordu</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-nested-clauses" data-k="bilip bilmedigimi sordu: clauses inside clauses gp nested clauses"><a href="/guides/c1-u03-grammar.html#gp-nested-clauses"><span class="lab" data-t="Bilip bilmediğimi sordu: clauses inside clauses">Bilip bilmediğimi sordu: clauses inside clauses</span></a></li><li id="gp-nominal-case-chains" data-k="gelmesinden dolayi: verbal noun, case, postposition gp nominal case chains"><a href="/guides/c1-u03-grammar.html#gp-nominal-case-chains"><span class="lab" data-t="Gelmesinden dolayı: verbal noun, case, postposition">Gelmesinden dolayı: verbal noun, case, postposition</span></a></li><li id="gp-clause-head-nouns" data-k="-digi gercegi, -masi ihtimali: a clause as a label gp clause head nouns"><a href="/guides/c1-u03-grammar.html#gp-clause-head-nouns"><span class="lab" data-t="-DIğI gerçeği, -mAsI ihtimali: a clause as a label">-DIğI gerçeği, -mAsI ihtimali: a clause as a label</span></a></li><li id="gp-mazlik" data-k="bilmezlikten gelmek: -mazlik gp mazlik"><a href="/guides/c1-u03-grammar.html#gp-mazlik"><span class="lab" data-t="Bilmezlikten gelmek: -mAzlIk">Bilmezlikten gelmek: -mAzlIk</span></a></li><li id="gp-derivation-advanced" data-k="caliskan, olcum, bilimsel: the suffixes behind the vocabulary gp derivation advanced"><a href="/guides/c1-u03-grammar.html#gp-derivation-advanced"><span class="lab" data-t="Çalışkan, ölçüm, bilimsel: the suffixes behind the vocabulary">Çalışkan, ölçüm, bilimsel: the suffixes behind the vocabulary</span></a></li></ul><p class="ix-docs"><a href="/guides/c1-u03-grammar.html">Grammar guide</a><a href="/guides/c1-u03-culture.html">Interlude: Takiyüddin's observatory</a></p></div></li><li class="ix-unit" id="c1-u04" data-k="ottoman, arabic and persian structures ask-i memnu divan poetry c1 unit 4"><div class="ix-head"><span class="ix-num">Unit 4</span><h3 class="ix-title"><a href="/guides/c1-u04-grammar.html">Ottoman, Arabic and Persian structures</a> <span class="ix-tr" lang="tr">Aşk-ı memnu</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-persian-izafet" data-k="ask-i memnu: the persian izafet gp persian izafet"><a href="/guides/c1-u04-grammar.html#gp-persian-izafet"><span class="lab" data-t="Aşk-ı memnu: the Persian izafet">Aşk-ı memnu: the Persian izafet</span></a></li><li id="gp-arabic-article" data-k="bilhassa, maalesef: the arabic article gp arabic article"><a href="/guides/c1-u04-grammar.html#gp-arabic-article"><span class="lab" data-t="Bilhassa, maalesef: the Arabic article">Bilhassa, maalesef: the Arabic article</span></a></li><li id="gp-arabic-plurals" data-k="ahval, esya, ulema: arabic plurals gp arabic plurals"><a href="/guides/c1-u04-grammar.html#gp-arabic-plurals"><span class="lab" data-t="Ahval, eşya, ulema: Arabic plurals">Ahval, eşya, ulema: Arabic plurals</span></a></li><li id="gp-nisbet-i" data-k="milli, resmi, askeri: the adjective suffix -i gp nisbet i"><a href="/guides/c1-u04-grammar.html#gp-nisbet-i"><span class="lab" data-t="Millî, resmî, askerî: the adjective suffix -î">Millî, resmî, askerî: the adjective suffix -î</span></a></li><li id="gp-persian-affixes" data-k="bi-, na-, -hane, -kar: persian affixes gp persian affixes"><a href="/guides/c1-u04-grammar.html#gp-persian-affixes"><span class="lab" data-t="Bî-, na-, -hane, -kâr: Persian affixes">Bî-, na-, -hane, -kâr: Persian affixes</span></a></li><li id="gp-arabic-roots" data-k="kitap, katip, mektup: arabic root families gp arabic roots"><a href="/guides/c1-u04-grammar.html#gp-arabic-roots"><span class="lab" data-t="Kitap, kâtip, mektup: Arabic root families">Kitap, kâtip, mektup: Arabic root families</span></a></li></ul><p class="ix-docs"><a href="/guides/c1-u04-grammar.html">Grammar guide</a><a href="/guides/c1-u04-culture.html">Interlude: Divan poetry</a></p></div></li><li class="ix-unit" id="c1-u05" data-k="idioms and proverbs damlaya damlaya gol olur weddings and the kina gecesi c1 unit 5"><div class="ix-head"><span class="ix-num">Unit 5</span><h3 class="ix-title"><a href="/guides/c1-u05-grammar.html">Idioms and proverbs</a> <span class="ix-tr" lang="tr">Damlaya damlaya göl olur</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-body-idioms" data-k="goz kulak olmak: idioms of the body gp body idioms"><a href="/guides/c1-u05-grammar.html#gp-body-idioms"><span class="lab" data-t="Göz kulak olmak: idioms of the body">Göz kulak olmak: idioms of the body</span></a></li><li id="gp-proverbs" data-k="damlaya damlaya gol olur: proverbs gp proverbs"><a href="/guides/c1-u05-grammar.html#gp-proverbs"><span class="lab" data-t="Damlaya damlaya göl olur: proverbs">Damlaya damlaya göl olur: proverbs</span></a></li><li id="gp-idiom-grammar" data-k="gozum yemedi: what changes inside an idiom gp idiom grammar"><a href="/guides/c1-u05-grammar.html#gp-idiom-grammar"><span class="lab" data-t="Gözüm yemedi: what changes inside an idiom">Gözüm yemedi: what changes inside an idiom</span></a></li><li id="gp-similes" data-k="buz gibi, kuzu gibi: similes with gibi gp similes"><a href="/guides/c1-u05-grammar.html#gp-similes"><span class="lab" data-t="Buz gibi, kuzu gibi: similes with gibi">Buz gibi, kuzu gibi: similes with gibi</span></a></li></ul><p class="ix-docs"><a href="/guides/c1-u05-grammar.html">Grammar guide</a><a href="/guides/c1-u05-culture.html">Interlude: Weddings and the kına gecesi</a></p></div></li><li class="ix-unit" id="c1-u06" data-k="word order and focus gordum onu! mani c1 unit 6"><div class="ix-head"><span class="ix-num">Unit 6</span><h3 class="ix-title"><a href="/guides/c1-u06-grammar.html">Word order and focus</a> <span class="ix-tr" lang="tr">Gördüm onu!</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-focus-position" data-k="the focus slot before the verb gp focus position"><a href="/guides/c1-u06-grammar.html#gp-focus-position"><span class="lab" data-t="The focus slot before the verb">The focus slot before the verb</span></a></li><li id="gp-postverbal" data-k="after the verb: inverted sentences gp postverbal"><a href="/guides/c1-u06-grammar.html#gp-postverbal"><span class="lab" data-t="After the verb: inverted sentences">After the verb: inverted sentences</span></a></li><li id="gp-topic-marking" data-k="topics: ise, -(y)sa and gelince gp topic marking"><a href="/guides/c1-u06-grammar.html#gp-topic-marking"><span class="lab" data-t="Topics: ise, -(y)sA and gelince">Topics: ise, -(y)sA and gelince</span></a></li><li id="gp-m-reduplication" data-k="kitap mitap, ivir zivir: echo words gp m reduplication"><a href="/guides/c1-u06-grammar.html#gp-m-reduplication"><span class="lab" data-t="Kitap mitap, ıvır zıvır: echo words">Kitap mitap, ıvır zıvır: echo words</span></a></li><li id="gp-emphasis" data-k="ta, hem de, de mi, iste: adding emphasis gp emphasis"><a href="/guides/c1-u06-grammar.html#gp-emphasis"><span class="lab" data-t="Ta, hem de, de mi, işte: adding emphasis">Ta, hem de, de mi, işte: adding emphasis</span></a></li></ul><p class="ix-docs"><a href="/guides/c1-u06-grammar.html">Grammar guide</a><a href="/guides/c1-u06-culture.html">Interlude: Mani</a></p></div></li><li class="ix-unit" id="c1-u07" data-k="discourse and argument kaldi ki… modern turkish literature c1 unit 7"><div class="ix-head"><span class="ix-num">Unit 7</span><h3 class="ix-title"><a href="/guides/c1-u07-grammar.html">Discourse and argument</a> <span class="ix-tr" lang="tr">Kaldı ki…</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-argument-markers" data-k="ordering, adding, contrasting and proving gp argument markers"><a href="/guides/c1-u07-grammar.html#gp-argument-markers"><span class="lab" data-t="Ordering, adding, contrasting and proving">Ordering, adding, contrasting and proving</span></a></li><li id="gp-concluding-markers" data-k="drawing conclusions gp concluding markers"><a href="/guides/c1-u07-grammar.html#gp-concluding-markers"><span class="lab" data-t="Drawing conclusions">Drawing conclusions</span></a></li><li id="gp-hedging" data-k="softening a claim gp hedging"><a href="/guides/c1-u07-grammar.html#gp-hedging"><span class="lab" data-t="Softening a claim">Softening a claim</span></a></li><li id="gp-meger" data-k="meger: it turns out gp meger"><a href="/guides/c1-u07-grammar.html#gp-meger"><span class="lab" data-t="Meğer: it turns out">Meğer: it turns out</span></a></li><li id="gp-cohesion" data-k="holding a written text together gp cohesion"><a href="/guides/c1-u07-grammar.html#gp-cohesion"><span class="lab" data-t="Holding a written text together">Holding a written text together</span></a></li></ul><p class="ix-docs"><a href="/guides/c1-u07-grammar.html">Grammar guide</a><a href="/guides/c1-u07-culture.html">Interlude: Modern Turkish literature</a></p></div></li><li class="ix-unit" id="c1-u08" data-k="spoken turkish n'apiyosun? the dolmus c1 unit 8"><div class="ix-head"><span class="ix-num">Unit 8</span><h3 class="ix-title"><a href="/guides/c1-u08-grammar.html">Spoken Turkish</a> <span class="ix-tr" lang="tr">N'apıyosun?</span></h3><span></span></div><div class="ix-body"><ul class="ix-points"><li id="gp-spoken-yor" data-k="geliyo, biliyo musun: -(i)yor in speech gp spoken yor"><a href="/guides/c1-u08-grammar.html#gp-spoken-yor"><span class="lab" data-t="Geliyo, biliyo musun: -(I)yor in speech">Geliyo, biliyo musun: -(I)yor in speech</span></a></li><li id="gp-spoken-future" data-k="gelicem, yapcaz: the future in speech gp spoken future"><a href="/guides/c1-u08-grammar.html#gp-spoken-future"><span class="lab" data-t="Gelicem, yapcaz: the future in speech">Gelicem, yapcaz: the future in speech</span></a></li><li id="gp-spoken-reductions" data-k="bi, n'aber, baya: everyday reductions gp spoken reductions"><a href="/guides/c1-u08-grammar.html#gp-spoken-reductions"><span class="lab" data-t="Bi, n'aber, baya: everyday reductions">Bi, n'aber, baya: everyday reductions</span></a></li><li id="gp-informal-vocabulary" data-k="kanka, harbiden, slm: informal words and texting gp informal vocabulary"><a href="/guides/c1-u08-grammar.html#gp-informal-vocabulary"><span class="lab" data-t="Kanka, harbiden, slm: informal words and texting">Kanka, harbiden, slm: informal words and texting</span></a></li><li id="gp-spoken-vs-written" data-k="when to write it as it is said gp spoken vs written"><a href="/guides/c1-u08-grammar.html#gp-spoken-vs-written"><span class="lab" data-t="When to write it as it is said">When to write it as it is said</span></a></li></ul><p class="ix-docs"><a href="/guides/c1-u08-grammar.html">Grammar guide</a><a href="/guides/c1-u08-culture.html">Interlude: The dolmuş</a></p></div></li></ol></div><div class="ix-level" data-level="c2"><h2 id="c2">C2 · Mastery</h2><p class="ix-meta">6 units · coming soon</p><ol class="ix-units"><li class="ix-unit planned" id="c2-u01" data-k="the language of the press mansetler a short history of the turkish press c2 unit 1"><div class="ix-head"><span class="ix-num">Unit 1</span><h3 class="ix-title">The language of the press <span class="ix-tr" lang="tr">Manşetler</span></h3><span class="tag-soon">Coming soon</span></div><div class="ix-body"><ul class="ix-points"><li id="gp-headlines" data-k="headline grammar: missing copula and tense, -di and -mis in leads gp headlines"><span class="lab" data-t="headline grammar: missing copula and tense, -DI and -mIş in leads">headline grammar: missing copula and tense, -DI and -mIş in leads</span></li><li id="gp-news-reporting" data-k="reporting verbs and attribution (-digini belirtti, ifade etti, kaydetti gp news reporting"><span class="lab" data-t="reporting verbs and attribution (-DIğInI belirtti, ifade etti, kaydetti">reporting verbs and attribution (-DIğInI belirtti, ifade etti, kaydetti</span></li><li id="gp-news-passive" data-k="passive and impersonal structures in the news (aciklandi, bildirildi, kabul edildi) gp news passive"><span class="lab" data-t="passive and impersonal structures in the news (açıklandı, bildirildi, kabul edildi)">passive and impersonal structures in the news (açıklandı, bildirildi, kabul edildi)</span></li><li id="gp-numbers-in-print" data-k="dates, figures, abbreviations and suffixes in print (2026'da, %15'lik, tbmm'de) gp numbers in print"><span class="lab" data-t="dates, figures, abbreviations and suffixes in print (2026'da, %15'lik, TBMM'de)">dates, figures, abbreviations and suffixes in print (2026'da, %15'lik, TBMM'de)</span></li></ul><p class="ix-docs"><span class="trk-soon">Interlude: A short history of the Turkish press <small>(coming soon)</small></span></p></div></li><li class="ix-unit planned" id="c2-u02" data-k="literary style bir zamanlar the birth of the turkish novel c2 unit 2"><div class="ix-head"><span class="ix-num">Unit 2</span><h3 class="ix-title">Literary style <span class="ix-tr" lang="tr">Bir zamanlar</span></h3><span class="tag-soon">Coming soon</span></div><div class="ix-body"><ul class="ix-points"><li id="gp-narrative-tenses" data-k="tense in narration: -di, -mis, the historical present, chains of -(y)ip and -(y)arak gp narrative tenses"><span class="lab" data-t="tense in narration: -DI, -mIş, the historical present, chains of -(y)Ip and -(y)ArAk">tense in narration: -DI, -mIş, the historical present, chains of -(y)Ip and -(y)ArAk</span></li><li id="gp-literary-forms" data-k="literary and older forms (-(y)asi as in gidesi geldi, -(y)araktan, -casina) gp literary forms"><span class="lab" data-t="literary and older forms (-(y)AsI as in gidesi geldi, -(y)ArAktAn, -cAsInA)">literary and older forms (-(y)AsI as in gidesi geldi, -(y)ArAktAn, -cAsInA)</span></li><li id="gp-literary-word-order" data-k="inversion and rhythm in prose and poetry gp literary word order"><span class="lab" data-t="inversion and rhythm in prose and poetry">inversion and rhythm in prose and poetry</span></li><li id="gp-free-indirect" data-k="free indirect speech and the narrator's voice gp free indirect"><span class="lab" data-t="free indirect speech and the narrator's voice">free indirect speech and the narrator's voice</span></li></ul><p class="ix-docs"><span class="trk-soon">Interlude: The birth of the Turkish novel <small>(coming soon)</small></span></p></div></li><li class="ix-unit planned" id="c2-u03" data-k="ottoman vocabulary lugat ve sozluk the language reform c2 unit 3"><div class="ix-head"><span class="ix-num">Unit 3</span><h3 class="ix-title">Ottoman vocabulary <span class="ix-tr" lang="tr">Lügat ve sözlük</span></h3><span class="tag-soon">Coming soon</span></div><div class="ix-body"><ul class="ix-points"><li id="gp-ottoman-pairs" data-k="ottoman and oz turkce pairs (mektep/okul, talebe/ogrenci, lugat/sozluk, mesele/sorun, h… gp ottoman pairs"><span class="lab" data-t="Ottoman and Öz Türkçe pairs (mektep/okul, talebe/öğrenci, lügat/sözlük, mesele/sorun, h…">Ottoman and Öz Türkçe pairs (mektep/okul, talebe/öğrenci, lügat/sözlük, mesele/sorun, h…</span></li><li id="gp-ottoman-domains" data-k="administration, law and daily life (sadrazam, vezir, ferman, kadi, hane, peder, valide) gp ottoman domains"><span class="lab" data-t="administration, law and daily life (sadrazam, vezir, ferman, kadı, hane, peder, valide)">administration, law and daily life (sadrazam, vezir, ferman, kadı, hane, peder, valide)</span></li><li id="gp-ottoman-register" data-k="what an ottoman-flavoured word signals today: formality, law, religion, nostalgia, irony gp ottoman register"><span class="lab" data-t="what an Ottoman-flavoured word signals today: formality, law, religion, nostalgia, irony">what an Ottoman-flavoured word signals today: formality, law, religion, nostalgia, irony</span></li><li id="gp-transliteration" data-k="reading ottoman turkish in latin transliteration gp transliteration"><span class="lab" data-t="reading Ottoman Turkish in Latin transliteration">reading Ottoman Turkish in Latin transliteration</span></li></ul><p class="ix-docs"><span class="trk-soon">Interlude: The language reform <small>(coming soon)</small></span></p></div></li><li class="ix-unit planned" id="c2-u04" data-k="regional varieties and the turkic world agizlar kasgarli mahmud and the turkic world c2 unit 4"><div class="ix-head"><span class="ix-num">Unit 4</span><h3 class="ix-title">Regional varieties and the Turkic world <span class="ix-tr" lang="tr">Ağızlar</span></h3><span class="tag-soon">Coming soon</span></div><div class="ix-body"><ul class="ix-points"><li id="gp-dialect-areas" data-k="the main dialect areas of anatolia and thrace, and how istanbul speech became the standard gp dialect areas"><span class="lab" data-t="the main dialect areas of Anatolia and Thrace, and how Istanbul speech became the standard">the main dialect areas of Anatolia and Thrace, and how Istanbul speech became the standard</span></li><li id="gp-dialect-features" data-k="well-documented regional features, to recognize rather than produce (for example aegean… gp dialect features"><span class="lab" data-t="well-documented regional features, to recognize rather than produce (for example Aegean…">well-documented regional features, to recognize rather than produce (for example Aegean…</span></li><li id="gp-turkic-relatives" data-k="turkish beside azerbaijani, turkmen, uzbek, kazakh, kyrgyz, tatar, uyghur and sakha: sh… gp turkic relatives"><span class="lab" data-t="Turkish beside Azerbaijani, Turkmen, Uzbek, Kazakh, Kyrgyz, Tatar, Uyghur and Sakha: sh…">Turkish beside Azerbaijani, Turkmen, Uzbek, Kazakh, Kyrgyz, Tatar, Uyghur and Sakha: sh…</span></li><li id="gp-varieties-respect" data-k="talking about regional speech without stereotypes gp varieties respect"><span class="lab" data-t="talking about regional speech without stereotypes">talking about regional speech without stereotypes</span></li></ul><p class="ix-docs"><span class="trk-soon">Interlude: Kaşgarlı Mahmud and the Turkic world <small>(coming soon)</small></span></p></div></li><li class="ix-unit planned" id="c2-u05" data-k="wordplay and humour soz oyunlari satire and caricature c2 unit 5"><div class="ix-head"><span class="ix-num">Unit 5</span><h3 class="ix-title">Wordplay and humour <span class="ix-tr" lang="tr">Söz oyunları</span></h3><span class="tag-soon">Coming soon</span></div><div class="ix-body"><ul class="ix-points"><li id="gp-homonyms" data-k="homonyms behind puns (yuz, gul, cay, dolu, yaz, ben, at, dus) gp homonyms"><span class="lab" data-t="homonyms behind puns (yüz, gül, çay, dolu, yaz, ben, at, düş)">homonyms behind puns (yüz, gül, çay, dolu, yaz, ben, at, düş)</span></li><li id="gp-cinas-tekerleme" data-k="cinas in folk and divan poetry gp cinas tekerleme"><span class="lab" data-t="cinas in folk and divan poetry">cinas in folk and divan poetry</span></li><li id="gp-fikra" data-k="the fikra: setup, turn and punchline gp fikra"><span class="lab" data-t="the fıkra: setup, turn and punchline">the fıkra: setup, turn and punchline</span></li><li id="gp-irony" data-k="irony, understatement and teasing in conversation gp irony"><span class="lab" data-t="irony, understatement and teasing in conversation">irony, understatement and teasing in conversation</span></li></ul><p class="ix-docs"><span class="trk-soon">Interlude: Satire and caricature <small>(coming soon)</small></span></p></div></li><li class="ix-unit planned" id="c2-u06" data-k="translation and style ceviri ve uslup the translation bureau c2 unit 6"><div class="ix-head"><span class="ix-num">Unit 6</span><h3 class="ix-title">Translation and style <span class="ix-tr" lang="tr">Çeviri ve üslup</span></h3><span class="tag-soon">Coming soon</span></div><div class="ix-body"><ul class="ix-points"><li id="gp-translation-structure" data-k="unpacking long words and left-branching clauses into english, and back gp translation structure"><span class="lab" data-t="unpacking long words and left-branching clauses into English, and back">unpacking long words and left-branching clauses into English, and back</span></li><li id="gp-translating-evidentiality" data-k="rendering -mis, -dir and dropped pronouns in english gp translating evidentiality"><span class="lab" data-t="rendering -mIş, -DIr and dropped pronouns in English">rendering -mIş, -DIr and dropped pronouns in English</span></li><li id="gp-style-analysis" data-k="sentence length, word origin, register and rhythm gp style analysis"><span class="lab" data-t="sentence length, word origin, register and rhythm">sentence length, word origin, register and rhythm</span></li><li id="gp-untranslatables" data-k="huzun, gurbet, kolay gelsin, keyif, nazar, hayirli olsun gp untranslatables"><span class="lab" data-t="hüzün, gurbet, kolay gelsin, keyif, nazar, hayırlı olsun">hüzün, gurbet, kolay gelsin, keyif, nazar, hayırlı olsun</span></li></ul><p class="ix-docs"><span class="trk-soon">Interlude: The Translation Bureau <small>(coming soon)</small></span></p></div></li></ol></div><p class="read-state" id="no-match" hidden="">No grammar point matches. Try a shorter word, or a suffix such as <code>-lar</code>.</p></div>
+      </section>
+
+    </main>
+    <footer class="dt-foot"><p style="margin-bottom:6px"><a href="/words/">1,000 common words</a> · <a href="/verbs/">100 verbs conjugated</a> · <a href="/grammar-cheat-sheet.html">Grammar cheat sheet</a></p><p><a href="https://buymeacoffee.com/dailyturkish" target="_blank" rel="noopener">☕ Buy me a Turkish coffee</a></p></footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      "use strict";
+      var $ = function (id) { return document.getElementById(id); };
+      var T = window.TRK;
+      if (!T) { $("notices").innerHTML = '<p class="notice err">The course script didn\'t load. Reload the page to try again.</p>'; $("main").innerHTML = ""; return; }
+      var store = T.store, esc = T.esc, P = T.C.PAGES;
+      store.course(); store.settings();   // read now, so a storage problem shows at once
+      // A static guide page (/guides/<id>.html) names its guide on <body data-guide>; otherwise ?id=.
+      var reqId = (document.body.getAttribute("data-guide") || new URLSearchParams(location.search).get("id") || "").trim().toLowerCase();
+      // On dailyturkish.app this file holds the pre-rendered index: hide it while a ?id= guide loads.
+      if (reqId && !document.body.getAttribute("data-guide") && !$("main").querySelector(".loading")) { $("main").innerHTML = '<p class="loading">Loading…</p>'; $("rail").innerHTML = ""; }
+      var st = { index: null, flat: null, error: null, says: [], questions: [], unit: null, kind: null };
+      var reduced = function () { return !!(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches); };
+      try { if ("scrollRestoration" in history) history.scrollRestoration = "manual"; } catch (e) { /* keep the default */ }
+
+      var ICON = {
+        tick: '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+        chev: '<svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+      };
+      var KIND = { tip: "Tip", pitfall: "Watch out", compare: "Compare", culture: "Culture", history: "History" };
+      var unitLabel = function (u) { return u.cefr + " · Unit " + u.num; };
+      var docHref = function (u, kind) { return T.guideHref(u.id + "-" + kind); };
+      var docPath = function (u, kind) { return T.guidePath(u.id + "-" + kind); };   // canonical address
+      var pad2 = function (n) { return (n < 10 ? "0" : "") + n; };
+      var dateLabel = function (iso) { try { return new Date(iso).toLocaleDateString("en-CA", { day: "numeric", month: "long", year: "numeric" }); } catch (e) { return String(iso).slice(0, 10); } };
+      var R = function (s) { return T.rich(s, { index: st.index }); };
+      var TR = function (s) { return T.trRich(s, { index: st.index }); };
+      var SEG = function (s) { return T.seg(s, { harmony: true }); };
+
+      // Speaker buttons: a placeholder in the HTML, replaced by TRK.tts.button once the HTML is in the page.
+      function say(text, label) {
+        st.says.push({ text: text, label: label || "Listen: " + T.plain(text) });
+        return '<span class="say-slot" data-say="' + (st.says.length - 1) + '"></span>';
+      }
+      function mountSays(root) {
+        root.querySelectorAll(".say-slot").forEach(function (el) {
+          var s = st.says[+el.getAttribute("data-say")];
+          if (s) el.replaceWith(T.tts.button(s.text, { label: s.label }));
+        });
+      }
+
+      // ── notices ──
+      function renderNotices() {
+        var out = [];
+        if (st.error) {
+          var fileHint = location.protocol === "file:" ? " Open the page through a web server (for example <code>python3 -m http.server</code> in the repo) rather than as a file." : "";
+          out.push('<p class="notice err">This page couldn\'t be loaded (' + esc(st.error) + ")." + fileHint + ' <button type="button" data-act="retry">Try again</button></p>');
+        }
+        if (store.problem === "unavailable") out.push('<p class="notice">This browser isn\'t letting the page save anything (private browsing, or storage blocked), so what you read won\'t be remembered.</p>');
+        if (store.problem === "quota") out.push('<p class="notice">What you read couldn\'t be saved: the browser\'s storage for this site is full.</p>');
+        if (store.corrupt && store.corrupt.course) out.push('<p class="notice">Part of your saved progress couldn\'t be read, so this page won\'t mark anything as read. Open the <a href="' + P.hub + '">course page</a> to download what was found.</p>');
+        $("notices").innerHTML = out.join("");
+      }
+      $("notices").addEventListener("click", function (e) {
+        var b = e.target.closest("button[data-act]");
+        if (b && b.getAttribute("data-act") === "retry") { st.error = null; renderNotices(); $("main").innerHTML = '<p class="loading">Loading…</p>'; boot(); }
+      });
+
+      // ── links and labels ──
+      function linkTo(labelHtml, ref) {
+        var t = T.href(ref, st.index);
+        if (!t) return labelHtml;
+        if (!t.ready) return '<span class="trk-soon">' + labelHtml + " <small>(coming soon)</small></span>";
+        if (t.external) return '<a class="external" href="' + esc(t.href) + '" target="_blank" rel="noopener">' + labelHtml + "</a>";
+        return '<a href="' + esc(t.href) + '">' + labelHtml + "</a>";
+      }
+      function refLabel(ref) {
+        var f = st.flat, RE = T.RE, u;
+        if (RE.gp.test(ref)) return st.index.points[ref] ? st.index.points[ref].label : ref;
+        if (RE.unit.test(ref)) return f.unit[ref] ? unitLabel(f.unit[ref]) + ": " + f.unit[ref].title : ref;
+        if (RE.lesson.test(ref)) {
+          if (f.lesson[ref]) return "Lesson: " + f.lesson[ref].title;
+          u = f.unit[ref.slice(0, 6)];
+          return u ? unitLabel(u) + ", lesson " + (+ref.slice(8)) : ref;
+        }
+        if (RE.grammar.test(ref)) { u = f.unit[ref.slice(0, 6)]; return u ? "Grammar guide: " + u.title : ref; }
+        if (RE.culture.test(ref)) { u = f.unit[ref.slice(0, 6)]; return u ? "Interlude: " + u.interlude : ref; }
+        if (ref === "cards") return "Flashcards";
+        if (RE.url.test(ref)) { try { return new URL(ref).hostname.replace(/^www\./, ""); } catch (e) { return ref; } }
+        return ref;
+      }
+
+      // ── content blocks (PROJECT.md 5.1) ──
+      function block(b) {
+        switch (b.type) {
+          case "p": return "<p>" + R(b.text) + "</p>";
+          case "list": return (b.ordered ? '<ol class="blist">' : '<ul class="blist">') + b.items.map(function (x) { return "<li>" + R(x) + "</li>"; }).join("") + (b.ordered ? "</ol>" : "</ul>");
+          case "rule": return '<div class="rule">' + (b.label ? '<div class="rule-label">' + esc(b.label) + "</div>" : "") + "<pre>" + b.lines.map(esc).join("\n") + "</pre></div>";
+          case "table": return table(b);
+          case "examples": return examples(b);
+          case "paradigm": return paradigm(b);
+          case "dialogue": return dialogue(b);
+          case "callout": return callout(b);
+          case "parallel": return parallel(b);
+          case "passage": return passage(b);
+          case "quote": return quote(b);
+          case "image": return image(b);
+          case "see": return see(b);
+        }
+        return "";   // the validator rejects unknown block types
+      }
+      function table(b) {
+        var h = '<div class="tbl"><table class="t">' + (b.caption ? "<caption>" + R(b.caption) + "</caption>" : "");
+        h += "<thead><tr>" + b.head.map(function (x) { return '<th scope="col">' + R(x) + "</th>"; }).join("") + "</tr></thead><tbody>";
+        h += b.rows.map(function (row) {
+          return "<tr>" + row.map(function (cell, i) {
+            var c = b.cols[i];
+            if (!cell) return "<td></td>";
+            if (c === "tr") return '<td class="tr" lang="tr">' + esc(cell) + "</td>";
+            if (c === "seg") return '<td class="seg">' + SEG(cell) + "</td>";
+            if (c === "en") return '<td class="en">' + esc(cell) + "</td>";
+            return "<td>" + R(cell) + "</td>";
+          }).join("") + "</tr>";
+        }).join("");
+        return h + "</tbody></table></div>";
+      }
+      function examples(b) {
+        return '<div class="example ex-block"><div class="example-label">' + (b.items.length > 1 ? "Examples" : "Example") + '</div><ul class="ex-list">' +
+          b.items.map(function (x) {
+            return '<li><div><span class="ex-tr">' + (x.seg ? SEG(x.seg) : '<span lang="tr">' + esc(x.tr) + "</span>") + "</span>" +
+              (x.gloss ? '<span class="ex-gloss">' + esc(x.gloss) + "</span>" : "") +
+              '<span class="ex-en">' + esc(x.en) + (x.note ? '<span class="ex-note">' + R(x.note) + "</span>" : "") + "</span></div>" +
+              say(x.tr) + "</li>";
+          }).join("") + "</ul></div>";
+      }
+      function paradigm(b) {
+        var speech = b.rows.map(function (r) { return r.p + " " + r.tr; }).join(". ") + ".";
+        var withEn = b.rows.some(function (r) { return r.en; });
+        return '<figure class="para"><figcaption class="para-head"><span class="ttl">' + (b.title ? R(b.title) : "Forms") + "</span>" + say(speech, "Listen to every form") + "</figcaption>" +
+          '<table class="t"><tbody>' + b.rows.map(function (r) {
+            return '<tr><th scope="row" lang="tr">' + esc(r.p) + '</th><td class="seg">' + T.seg(r.tr, { harmony: true, lastStem: true }) + "</td>" + (withEn ? '<td class="en">' + esc(r.en || "") + "</td>" : "") + "</tr>";
+          }).join("") + "</tbody></table></figure>";
+      }
+      function dialogue(b) {
+        return '<div class="dialogue"><div class="example-label">Dialogue</div>' + b.lines.map(function (l) {
+          return '<div class="dl-line"><span class="dl-who" lang="tr">' + esc(l.who) + '</span><div><p class="dl-tr" lang="tr">' + esc(l.tr) + '</p><p class="dl-en">' + esc(l.en) + "</p></div>" + say(l.tr) + "</div>";
+        }).join("") + "</div>";
+      }
+      function callout(b) {
+        return '<aside class="callout k-' + esc(b.kind) + '"><div class="callout-label">' + esc(KIND[b.kind] || "Note") + "</div>" +
+          (b.title ? '<p class="callout-title">' + esc(b.title) + "</p>" : "") + "<p>" + R(b.text) + "</p></aside>";
+      }
+      function parallel(b) {
+        return '<div class="parallel"><div class="par-tr"><div class="lbl-row"><span class="lbl">Turkish</span>' + say(b.tr, "Listen to the Turkish") + "</div>" + TR(b.tr) + "</div>" +
+          '<div class="par-en"><div class="lbl-row"><span class="lbl">English</span></div>' + String(b.en).split(/\n\n+/).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") + "</div></div>";
+      }
+      function glossary(list) {
+        return '<dl class="glossary">' + list.map(function (g) { return '<dt lang="tr">' + esc(g.tr) + "</dt><dd>" + esc(g.en) + "</dd>"; }).join("") + "</dl>";
+      }
+      function passage(b) {
+        return '<div class="passage"><div class="lbl-row"><span class="lbl">Read</span>' + say(b.tr, "Listen to the text") + "</div>" + TR(b.tr) + (b.glossary && b.glossary.length ? glossary(b.glossary) : "") + "</div>";
+      }
+      function quote(b) {
+        return '<figure class="quote"><blockquote lang="tr"><p class="q-tr">' + esc(b.tr) + "</p></blockquote>" +
+          '<p class="q-en">' + esc(b.en) + "</p><figcaption><span>" + esc(b.source) + "</span>" + say(b.tr, "Listen to the quotation") + "</figcaption></figure>";
+      }
+      function image(b) {
+        if (!/^\/assets\/img\/[^\s"'<>?#]+$/.test(b.src)) return "";
+        var cap = (b.caption ? R(b.caption) : "") + (b.credit ? (b.caption ? " " : "") + '<span class="credit">' + esc(b.credit) + "</span>" : "");
+        return '<figure class="fig"><img src="' + esc(b.src) + '" alt="' + esc(b.alt) + '" loading="lazy" decoding="async">' + (cap ? "<figcaption>" + cap + "</figcaption>" : "") + "</figure>";
+      }
+      function see(b) {
+        return '<div class="see"><span class="lbl">See also</span>' + (b.text ? R(b.text) : "") +
+          '<ul class="see-list">' + b.refs.map(function (r) { return "<li>" + linkTo(esc(refLabel(r)), r) + "</li>"; }).join("") + "</ul></div>";
+      }
+
+      // ── rail pieces ──
+      function tocHtml(items, label) {
+        if (!items.length) return "";
+        return '<button type="button" class="toc-btn" aria-expanded="false" aria-controls="toc">' + esc(label) + ' <span class="toc-n">' + items.length + "</span>" + ICON.chev + "</button>" +
+          '<nav class="chapter-nav collapsed" id="toc" aria-label="' + esc(label) + '">' + items.map(function (t) {
+            return '<a href="#' + esc(t.id) + '"' + (t.soon ? ' class="soon"' : "") + ">" + (t.n ? '<span class="ch-n">' + t.n + "</span>" : "") + esc(t.label) + "</a>";
+          }).join("") + "</nav>";
+      }
+      var LEGEND = '<div class="legend"><b>Colours in the examples</b><span class="trk-seg" lang="en"><span class="stem">stem</span> + <span class="suf">suffix</span></span>; ' +
+        'a suffix vowel is <span class="front">front</span> (<i lang="tr">e, i, ö, ü</i>) or <span class="back">back</span> (<i lang="tr">a, ı, o, u</i>).</div>';
+      // UI-5: the rail and the reading column take the unit's level colour (null: the site blue, for the index).
+      function setLevel(u) {
+        ["rail", "main"].forEach(function (id) { if (u) $(id).setAttribute("data-lvl", u.level); else $(id).removeAttribute("data-lvl"); });
+      }
+      function railUnit(u, kind, toc, dupTitle) {
+        var ready = u.status === "ready";
+        var docLink = function (k, label) {
+          var cur = k === kind ? ' aria-current="page"' : "";
+          return '<a href="' + docHref(u, k) + '"' + cur + (ready ? "" : ' class="soon"') + ">" + label + "</a>";
+        };
+        return '<div class="rail-kicker">' + esc(unitLabel(u)) + "</div>" +
+          '<div class="rail-title' + (dupTitle ? " dup" : "") + '"><a href="' + P.hub + "#" + u.id + '">' + esc(u.title) + "</a></div>" +
+          '<div class="rail-tr" lang="tr">' + esc(u.titleTr) + "</div>" +
+          '<nav class="profile-links rail-docs" aria-label="This unit">' + docLink("grammar", "Grammar guide") + docLink("culture", "Interlude") + "</nav>" +
+          tocHtml(toc, "On this page") + (kind === "grammar" && ready ? LEGEND : "") +
+          '<div class="rail-foot"><a href="' + P.guide + '">All guides and grammar points</a></div>';
+      }
+
+      // ── a guide or an interlude ──
+      function readText(when) { return when ? '<span class="tick">' + ICON.tick + "</span> You read this on " + esc(dateLabel(when)) + "." : ""; }
+      function nextCard(label, title, href, ready) {
+        if (!ready) return '<div class="next-card soon"><small>' + esc(label) + " · coming soon</small>" + esc(title) + "</div>";
+        return '<a class="next-card" href="' + esc(href) + '"><small>' + esc(label) + "</small>" + esc(title) + "</a>";
+      }
+      function nextNav(u, kind) {
+        var f = st.flat, i = f.units.indexOf(u), prev = f.units[i - 1], next = f.units[i + 1], g = kind === "grammar";
+        var name = function (x) { return g ? x.title : x.interlude; };
+        var cards = [
+          g ? nextCard("Interlude", u.interlude, docHref(u, "culture"), true) : nextCard("Grammar guide", u.title, docHref(u, "grammar"), true),
+          nextCard("Practise", unitLabel(u) + ": " + u.lessons.length + " lessons", P.hub + "#" + u.id, true)
+        ];
+        if (prev) cards.push(nextCard("Previous " + (g ? "guide" : "interlude") + " · " + unitLabel(prev), name(prev), docHref(prev, kind), prev.status === "ready"));
+        if (next) cards.push(nextCard("Next " + (g ? "guide" : "interlude") + " · " + unitLabel(next), name(next), docHref(next, kind), next.status === "ready"));
+        return '<nav class="next-grid" aria-label="What next">' + cards.join("") + "</nav>";
+      }
+      function questionHtml(q, i, n) {
+        var order = q.options.map(function (x, k) { return k; });
+        for (var j = order.length - 1; j > 0; j--) { var r = Math.floor(Math.random() * (j + 1)), t = order[j]; order[j] = order[r]; order[r] = t; }
+        return '<div class="quiz" data-q="' + i + '"><div class="quiz-label">Question ' + (i + 1) + " of " + n + '</div><div class="quiz-q">' + R(q.q) + "</div>" +
+          '<div class="quiz-opts" role="group" aria-label="Answers to question ' + (i + 1) + '">' + order.map(function (k) {
+            return '<button type="button" class="quiz-btn" data-k="' + k + '"' + (q.optionsLang === "tr" ? ' lang="tr"' : "") + ">" + esc(q.options[k]) + "</button>";
+          }).join("") + '</div><div class="quiz-feedback" tabindex="-1"></div><button type="button" class="quiz-reset">Try again</button></div>';
+      }
+      function renderDoc(u, kind, doc) {
+        var g = kind === "grammar", course = store.course(), rec = course.units[u.id] || {}, key = g ? "guide" : "culture";
+        var toc = [], h = "";
+        st.says = []; st.questions = [];
+        if (g) {
+          h += '<p class="doc-kicker">Grammar guide<span class="dot">·</span>' + esc(unitLabel(u)) + '<span id="read-min"></span></p>';
+          h += '<h1 class="doc-title" id="top">' + esc(doc.title) + "</h1>";
+          h += '<p class="doc-tr" lang="tr">' + esc(u.titleTr) + "</p>";
+          h += '<p class="lede">' + R(doc.intro) + "</p>";
+          doc.sections.forEach(function (s, i) {
+            toc.push({ id: s.point, label: s.title, n: pad2(i + 1) });
+            h += '<h2 id="' + esc(s.point) + '"><span class="h-n" aria-hidden="true">' + pad2(i + 1) + "</span>" + esc(s.title) + "</h2>" + s.blocks.map(block).join("");
+          });
+          toc.push({ id: "summary", label: "Summary" });
+          h += '<h2 id="summary">Summary</h2><ol class="summary">' + doc.summary.map(function (x) { return "<li>" + R(x) + "</li>"; }).join("") + "</ol>";
+        } else {
+          h += '<p class="doc-kicker">' + esc(doc.kicker) + '<span class="dot">·</span>' + doc.minutes + " min read</p>";
+          h += '<h1 class="doc-title" id="top">' + esc(doc.title) + "</h1>";
+          h += '<p class="doc-sub">The interlude of ' + esc(unitLabel(u)) + ', <a href="' + docHref(u, "grammar") + '">' + esc(u.title) + "</a></p>";
+          toc.push({ id: "top", label: doc.title });
+          h += doc.blocks.map(block).join("");
+          toc.push({ id: "words", label: "Words to know" });
+          h += '<h2 id="words">Words to know</h2><ul class="vocab">' + doc.vocab.map(function (w) {
+            return '<li><div><span class="v-tr" lang="tr">' + esc(w.tr) + '</span><span class="v-en">' + esc(w.en) + "</span></div>" + say(w.tr) + "</li>";
+          }).join("") + "</ul>";
+          if (doc.questions && doc.questions.length) {
+            st.questions = doc.questions;
+            toc.push({ id: "questions", label: "Check your reading" });
+            h += '<h2 id="questions">Check your reading</h2><p class="quiz-intro">' + (doc.questions.length === 1 ? "A question" : doc.questions.length + " questions") + " to check what you read. Just for you: they earn no XP.</p>" +
+              doc.questions.map(function (q, i) { return questionHtml(q, i, doc.questions.length); }).join("");
+          }
+          toc.push({ id: "sources", label: "Sources" });
+          h += '<h2 id="sources">Sources</h2><ol class="sources">' + doc.sources.map(function (s) {
+            var title = s.url && T.RE.url.test(s.url) ? '<a class="external" href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>" : esc(s.title);
+            var meta = [s.publisher, s.note].filter(Boolean).map(esc).join(" · ");
+            return "<li>" + title + (meta ? '<span class="src-note">' + meta + "</span>" : "") + "</li>";
+          }).join("") + "</ol>";
+        }
+        h += '<div id="doc-end"></div>' + nextNav(u, kind) + '<p class="read-state" id="read-state">' + readText(rec[key]) + "</p>";
+        setLevel(u);
+        $("rail").innerHTML = railUnit(u, kind, toc, g);
+        $("main").innerHTML = h;
+        mountSays($("main"));
+        if (g) {
+          var words = ($("main").textContent || "").split(/\s+/).filter(Boolean).length;
+          $("read-min").innerHTML = '<span class="dot">·</span>About ' + Math.max(1, Math.round(words / 200)) + " min";
+        }
+        var desc = T.plain(g ? doc.intro : (doc.blocks.filter(function (b) { return b.type === "p"; })[0] || { text: doc.title }).text);
+        // page title for search engines: a guide's seoTitle (the term people search) + its level; an interlude's own title
+        setMeta(g ? (doc.seoTitle ? doc.seoTitle + " · " + u.cefr + " grammar" : doc.title + " · Turkish grammar, " + unitLabel(u)) : doc.title + " · Turkish culture", desc, docPath(u, kind));
+        afterRender();
+        watchRead(u, key);
+      }
+
+      // ── a unit that isn't written yet ──
+      function renderSoon(u, kind) {
+        var g = kind === "grammar", ix = st.index, ready = st.flat.units.filter(function (x) { return x.status === "ready"; });
+        var latest = ready[ready.length - 1];
+        var h = '<p class="doc-kicker">' + (g ? "Grammar guide" : "Interlude") + '<span class="dot">·</span>' + esc(unitLabel(u)) + "</p>" +
+          '<h1 class="doc-title" id="top">' + esc(g ? u.title : u.interlude) + "</h1>" +
+          (g ? '<p class="doc-tr" lang="tr">' + esc(u.titleTr) + "</p>" : '<p class="doc-sub">The interlude of ' + esc(unitLabel(u)) + ", " + esc(u.title) + "</p>") +
+          '<div class="soon-box"><p><strong>Coming soon.</strong> This unit hasn\'t been written yet, so its ' + (g ? "grammar guide" : "interlude") + " isn't here. It will appear with the unit's lessons.</p>" +
+          (g ? "" : "<p>Until then, the interludes written so far are listed in the <a href=\"" + P.guide + '">index</a>.</p>') + "</div>";
+        if (g) {
+          h += '<h2 id="points">What it will cover</h2><ul class="soon-list">' + u.points.map(function (gp) {
+            return '<li id="' + esc(gp) + '">' + esc(ix.points[gp] ? ix.points[gp].label : gp) + "</li>";
+          }).join("") + "</ul>";
+        }
+        var cards = [nextCard("The course", unitLabel(u) + " on the path", P.hub + "#" + u.id, true)];
+        if (latest) cards.push(nextCard("Latest " + (g ? "guide" : "interlude") + " · " + unitLabel(latest), g ? latest.title : latest.interlude, docHref(latest, kind), true));
+        h += '<nav class="next-grid" aria-label="What next">' + cards.join("") + "</nav>";
+        setLevel(u);
+        $("rail").innerHTML = railUnit(u, kind, [], false);
+        $("main").innerHTML = h;
+        setMeta((g ? u.title : u.interlude) + " · coming soon", "This part of the Turkish course from A1 to C2 is still being written.", docPath(u, kind));
+        afterRender();
+      }
+
+      function renderNotFound() {
+        setLevel(null);
+        $("rail").innerHTML = '<div class="rail-kicker">Turkish · A1 → C2</div><div class="rail-foot"><a href="' + P.guide + '">All guides and grammar points</a></div>';
+        $("main").innerHTML = '<p class="doc-kicker">Not found</p><h1 class="doc-title" id="top">No such guide</h1>' +
+          "<p>There's no grammar guide or interlude called “" + esc(reqId) + "”. Guides are named after their unit, like <code>a1-u02-grammar</code> and <code>a1-u02-culture</code>.</p>" +
+          '<nav class="next-grid" aria-label="What next">' + nextCard("Index", "All guides and grammar points", P.guide, true) + nextCard("The course", "Back to the path", P.hub, true) + "</nav>";
+        setMeta("Guide not found · Learn Turkish", "", P.guide);
+      }
+
+      // ── the index: every guide and grammar point (index.json) ──
+      function fold(s) { return T.fold(T.trLower(String(s))).replace(/â/g, "a").replace(/î/g, "i").replace(/û/g, "u").replace(/\s+/g, " ").trim(); }
+      function renderIndex() {
+        var ix = st.index, f = st.flat, course = store.course();
+        var readyUnits = f.units.filter(function (u) { return u.status === "ready"; });
+        var read = 0;
+        readyUnits.forEach(function (u) { var r = course.units[u.id] || {}; if (r.guide) read++; if (r.culture) read++; });
+        var nPoints = Object.keys(ix.points).length, nReadyPoints = Object.keys(ix.points).filter(function (k) { return ix.points[k].ready; }).length;
+        var levels = ix.levels.map(function (lv) {
+          var units = lv.units.map(function (x) { return f.unit[x.id]; });
+          return { lv: lv, units: units, ready: units.filter(function (u) { return u.status === "ready"; }).length };
+        });
+        var toc = levels.map(function (L) { return { id: L.lv.id, label: L.lv.cefr + " · " + L.lv.title, soon: !L.ready }; });
+        setLevel(null);
+        $("rail").innerHTML = '<div class="rail-kicker">Turkish · A1 → C2</div>' +
+          '<div class="rail-title">Grammar and culture</div>' +
+          '<div class="rail-blurb">Each unit has a grammar guide, with a section for every grammar point, and a short culture interlude.</div>' +
+          tocHtml(toc, "Levels") +
+          '<div class="rail-foot"><a href="' + P.hub + '">Back to the course</a></div>';
+        var h = '<p class="doc-kicker">Grammar index</p><h1 class="doc-title" id="top">Grammar guides and interludes</h1>' +
+          '<p class="lede">Every grammar point of the course, unit by unit, from the alphabet to the language of the press. ' +
+          readyUnits.length + " of " + f.units.length + " units are written so far; the rest are listed as they're planned.</p>" +
+          (readyUnits.length ? '<p class="read-state">' + (read ? '<span class="tick">' + ICON.tick + "</span> You've read " + read + " of the " + readyUnits.length * 2 + " guides and interludes written so far." : "You haven't opened a guide yet: start with <a href=\"" + docHref(readyUnits[0], "grammar") + '">' + esc(readyUnits[0].title) + "</a>.") + "</p>" : "") +
+          '<div class="find" role="search"><label for="find">Find a grammar point</label>' +
+          '<input id="find" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="plural, -DA, değil, past tense…" aria-describedby="find-n">' +
+          '<p class="find-n" id="find-n" aria-live="polite">' + nReadyPoints + " of " + nPoints + " grammar points written</p></div>";
+        h += levels.map(function (L) {
+          var lv = L.lv;
+          return '<div class="ix-level" data-level="' + lv.id + '"><h2 id="' + lv.id + '">' + esc(lv.cefr + " · " + lv.title) + "</h2>" +
+            '<p class="ix-meta">' + (L.ready ? L.ready + " of " + L.units.length + " units written" : L.units.length + " units · coming soon") + "</p>" +
+            '<ol class="ix-units">' + L.units.map(function (u) { return indexUnit(u, course); }).join("") + "</ol></div>";
+        }).join("");
+        h += '<p class="read-state" id="no-match" hidden>No grammar point matches. Try a shorter word, or a suffix such as <code>-lar</code>.</p>';
+        $("main").innerHTML = h;
+        setMeta("Turkish grammar guides and interludes · Learn Turkish", "The grammar guide and culture interlude of every unit of a free Turkish course from A1 to C2, with an index of every grammar point.", P.guide);
+        afterRender();
+        var input = $("find"), timer = null;
+        input.addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(filter, 80); });
+        input.addEventListener("keydown", function (e) { if (e.key === "Escape" && input.value) { input.value = ""; filter(); } });
+        function filter() {
+          var q = fold(input.value), shown = 0;
+          $("main").querySelectorAll(".ix-unit").forEach(function (li) {
+            var unitHit = q && li.getAttribute("data-k").indexOf(q) >= 0, any = false;
+            li.querySelectorAll(".ix-points > li").forEach(function (p) {
+              var hit = !q || unitHit || p.getAttribute("data-k").indexOf(q) >= 0;
+              p.hidden = !hit; if (hit) { any = true; shown++; }
+              var lab = p.querySelector(".lab");
+              lab.innerHTML = q && !unitHit ? highlight(lab.getAttribute("data-t"), q) : esc(lab.getAttribute("data-t"));
+            });
+            li.hidden = !any;
+          });
+          $("main").querySelectorAll(".ix-level").forEach(function (d) { d.hidden = !d.querySelector(".ix-unit:not([hidden])"); });
+          $("find-n").textContent = q ? (shown === 1 ? "1 grammar point matches" : shown + " grammar points match") : nReadyPoints + " of " + nPoints + " grammar points written";
+          $("no-match").hidden = !(q && !shown);
+        }
+      }
+      // Marks the first match of q (folded) inside text, character for character (folding keeps lengths).
+      function highlight(text, q) {
+        var t = fold(text), k = t.indexOf(q);
+        if (k < 0 || t.length !== text.replace(/\s+/g, " ").trim().length) return esc(text);
+        var s = text.replace(/\s+/g, " ").trim();
+        return esc(s.slice(0, k)) + "<mark>" + esc(s.slice(k, k + q.length)) + "</mark>" + esc(s.slice(k + q.length));
+      }
+      function indexUnit(u, course) {
+        var ix = st.index, ready = u.status === "ready", r = course.units[u.id] || {};
+        var tick = function (on, what) { return on ? '<span class="tick" title="Read">' + ICON.tick + '</span><span class="sr"> (' + what + " read)</span>" : ""; };
+        var head = '<div class="ix-head"><span class="ix-num">Unit ' + u.num + "</span>" +
+          '<h3 class="ix-title">' + (ready ? '<a href="' + docHref(u, "grammar") + '">' + esc(u.title) + "</a>" : esc(u.title)) + ' <span class="ix-tr" lang="tr">' + esc(u.titleTr) + "</span></h3>" +
+          (ready ? "<span></span>" : '<span class="tag-soon">Coming soon</span>') + "</div>";
+        var points = '<ul class="ix-points">' + u.points.map(function (gp) {
+          var p = ix.points[gp] || { label: gp }, k = fold(p.label + " " + gp.replace(/-/g, " "));
+          var lab = '<span class="lab" data-t="' + esc(p.label) + '">' + esc(p.label) + "</span>";
+          return '<li id="' + esc(gp) + '" data-k="' + esc(k) + '">' + (ready ? '<a href="' + docHref(u, "grammar") + "#" + esc(gp) + '">' + lab + "</a>" : lab) + "</li>";
+        }).join("") + "</ul>";
+        var docs = '<p class="ix-docs">' + (ready
+          ? '<a href="' + docHref(u, "grammar") + '">Grammar guide' + tick(r.guide, "guide") + "</a>" + '<a href="' + docHref(u, "culture") + '">Interlude: ' + esc(u.interlude) + tick(r.culture, "interlude") + "</a>"
+          : '<span class="trk-soon">Interlude: ' + esc(u.interlude) + " <small>(coming soon)</small></span>") + "</p>";
+        return '<li class="ix-unit' + (ready ? "" : " planned") + '" id="' + u.id + '" data-k="' + esc(fold(u.title + " " + u.titleTr + " " + u.interlude + " " + u.cefr + " unit " + u.num)) + '">' +
+          head + '<div class="ix-body">' + points + docs + "</div></li>";
+      }
+
+      // ── after every render: speakers, contents, quiz, position ──
+      function setMeta(title, desc, path) {
+        var abs = "https://dailyturkish.app" + path;   // the course's home, whichever domain serves the page
+        document.title = title;
+        var set = function (sel, attr, v) { var el = document.querySelector(sel); if (el && v) el.setAttribute(attr, v); };
+        set('meta[name="description"]', "content", desc && desc.length > 200 ? desc.slice(0, 197).replace(/\s+\S*$/, "") + "…" : desc);
+        set('meta[property="og:title"]', "content", title.replace(/ · Learn Turkish$/, ""));
+        set('meta[property="og:description"]', "content", desc && desc.length > 200 ? desc.slice(0, 197).replace(/\s+\S*$/, "") + "…" : desc);
+        set('link[rel="canonical"]', "href", abs);
+        set('meta[property="og:url"]', "content", abs);
+      }
+      function afterRender() {
+        mountSays($("rail"));
+        var btn = $("rail").querySelector(".toc-btn"), nav = $("toc");
+        if (btn && nav) {
+          btn.addEventListener("click", function () {
+            var open = btn.getAttribute("aria-expanded") !== "true";
+            btn.setAttribute("aria-expanded", String(open));
+            nav.classList.toggle("collapsed", !open);
+          });
+          spy(nav);
+        }
+        position();
+      }
+      // Highlights the section being read in the rail's contents (as on turkish101.html).
+      function spy(nav) {
+        if (!("IntersectionObserver" in window)) return;
+        var links = {};
+        nav.querySelectorAll("a").forEach(function (a) { links[decodeURIComponent(a.hash.slice(1))] = a; });
+        var heads = Object.keys(links).map(function (k) { return document.getElementById(k); }).filter(Boolean);
+        var activate = function (id) {
+          Object.keys(links).forEach(function (k) { links[k].classList.toggle("active", k === id); });
+          var a = links[id];
+          if (!a || !nav.offsetHeight) return;
+          var r = a.getBoundingClientRect(), n = nav.getBoundingClientRect();
+          if (r.top < n.top || r.bottom > n.bottom) nav.scrollTop += r.top - n.top - n.height / 3;
+        };
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) { if (e.isIntersecting) activate(e.target.id); });
+        }, { rootMargin: "-90px 0px -70% 0px" });
+        heads.forEach(function (h) { io.observe(h); });
+      }
+      function flash(el) { if (reduced()) return; el.classList.remove("hl"); void el.offsetWidth; el.classList.add("hl"); }
+      // Programmatic jumps are instant: styles.css makes scrolling smooth, which suits clicks, not page loads.
+      function jump(fn) {
+        var html = document.documentElement, prev = html.style.scrollBehavior;
+        html.style.scrollBehavior = "auto";
+        fn();
+        html.style.scrollBehavior = prev;
+      }
+      function toHash() {
+        var id = decodeURIComponent(location.hash.slice(1)), el = id && document.getElementById(id);
+        if (!el) return false;
+        jump(function () { el.scrollIntoView({ block: "start" }); });
+        flash(el);
+        return true;
+      }
+      // Where to land: the saved position after a reload or Back, otherwise the #fragment (content arrives after load).
+      var posKey = "trk:guide:pos:" + (reqId || "index");
+      function position() {
+        var nav = null;
+        try { nav = performance.getEntriesByType("navigation")[0]; } catch (e) { /* older browser */ }
+        var saved = null;
+        try { saved = sessionStorage.getItem(posKey); } catch (e) { /* storage blocked */ }
+        if (nav && (nav.type === "reload" || nav.type === "back_forward") && saved !== null) { jump(function () { window.scrollTo(0, +saved || 0); }); return; }
+        toHash();
+      }
+      window.addEventListener("hashchange", function () { var id = decodeURIComponent(location.hash.slice(1)), el = id && document.getElementById(id); if (el) flash(el); });
+      var saveTimer = null;
+      var savePos = function () { try { sessionStorage.setItem(posKey, String(Math.round(window.scrollY))); } catch (e) { /* storage blocked */ } };
+      window.addEventListener("scroll", function () { clearTimeout(saveTimer); saveTimer = setTimeout(savePos, 250); }, { passive: true });
+      window.addEventListener("pagehide", savePos);
+
+      // A guide counts as read once its end has been on screen (store.markRead, shown on the course page).
+      function watchRead(u, key) {
+        var end = $("doc-end"), done = false;
+        var mark = function () {
+          if (done) return;
+          done = true;
+          if (store.corrupt && store.corrupt.course) return;   // don't overwrite progress the course page can still recover
+          store.markRead(u.id, key);
+          var el = $("read-state");
+          if (el) el.innerHTML = '<span class="tick">' + ICON.tick + "</span> Marked as read" + (store.problem === "unavailable" ? " for now (this browser isn't saving)." : ": it shows on the course page.");
+          renderNotices();
+        };
+        if (!end) return;
+        if (!("IntersectionObserver" in window)) { mark(); return; }
+        var io = new IntersectionObserver(function (entries) {
+          if (entries.some(function (e) { return e.isIntersecting; })) { io.disconnect(); mark(); }
+        });
+        io.observe(end);
+      }
+
+      // Culture questions: pick an answer, see why; no XP (PROJECT.md 5.7).
+      $("main").addEventListener("click", function (e) {
+        var b = e.target.closest(".quiz-btn"), reset = e.target.closest(".quiz-reset"), box, q;
+        if (b && !b.disabled) {
+          box = b.closest(".quiz"); q = st.questions[+box.getAttribute("data-q")];
+          if (!q) return;
+          var k = +b.getAttribute("data-k"), ok = k === q.answer;
+          box.querySelectorAll(".quiz-btn").forEach(function (x) { x.disabled = true; if (+x.getAttribute("data-k") === q.answer) x.classList.add("correct"); });
+          if (!ok) b.classList.add("wrong");
+          var right = q.optionsLang === "tr" ? '<span lang="tr">' + esc(q.options[q.answer]) + "</span>" : esc(q.options[q.answer]);
+          var fb = box.querySelector(".quiz-feedback");
+          fb.innerHTML = (ok ? "<strong>Right.</strong>" : "<strong>Not quite.</strong> The answer is " + right + ".") + (q.explain ? " " + R(q.explain) : "");
+          fb.className = "quiz-feedback show " + (ok ? "ok" : "bad");
+          box.querySelector(".quiz-reset").classList.add("show");
+          fb.focus();
+        } else if (reset) {
+          box = reset.closest(".quiz");
+          box.querySelectorAll(".quiz-btn").forEach(function (x) { x.disabled = false; x.classList.remove("correct", "wrong"); });
+          var f2 = box.querySelector(".quiz-feedback");
+          f2.className = "quiz-feedback"; f2.innerHTML = "";
+          reset.classList.remove("show");
+          box.querySelector(".quiz-btn").focus();
+        }
+      });
+
+      // ── start ──
+      function boot() {
+        T.data.index().then(function (ix) {
+          st.index = ix; st.flat = T.path.flatten(ix);
+          if (!reqId) return renderIndex();
+          var m = /^((?:a1|a2|b1|b2|c1|c2)-u\d{2})-(grammar|culture)$/.exec(reqId), u = m && st.flat.unit[m[1]];
+          if (!u) return renderNotFound();
+          if (u.status !== "ready") return renderSoon(u, m[2]);
+          return T.data.get(reqId).then(function (doc) { renderDoc(u, m[2], doc); });
+        }).catch(function (e) {
+          st.error = (e && e.message) || "network error";
+          $("main").innerHTML = "";
+          renderNotices();
+        });
+      }
+      renderNotices();
+      boot();
+    });
+    </script>
+  </body>
+</html>
