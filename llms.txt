@@ -1,0 +1,156 @@
+# Daily Turkish
+
+> Daily Turkish (https://dailyturkish.app/) is a free online Turkish course for English speakers, from CEFR A1 to C2: 60 units of short interactive lessons (226 lessons, 2,879 exercises), a grammar guide and a culture note in every unit, 1,000 flashcards with spaced repetition (Anki's SM-2), 12 conversation simulations that practice sen and siz, a timed TYS practice test, conjugation tables for the 100 most common verbs and a grammar cheat sheet. No ads and no account needed; an optional free account syncs progress. Also an iPhone app. Made by Grégoire Maillard.
+
+- Name: Daily Turkish. Address: https://dailyturkish.app/ (other apps have similar names; this course is the one at dailyturkish.app).
+- Price: free, no ads, no paywall.
+- Interface and explanations: English. Turkish follows the spelling of the Türk Dil Kurumu.
+- iPhone app: [Daily Turkish on the App Store](https://apps.apple.com/app/id6833673702), free.
+- Contact: gregoire.maillard@yahoo.fr
+
+## Start here
+
+- [The course](https://dailyturkish.app/): the path from A1 to C2, with the first lesson one click away
+- [About Daily Turkish](https://dailyturkish.app/about.html): what's in it, how it teaches, how it differs, questions and answers
+- [Conversations](https://dailyturkish.app/conversations.html): 12 everyday dialogues, A1 to B2 (at the café, taking a taxi, asking the way, bargaining in the bazaar, at the pharmacy, at the hotel, at the doctor's, calling the landlord, a phone call, a job interview, dinner with a family, a complaint at a shop)
+- [TYS practice test](https://dailyturkish.app/tys-practice-test.html): a 30-minute, unofficial practice for the Türkçe Yeterlik Sınavı, with all four skills and an indicative level
+- [Flashcards](https://dailyturkish.app/turkishcards.html): the 1,000 most common words with spaced repetition
+
+## Reference
+
+- [Turkish grammar cheat sheet](https://dailyturkish.app/grammar-cheat-sheet.html): vowel harmony, consonant changes, cases, possessives, every tense, participles, voices
+- [All grammar guides](https://dailyturkish.app/turkishguide.html): 120 guides and culture notes, and every grammar point
+- [100 Turkish verbs conjugated](https://dailyturkish.app/verbs/): 13 tenses and moods each, positive, negative and question
+- [1,000 most common Turkish words](https://dailyturkish.app/words/): with meanings, example sentences and forms
+- [Turkish culture timeline](https://dailyturkish.app/turkishculture.html): the course's culture notes on a timeline and a map
+
+## Grammar guides
+
+- [A1 · Unit 1: Letters and sounds](https://dailyturkish.app/guides/a1-u01-grammar.html): The 29 letters; One letter, one sound; Where the stress falls; How a Turkish sentence is built
+- [A1 · Unit 2: Vowel harmony and plurals](https://dailyturkish.app/guides/a1-u02-grammar.html): Eight vowels in two groups; Two-way harmony: e or a; The plural: -lar and -ler; This and that: bu, şu, o; A, an and one: bir; Words that break the pattern
+- [A1 · Unit 3: Saying who you are](https://dailyturkish.app/guides/a1-u03-grammar.html): Four-way harmony; I, you, he, she: the personal pronouns; To be: the personal endings; Buffer letters: the y in öğrenciyim
+- [A1 · Unit 4: Questions and negation](https://dailyturkish.app/guides/a1-u04-grammar.html): Not: değil; Yes-no questions: mI; Who, what, how: question words; Yes, no, of course: answering; Me too: dA
+- [A1 · Unit 5: Where things are](https://dailyturkish.app/guides/a1-u05-grammar.html): In, at, on: the locative; d or t? Consonant assimilation; There is, there isn't: var and yok; İstanbul'da: suffixes on names; Onda, burada: pronouns and place words
+- [A1 · Unit 6: The present continuous](https://dailyturkish.app/guides/a1-u06-grammar.html): Gelmek, gel-: the infinitive and the stem; Geliyorum: the present continuous; Gelmiyorum: negative and questions; Now, these days and tomorrow
+- [A1 · Unit 7: To and from](https://dailyturkish.app/guides/a1-u07-grammar.html): To, toward: the dative; From, out of: the ablative; Bana, sana, ondan: pronouns and place words; Arabaya, arabadan: the buffer y
+- [A1 · Unit 8: Definite objects](https://dailyturkish.app/guides/a1-u08-grammar.html): The book, not a book: the accusative; Kitap, kitabı: consonant softening; Beni, seni, onu: pronouns as objects; Where the object goes
+- [A1 · Unit 9: My family](https://dailyturkish.app/guides/a1-u09-grammar.html): Evim, evin: possessive suffixes; Arabam var: how to say have; Ağız, ağzım: vowel loss; Kitabım, çocuğumuz: softening with possessives
+- [A1 · Unit 10: Whose is it?](https://dailyturkish.app/guides/a1-u10-grammar.html): Ayşe'nin, evin: the genitive; Ayşe'nin evi: owner and owned; Evinde, arabasına: the n before a case ending; Kimin? Kimde? Whose is it, who has it?
+- [A1 · Unit 11: Numbers and time](https://dailyturkish.app/guides/a1-u11-grammar.html): Bir, iki, üç: cardinal numbers; İki kitap: the singular after numbers; Birinci, ikinci: ordinals; Saat kaç? Telling the time; Pazartesi, ekim: days, months and dates; Kaç yaşındasın? Kaç lira? Ages and prices
+- [A1 · Unit 12: Requests and company](https://dailyturkish.app/guides/a1-u12-grammar.html): Gel, gelin, geliniz: the imperative; Annemle, otobüsle: ile and -(y)lA; Senin için: için; Ve, ama, ya da: linking words
+- [A2 · Unit 1: The past tense](https://dailyturkish.app/guides/a2-u01-grammar.html): Geldim: the past tense -DI; Gelmedim, geldin mi? Negative and questions; Two sets of personal endings; Yesterday, last week, two days ago
+- [A2 · Unit 2: Was, were, and once upon a time](https://dailyturkish.app/guides/a2-u02-grammar.html): Evdeydim: was and were; Hastaydı, hastaymış: two pasts of to be; Gelmiş: a first look at -mIş with verbs
+- [A2 · Unit 3: The future](https://dailyturkish.app/guides/a2-u03-grammar.html): Geleceğim: the future -(y)AcAk; Gelmeyeceğim, gelecek misin? Negative and questions; Diyecek, yiyecek; gidecek, edecek; Future or present continuous?
+- [A2 · Unit 4: Habits and truths: the aorist](https://dailyturkish.app/guides/a2-u04-grammar.html): Okur, yapar, çalışır: the forms of the aorist; Alır, bilir, gelir: the thirteen; Gelmem, gelir misin? Negative and questions; Habits, truths, offers and promises
+- [A2 · Unit 5: Can and can't](https://dailyturkish.app/guides/a2-u05-grammar.html): Gelebilirim: can with -(y)Abil; Gelemem: can't with -(y)AmA; Ability, permission, possibility, requests; Nobody, nothing, never: hiç and kimse
+- [A2 · Unit 6: Must and need](https://dailyturkish.app/guides/a2-u06-grammar.html): Gitmeliyim: must and should with -mAlI; Bana su lazım: need with lazım and gerek; Gitmek zorundayım: have to; Evde olmalı: a confident guess
+- [A2 · Unit 7: Let's: suggestions and wishes](https://dailyturkish.app/guides/a2-u07-grammar.html): Gidelim mi? Let's, let me, shall I; Ali gelsin: let him, let them; Kolay gelsin: a wish for every moment; Hadi gidelim! Come on
+- [A2 · Unit 8: Comparing](https://dailyturkish.app/guides/a2-u08-grammar.html): Daha büyük: bigger than; En büyük: the biggest; Benim kadar, senin gibi: as … as, like; Bembeyaz, masmavi: completely white, deep blue; İyi konuşuyor: adjectives as adverbs
+- [A2 · Unit 9: Where and when: postpositions](https://dailyturkish.app/guides/a2-u09-grammar.html): Gibi, için, kadar, ile: no case; Göre, doğru, karşı: with the dative; Önce, sonra, beri: with the ablative; Masanın üstünde: place nouns; Üç yıldır: for how long
+- [A2 · Unit 10: Compound nouns and -ki](https://dailyturkish.app/guides/a2-u10-grammar.html): Türk kahvesi: the compound noun; Okul çantam: compounds with owners; Masadaki kitap: -ki after places and times; Benimki, seninki: mine and yours
+- [A2 · Unit 11: While and then](https://dailyturkish.app/guides/a2-u11-grammar.html): Çocukken, giderken: -(y)ken; Gidip aldım: -(y)Ip; Önce, sonra, bu yüzden: telling a story
+- [A2 · Unit 12: Word building](https://dailyturkish.app/guides/a2-u12-grammar.html): Şekerli, İstanbullu: -lI; Şekersiz, işsiz: -sIz; Gazeteci, kitapçı: -CI; Güzellik, gözlük, bir haftalık: -lIk; Türkçe, yavaşça, bence: -CA; Birer, ikişer; sabahleyin: each, and times of day
+- [B1 · Unit 1: Past continuous and pluperfect](https://dailyturkish.app/guides/b1-u01-grammar.html): Yağıyordu: the past continuous; Başlamıştı: the pluperfect; Tense + -(y)DI: how compound tenses work; Çoktan, o sırada, birden: holding a story together
+- [B1 · Unit 2: Used to, was going to, should have](https://dailyturkish.app/guides/b1-u02-grammar.html): Otururduk: used to; Arayacaktım: was going to; Gelmeliydin: should have; Gelebilirdin, gelemezdim: could have, couldn't have; Kalkmak üzere: about to
+- [B1 · Unit 3: Hearsay and inference](https://dailyturkish.app/guides/b1-u03-grammar.html): Gelmemiş, gelmiş mi? The full -mIş; Geldi or gelmiş? Choosing; Geliyormuş, gelecekmiş: reported tenses; Pişmiş tavuk: -mIş as an adjective
+- [B1 · Unit 4: Verbal nouns](https://dailyturkish.app/guides/b1-u04-grammar.html): Yüzmeyi seviyorum: the infinitive as a noun; Gelmeni istiyorum: -mA with a doer; Yürüyüş, giriş, çıkış: -(y)Iş; Yüzmeye gittik: in order to
+- [B1 · Unit 5: The subject participle](https://dailyturkish.app/guides/b1-u05-grammar.html): Kitap okuyan kız: -(y)An; Gelenler, okuyanlar: participles as nouns; Babası doktor olan çocuk: whose; Everything before the noun; Akarsu, çıkmaz sokak: -(I)r and -mAz
+- [B1 · Unit 6: Object participles](https://dailyturkish.app/guides/b1-u06-grammar.html): Okuduğum kitap: -DIk with a possessive; Okuyacağım kitap, kalacak yer: -(y)AcAk; Ali'nin okuduğu kitap: the doer in the genitive; Okuyan or okuduğu? Choosing the participle
+- [B1 · Unit 7: Converbs I: when, by, without](https://dailyturkish.app/guides/b1-u07-grammar.html): Eve gelince: -(y)IncA, when and once; Koşarak geldi: -(y)ArAk, by and while; Bakmadan, yatmadan önce: -mAdAn, without and before; Yedikten sonra: -DIktAn sonra, after; Geleli üç yıl oldu: -(y)AlI, since
+- [B1 · Unit 8: Converbs II: the more, whenever, because](https://dailyturkish.app/guides/b1-u08-grammar.html): Okudukça: -DIkçA, the more and whenever; Geldiğimde: -DIğIndA, when; Hasta olduğum için: -DIğI için, because; Gelir gelmez: -(I)r -mAz, as soon as; Koşa koşa: a doubled -(y)A
+- [B1 · Unit 9: Conditionals](https://dailyturkish.app/guides/b1-u09-grammar.html): Gelsem: the conditional -sA; Gelirsem, geldiysen: real conditions; Eğer, ya, and ne zaman istersen; Gitsen iyi olur: advice and suggestions
+- [B1 · Unit 10: Passive and reflexive](https://dailyturkish.app/guides/b1-u10-grammar.html): Yapıldı: the passive; Burada sigara içilmez: rules and general statements; Yıkanmak, giyinmek: the reflexive; Kendi: self and own
+- [B1 · Unit 11: Causative and reciprocal](https://dailyturkish.app/guides/b1-u11-grammar.html): Yaptırmak: the causative; Saçımı berbere kestirdim: who does what; Tanıştık: each other and together; Temizlemek, güzelleşmek: verbs from nouns and adjectives
+- [B1 · Unit 12: Reported speech](https://dailyturkish.app/guides/b1-u12-grammar.html): “Geliyorum.” dedi: quoting with demek; “Neredesin?” diye sordu: diye after a quote; Uyanmasın diye: so that; Yarın gelecekmiş: passing on news; Gelmeni söyledi: passing on requests
+- [B2 · Unit 1: Unreal conditionals and wishes](https://dailyturkish.app/guides/b2-u01-grammar.html): Zengin olsam: if I were rich; Bilseydim: if I had known; Keşke: I wish, if only; Olsa bile, olsa da: even if; Ne olursa olsun: whatever happens
+- [B2 · Unit 2: As if](https://dailyturkish.app/guides/b2-u02-grammar.html): Olmamış gibi: as if it had happened; Uyuyormuş gibi yaptı: pretending; -cAsInA: as if, in writing; Dediğim gibi, yağacak gibi, sanki
+- [B2 · Unit 3: Although, despite, without](https://dailyturkish.app/guides/b2-u03-grammar.html): Bildiği hâlde: although; Yorgun olmasına rağmen: despite; Durmaksızın: without, in formal Turkish; İse, oysa, hâlbuki, gerçi: setting things against each other
+- [B2 · Unit 4: Noun clauses](https://dailyturkish.app/guides/b2-u04-grammar.html): Geldiğini biliyorum: that-clauses; Gelmeni mi, geldiğini mi? -mA or -DIk; Nerede oturduğunu bilmiyorum: questions inside sentences; Gelmesini rica etti: passing on requests; Gelmen önemli: clauses as subjects
+- [B2 · Unit 5: Formal Turkish](https://dailyturkish.app/guides/b2-u05-grammar.html): Devam etmektedir: the formal progressive; Giriş ücretsizdir: -DIr in formal statements; Ayrıca, ancak, dolayısıyla: formal link words; Sayın…, Saygılarımla: formal letters and requests; Yarım, buçuk, üçte bir, yüzde elli: figures aloud
+- [B2 · Unit 6: Compound verbs](https://dailyturkish.app/guides/b2-u06-grammar.html): Açıver: quickly, casually, suddenly; Bakakaldı: frozen on the spot; Siz yiyedurun: carry on; Düşeyazdım, süregelen: almost, and for ages; Söyleyip durma! Over and over, and stuck
+- [B2 · Unit 7: Stacked voices](https://dailyturkish.app/guides/b2-u07-grammar.html): Tanıştırıldım: reading a long verb from the root out; Yaptırıldı: had done, commissioned; Öldürtmek, yaptırtmak: a second causative; Yapılamaz, yaptırılabilir: voices with can and can't
+- [B2 · Unit 8: Small words: dA, bile, ki, ya](https://dailyturkish.app/guides/b2-u08-grammar.html): Gel de gör: dA beyond too; Çocuk bile biliyor: even, and already; Öyle yorgunum ki: the conjunction ki; Ya sen? Biliyorsun ya: ya; Hani, işte, acaba, sakın, bari, hele
+- [B2 · Unit 9: Everyday colloquial Turkish](https://dailyturkish.app/guides/b2-u09-grammar.html): Abi, abla, hocam: addressing people; Bir bakar mısın? Softening a request; Şey, yani, falan: filling the gaps; Küçücük, adamcağız, yeşilimsi: small, dear, pitiful, -ish; One request, three registers
+- [B2 · Unit 10: As long as, unless, in case](https://dailyturkish.app/guides/b2-u10-grammar.html): Çalıştığın sürece: as long as; Çalışmadıkça: unless; Yağdığı takdirde: in case, in the event that; Geldiği an, geldiğinden beri: more time clauses; Hem … hem, ne … ne: paired words
+- [C1 · Unit 1: Stacked modality](https://dailyturkish.app/guides/c1-u01-grammar.html): Gitmiş olmalı: guesses about the past; Bitirmiş olacağım: will have done, will be doing; Gidecek olsam: if it came to that; Bilmiş olsaydım: the counterfactual perfect; Gelememiş olabilir: reading modal chains
+- [C1 · Unit 2: -DIr: assumption and authority](https://dailyturkish.app/guides/c1-u02-grammar.html): Yorulmuşlardır: a confident assumption; Kullanmışlardır: the voice of encyclopedias; Herhâlde, muhtemelen, mutlaka: how sure are you?; Geldi, gelmiş, gelmiştir: from certain to guessed
+- [C1 · Unit 3: Complex nominalizations](https://dailyturkish.app/guides/c1-u03-grammar.html): Bilip bilmediğimi sordu: clauses inside clauses; Gelmesinden dolayı: verbal noun, case, postposition; -DIğI gerçeği, -mAsI ihtimali: a clause as a label; Bilmezlikten gelmek: -mAzlIk; Çalışkan, ölçüm, bilimsel: the suffixes behind the vocabulary
+- [C1 · Unit 4: Ottoman, Arabic and Persian structures](https://dailyturkish.app/guides/c1-u04-grammar.html): Aşk-ı memnu: the Persian izafet; Bilhassa, maalesef: the Arabic article; Ahval, eşya, ulema: Arabic plurals; Millî, resmî, askerî: the adjective suffix -î; Bî-, na-, -hane, -kâr: Persian affixes; Kitap, kâtip, mektup: Arabic root families
+- [C1 · Unit 5: Idioms and proverbs](https://dailyturkish.app/guides/c1-u05-grammar.html): Göz kulak olmak: idioms of the body; Damlaya damlaya göl olur: proverbs; Gözüm yemedi: what changes inside an idiom; Buz gibi, kuzu gibi: similes with gibi
+- [C1 · Unit 6: Word order and focus](https://dailyturkish.app/guides/c1-u06-grammar.html): The focus slot before the verb; After the verb: inverted sentences; Topics: ise, -(y)sA and gelince; Kitap mitap, ıvır zıvır: echo words; Ta, hem de, de mi, işte: adding emphasis
+- [C1 · Unit 7: Discourse and argument](https://dailyturkish.app/guides/c1-u07-grammar.html): Ordering, adding, contrasting and proving; Drawing conclusions; Softening a claim; Meğer: it turns out; Holding a written text together
+- [C1 · Unit 8: Spoken Turkish](https://dailyturkish.app/guides/c1-u08-grammar.html): Geliyo, biliyo musun: -(I)yor in speech; Gelicem, yapcaz: the future in speech; Bi, n'aber, baya: everyday reductions; Kanka, harbiden, slm: informal words and texting; When to write it as it is said
+- [C2 · Unit 1: The language of the press](https://dailyturkish.app/guides/c2-u01-grammar.html): Headlines: what they leave out; Who said it: reporting verbs and attribution; Nobody did it: the passive of the news; 2026'da, %15'lik, TBMM'de: figures and abbreviations
+- [C2 · Unit 2: Literary style](https://dailyturkish.app/guides/c2-u02-grammar.html): Telling a story: -DI, -mIş and the historical present; Older and literary forms: gidesi gelmek, -(y)ArAktAn, -cAsInA; Inversion and rhythm; Free indirect speech and the narrator's voice
+- [C2 · Unit 3: Ottoman vocabulary](https://dailyturkish.app/guides/c2-u03-grammar.html): Two words for one thing: Ottoman and Öz Türkçe pairs; The words of the Ottoman world: state, law and household; What an Ottoman word signals today; Reading Ottoman Turkish in Latin letters
+- [C2 · Unit 4: Regional varieties and the Turkic world](https://dailyturkish.app/guides/c2-u04-grammar.html): Dialect areas, and how the standard was chosen; Regional features to recognize; Turkish and its relatives; Talking about regional speech without stereotypes
+- [C2 · Unit 5: Wordplay and humour](https://dailyturkish.app/guides/c2-u05-grammar.html): One sound, two words: homonyms; Cinas and tekerleme: playing with sound; The fıkra: setup, turn and punchline; Irony, understatement and teasing
+- [C2 · Unit 6: Translation and style](https://dailyturkish.app/guides/c2-u06-grammar.html): Unpacking long words and left-branching sentences; -mIş, -DIr and the pronoun Turkish leaves out; Reading style: length, origin, register, rhythm; Words that don't travel: hüzün, gurbet, kolay gelsin
+
+## Culture notes
+
+- [A1 · Unit 1: The 1928 alphabet reform](https://dailyturkish.app/guides/a1-u01-culture.html)
+- [A1 · Unit 2: The nazar boncuğu](https://dailyturkish.app/guides/a1-u02-culture.html)
+- [A1 · Unit 3: The 1934 Surname Law](https://dailyturkish.app/guides/a1-u03-culture.html)
+- [A1 · Unit 4: Nasreddin Hoca](https://dailyturkish.app/guides/a1-u04-culture.html)
+- [A1 · Unit 5: Istanbul through the ages](https://dailyturkish.app/guides/a1-u05-culture.html)
+- [A1 · Unit 6: Çay: Turkish tea](https://dailyturkish.app/guides/a1-u06-culture.html)
+- [A1 · Unit 7: From the steppe to Anatolia](https://dailyturkish.app/guides/a1-u07-culture.html)
+- [A1 · Unit 8: Kahvaltı: the Turkish breakfast](https://dailyturkish.app/guides/a1-u08-culture.html)
+- [A1 · Unit 9: Bayrams](https://dailyturkish.app/guides/a1-u09-culture.html)
+- [A1 · Unit 10: The hamam](https://dailyturkish.app/guides/a1-u10-culture.html)
+- [A1 · Unit 11: National days of the Republic](https://dailyturkish.app/guides/a1-u11-culture.html)
+- [A1 · Unit 12: Turkish coffee](https://dailyturkish.app/guides/a1-u12-culture.html)
+- [A2 · Unit 1: 1923: the Republic and Atatürk](https://dailyturkish.app/guides/a2-u01-culture.html)
+- [A2 · Unit 2: Keloğlan and the folk tale](https://dailyturkish.app/guides/a2-u02-culture.html)
+- [A2 · Unit 3: Cappadocia](https://dailyturkish.app/guides/a2-u03-culture.html)
+- [A2 · Unit 4: Tavla, okey and the kahvehane](https://dailyturkish.app/guides/a2-u04-culture.html)
+- [A2 · Unit 5: Oil wrestling at Kırkpınar](https://dailyturkish.app/guides/a2-u05-culture.html)
+- [A2 · Unit 6: Visiting a Turkish home](https://dailyturkish.app/guides/a2-u06-culture.html)
+- [A2 · Unit 7: Hıdırellez](https://dailyturkish.app/guides/a2-u07-culture.html)
+- [A2 · Unit 8: Seven regions](https://dailyturkish.app/guides/a2-u08-culture.html)
+- [A2 · Unit 9: Göbekli Tepe](https://dailyturkish.app/guides/a2-u09-culture.html)
+- [A2 · Unit 10: Regional cuisines](https://dailyturkish.app/guides/a2-u10-culture.html)
+- [A2 · Unit 11: The Ottoman Empire](https://dailyturkish.app/guides/a2-u11-culture.html)
+- [A2 · Unit 12: The Grand Bazaar](https://dailyturkish.app/guides/a2-u12-culture.html)
+- [B1 · Unit 1: The Seljuks](https://dailyturkish.app/guides/b1-u01-culture.html)
+- [B1 · Unit 2: The Tulip Era](https://dailyturkish.app/guides/b1-u02-culture.html)
+- [B1 · Unit 3: Evliya Çelebi](https://dailyturkish.app/guides/b1-u03-culture.html)
+- [B1 · Unit 4: Karagöz and Hacivat](https://dailyturkish.app/guides/b1-u04-culture.html)
+- [B1 · Unit 5: Rumi and the Mevlevi](https://dailyturkish.app/guides/b1-u05-culture.html)
+- [B1 · Unit 6: Yunus Emre](https://dailyturkish.app/guides/b1-u06-culture.html)
+- [B1 · Unit 7: Ephesus](https://dailyturkish.app/guides/b1-u07-culture.html)
+- [B1 · Unit 8: 1453: the conquest of Constantinople](https://dailyturkish.app/guides/b1-u08-culture.html)
+- [B1 · Unit 9: Kahve falı](https://dailyturkish.app/guides/b1-u09-culture.html)
+- [B1 · Unit 10: Mimar Sinan](https://dailyturkish.app/guides/b1-u10-culture.html)
+- [B1 · Unit 11: The Orkhon inscriptions](https://dailyturkish.app/guides/b1-u11-culture.html)
+- [B1 · Unit 12: Dede Korkut](https://dailyturkish.app/guides/b1-u12-culture.html)
+- [B2 · Unit 1: The Piri Reis map](https://dailyturkish.app/guides/b2-u01-culture.html)
+- [B2 · Unit 2: The meddah](https://dailyturkish.app/guides/b2-u02-culture.html)
+- [B2 · Unit 3: Troy](https://dailyturkish.app/guides/b2-u03-culture.html)
+- [B2 · Unit 4: Women's suffrage in Turkey](https://dailyturkish.app/guides/b2-u04-culture.html)
+- [B2 · Unit 5: Ankara becomes the capital](https://dailyturkish.app/guides/b2-u05-culture.html)
+- [B2 · Unit 6: Street food](https://dailyturkish.app/guides/b2-u06-culture.html)
+- [B2 · Unit 7: İznik tiles](https://dailyturkish.app/guides/b2-u07-culture.html)
+- [B2 · Unit 8: Football and the Istanbul derbies](https://dailyturkish.app/guides/b2-u08-culture.html)
+- [B2 · Unit 9: Yeşilçam and Turkish TV series](https://dailyturkish.app/guides/b2-u09-culture.html)
+- [B2 · Unit 10: The âşık tradition](https://dailyturkish.app/guides/b2-u10-culture.html)
+- [C1 · Unit 1: Çatalhöyük](https://dailyturkish.app/guides/c1-u01-culture.html)
+- [C1 · Unit 2: The Hittites and Hattusa](https://dailyturkish.app/guides/c1-u02-culture.html)
+- [C1 · Unit 3: Takiyüddin's observatory](https://dailyturkish.app/guides/c1-u03-culture.html)
+- [C1 · Unit 4: Divan poetry](https://dailyturkish.app/guides/c1-u04-culture.html)
+- [C1 · Unit 5: Weddings and the kına gecesi](https://dailyturkish.app/guides/c1-u05-culture.html)
+- [C1 · Unit 6: Mani](https://dailyturkish.app/guides/c1-u06-culture.html)
+- [C1 · Unit 7: Modern Turkish literature](https://dailyturkish.app/guides/c1-u07-culture.html)
+- [C1 · Unit 8: The dolmuş](https://dailyturkish.app/guides/c1-u08-culture.html)
+- [C2 · Unit 1: A short history of the Turkish press](https://dailyturkish.app/guides/c2-u01-culture.html)
+- [C2 · Unit 2: The birth of the Turkish novel](https://dailyturkish.app/guides/c2-u02-culture.html)
+- [C2 · Unit 3: The language reform](https://dailyturkish.app/guides/c2-u03-culture.html)
+- [C2 · Unit 4: Kaşgarlı Mahmud and the Turkic world](https://dailyturkish.app/guides/c2-u04-culture.html)
+- [C2 · Unit 5: Satire and caricature](https://dailyturkish.app/guides/c2-u05-culture.html)
+- [C2 · Unit 6: The Translation Bureau](https://dailyturkish.app/guides/c2-u06-culture.html)
+
+## Optional
+
+- [Privacy policy](https://dailyturkish.app/turkishprivacy.html)
+- [Sitemap](https://dailyturkish.app/sitemap.xml)
